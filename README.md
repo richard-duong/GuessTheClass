@@ -1,4 +1,4 @@
-# Class Identifier
+# Guess The Class
 A CS105 Project that classifies and characterizes class lectures based on frequency of words.<br>
 Made by Shreya and Richard<br>
 [Link to the Github Repository Here](https://github.com/richard-duong/ClassIdentifier)<br><br>
