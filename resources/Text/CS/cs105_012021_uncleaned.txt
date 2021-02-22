@@ -1,0 +1,2665 @@
+00:00
+
+In this video, we're going to look at Bayes Theorem,
+
+00:02
+
+which is a very powerful piece of
+
+00:05
+
+mathematics that gives us some insight on,
+
+00:06
+
+he said better before we can team.
+
+00:09
+
+Alright, once of probability that you might
+
+00:12
+
+have or not have a disease actually is.
+
+00:15
+
+Now, before we get into the mathematics,
+
+00:18
+
+we need to talk a little bit about what do we
+
+00:20
+
+mean when we say a test is accurate.
+
+00:22
+
+In fact, test accuracy actually
+
+00:25
+
+subdivides into two different components.
+
+00:27
+
+There's one factor called sensitivity,
+
+00:30
+
+and then there's another factor called specificity.
+
+00:33
+
+What's the difference?
+
+00:36
+
+The idea with sensitivity is whether the test is
+
+00:37
+
+sensitive enough to detect
+
+00:41
+
+when someone actually has the virus.
+
+00:44
+
+If you have a test with a low level of sensitivity,
+
+00:47
+
+you might get a lot of false negatives
+
+00:50
+
+because even though they may have the disease,
+
+00:52
+
+that test is not sensitive enough to pick it up.
+
+00:54
+
+And then specificity is the other side.
+
+00:56
+
+Specificity said, Do we know that
+
+00:59
+
+actually how this specific disease,
+
+01:01
+
+if you have a test with too low of a specificity,
+
+01:04
+
+it may give you a lot of
+
+01:08
+
+false positives where the test tells you how the disease,
+
+01:09
+
+but you actually don't.
+
+01:12
+
+Okay, so what is the situation in terms of
+
+01:13
+
+sensitivity or the test available for but coronavirus?
+
+01:16
+
+Well, it turns out there's actually
+
+01:20
+
+two different categories of
+
+01:22
+
+tests that we're using right now.
+
+01:24
+
+The first, our genetic tests.
+
+01:26
+
+And this is the ones you've seen most of
+
+01:28
+
+the news when a number of new cases are reported.
+
+01:30
+
+And genetic test is one.
+
+01:32
+
+There it goes and swabs your nasal cavity.
+
+01:34
+
+And then it uses something called
+
+01:37
+
+PCR or polymerase chain reaction to
+
+01:38
+
+basically rapidly expand the amount
+
+01:41
+
+of genetic code in the sample.
+
+01:43
+
+And then it's able to test
+
+01:45
+
+the actual genetic markers
+
+01:46
+
+to see whether or not you have the test.
+
+01:49
+
+Now, the good news is that
+
+01:50
+
+these genetic tests have an extremely,
+
+01:52
+
+extremely high amount of specificity.
+
+01:55
+
+That is, if it's you're positive,
+
+01:58
+
+you're extremely likely to actually be positive.
+
+02:00
+
+Of course, we can never be 100% certain.
+
+02:04
+
+Maybe some sample gets computed in a lab,
+
+02:06
+
+but nevertheless, a very high degrees of specificity.
+
+02:08
+
+Unfortunately, sensitivity isn't always as high.
+
+02:11
+
+For example, if you get a swab,
+
+02:14
+
+you may actually have the disease,
+
+02:15
+
+but it hasn't managed to pick up
+
+02:17
+
+the virus in that particular swab and is more likely to
+
+02:19
+
+case if it's early on and you have not developed as
+
+02:22
+
+large a bloom of virus population in your navel canal.
+
+02:25
+
+And indeed, depending on the specific test,
+
+02:28
+
+this could be better or worse.
+
+02:31
+
+One example, for instance,
+
+02:33
+
+the United States is very common,
+
+02:34
+
+is the Abbott Lab Test.
+
+02:35
+
+And once they leave, this showed
+
+02:37
+
+that it might have as much as
+
+02:39
+
+a 15% false negative rate.
+
+02:40
+
+That is, when it tests and says you're negative,
+
+02:44
+
+but you actually are positive.
+
+02:47
+
+Numbers like this are hugely problematic worth,
+
+02:49
+
+it's quite hard to tell what
+
+02:51
+
+the true numbers aren't any particular case,
+
+02:53
+
+it requires a lot of study to investigate.
+
+02:55
+
+So those are the genetic tests
+
+02:57
+
+which in general have very, very high levels,
+
+02:58
+
+city, but perhaps somewhat lower levels of sensitivity.
+
+03:00
+
+The other completely different category
+
+03:03
+
+of tests are called antibody tests.
+
+03:06
+
+This is a collection of your blood to
+
+03:08
+
+see whether you have the antibodies
+
+03:10
+
+created by our immune system to fight
+
+03:13
+
+the disease and has the benefit that
+
+03:14
+
+it can look way in the past if you
+
+03:16
+
+retain those antibodies for some time,
+
+03:18
+
+even after you've gone clear,
+
+03:20
+
+you no longer have any symptom you no longer infectious.
+
+03:22
+
+It might still show
+
+03:25
+
+those antibodies similar to genetic tests.
+
+03:26
+
+The antibody tests also
+
+03:29
+
+have some level of false negatives.
+
+03:30
+
+But what is perhaps more problematic is that they
+
+03:32
+
+also have some amount of false positive.
+
+03:35
+
+That leaves it depends on
+
+03:37
+
+which particular antibody tests.
+
+03:38
+
+And this can be a really big problem.
+
+03:40
+
+Indeed, one of the mechanisms by which this
+
+03:42
+
+might happen is that it may
+
+03:44
+
+detect something that was an antibody from
+
+03:46
+
+some other coronavirus that doesn't
+
+03:49
+
+necessarily cause coded 19th specifically.
+
+03:51
+
+And we're gonna see that at least when
+
+03:53
+
+the prevalence of the virus is low within society,
+
+03:56
+
+that the probability that
+
+03:59
+
+you actually have the disease despite
+
+04:02
+
+testing positive in that scenario was going to be
+
+04:04
+
+far larger than you might initially suspect.
+
+04:06
+
+Alright, so let's do some math
+
+04:10
+
+to get started on our probability computation,
+
+04:12
+
+I want to begin with the idea
+
+04:14
+
+of conditional probabilities.
+
+04:16
+
+And the first thing I'll do is just get
+
+04:18
+
+some variable names just to
+
+04:19
+
+make our notation a bit simpler,
+
+04:21
+
+will say Cobb is just going to be, yes,
+
+04:22
+
+you actually have the disease and df for
+
+04:24
+
+disease-free plus four that you test
+
+04:27
+
+positive and minus four let you test negative.
+
+04:29
+
+Okay, with those labels stated,
+
+04:32
+
+what is conditional probability?
+
+04:35
+
+What I wanted to consider are things like, for example,
+
+04:37
+
+the probability of cold bar plus, oh, what's going on?
+
+04:40
+
+Now, the vertical bar that we have
+
+04:45
+
+here means given, so this is red.
+
+04:47
+
+What is the probability that you have covert 19?
+
+04:50
+
+Given?
+
+04:54
+
+That you tell everything clears tougher.
+
+04:55
+
+Ok. You can always
+
+04:58
+
+ask me to pause and Alex planes has been positive.
+
+05:01
+
+In other words, we want to know if you go
+
+05:04
+
+out and you get this positive result,
+
+05:06
+
+what is the probability that you actually have it?
+
+05:08
+
+That's what this conditional probability is
+
+05:10
+
+representing as a whole bunch
+
+05:12
+
+of different conditional probabilities,
+
+05:14
+
+for example, another one is,
+
+05:15
+
+what is the chance that your disease free?
+
+05:16
+
+If you test positive,
+
+05:19
+
+this would be a false positive.
+
+05:21
+
+It saying you test
+
+05:24
+
+positive but you don't actually have an,
+
+05:25
+
+you are disease free.
+
+05:27
+
+So that's another thing I'd
+
+05:28
+
+be really interested in knowing.
+
+05:29
+
+Likewise, you can ask what is the probability that you
+
+05:30
+
+have Colvin 19 despite the fact that you test negative,
+
+05:33
+
+that's a false negative.
+
+05:36
+
+And then finally we can ask,
+
+05:38
+
+what's the probability that your disease-free,
+
+05:40
+
+given that you test negative,
+
+05:43
+
+all of these numbers are between 01 or 100%.
+
+05:45
+
+So how do you compute conditional probabilities?
+
+05:49
+
+Well, one of the most powerful tools
+
+05:52
+
+that we have is called Bayes theorem.
+
+05:54
+
+And Bayes theorem is a way to relate
+
+05:57
+
+one kind of conditional probability with a nother.
+
+06:00
+
+So on the left-hand side,
+
+06:03
+
+this P of a given B,
+
+06:05
+
+I'm just using a generic AMB right now.
+
+06:06
+
+This is the probability that a is true,
+
+06:08
+
+given that you know that B is true.
+
+06:12
+
+And sometimes conditional probabilities or
+
+06:15
+
+no one easily compute it, sometimes they're challenging.
+
+06:17
+
+Now the power of Bayes theorem is that
+
+06:19
+
+this conditional probability on
+
+06:22
+
+the left that you wanted to compute.
+
+06:23
+
+Well, you can relate this to
+
+06:25
+
+the probability of B given a.
+
+06:27
+
+That is, you swapped the order around
+
+06:29
+
+instead of being given B and asking the probability of a,
+
+06:31
+
+we're doing a and asked the probability of B.
+
+06:35
+
+Sometimes one or the other of these might be easier.
+
+06:38
+
+And indeed Bayes theorem gives this nice result.
+
+06:41
+
+The other expressions P of a and P of B.
+
+06:43
+
+This is just what the generic probability
+
+06:46
+
+of either a or b if you don't know anything else.
+
+06:49
+
+Now I have a whole video introducing this theorem,
+
+06:52
+
+proving it from some element.
+
+06:55
+
+It is convenient to remember when you look at it.
+
+06:57
+
+You can see, when you look at it in a mathematical way,
+
+07:02
+
+you will notice that we can always
+
+07:06
+
+write that probability of
+
+07:08
+
+a given B times probability
+
+07:10
+
+of B is equal to
+
+07:16
+
+the probability of B given a times the probability of.
+
+07:20
+
+This is sometimes a useful way to remember.
+
+07:26
+
+What Bayes theorem gives you.
+
+07:32
+
+Three theorems in conditional probability.
+
+07:41
+
+And you can check the link in the description
+
+07:44
+
+for that if you wish.
+
+07:45
+
+But we're going to use it for this business of testing.
+
+07:47
+
+Okay. Let me return the names that leads to what we were
+
+07:50
+
+talking about before with Coburn 19 or read disease-free,
+
+07:54
+
+interesting, positive, we're testing negative.
+
+07:57
+
+This is just Bayes Theorem stated with those variables.
+
+07:59
+
+So in this case,
+
+08:02
+
+I am asking if you test positive,
+
+08:04
+
+what is the chance that you actually have the disease?
+
+08:07
+
+Now, there's a numerator
+
+08:10
+
+and a denominator in this expression.
+
+08:12
+
+So if I hope it's just an enumerator,
+
+08:13
+
+what's going on here?
+
+08:15
+
+This is a product of two probabilities.
+
+08:16
+
+And one of the facts of
+
+08:18
+
+probabilities is that for independent events,
+
+08:20
+
+multiplication of probabilities is basically saying,
+
+08:23
+
+what's the probability that both of these things are
+
+08:25
+
+true at the same time it's an unstable.
+
+08:27
+
+So the numerator is saying,
+
+08:29
+
+what is the probability that I both have
+
+08:31
+
+Coven 19 and then I test for Coven 19.
+
+08:34
+
+Now if I then focus on the denominator,
+
+08:38
+
+what's the probability that I test positive with,
+
+08:40
+
+especially the complicated, the probability that you test
+
+08:43
+
+positive actually depends on two different cases.
+
+08:46
+
+There's one case which is where you
+
+08:49
+
+have the disease and then you test positive.
+
+08:52
+
+And then there's another case
+
+08:54
+
+which is the false positive case,
+
+08:56
+
+which is you do not have the disease,
+
+08:57
+
+but you still test positive nevertheless.
+
+08:59
+
+And what is this?
+
+09:02
+
+What is this p, what is p of?
+
+09:06
+
+If we think about what will learn class time?
+
+09:10
+
+Is it a joint isn't
+
+09:16
+
+a marginal probability is a conditional probability.
+
+09:18
+
+Conditional probability b of
+
+09:25
+
+a is the probability of, say it again.
+
+09:33
+
+Please.
+
+09:41
+
+Join.
+
+09:42
+
+Such EBIT complicated.
+
+09:46
+
+Yes.
+
+09:48
+
+Things are true at the same time it's an unstable.
+
+09:49
+
+So the numerator is saying,
+
+09:53
+
+what is the probability that both have Coburn
+
+09:54
+
+19 and then I test for Coven acting.
+
+09:57
+
+Now if I then focus on the denominator,
+
+10:01
+
+what's the probability that I
+
+10:04
+
+test positive with such a complicated?
+
+10:06
+
+The probability that you test positive
+
+10:08
+
+actually depends on two different cases.
+
+10:10
+
+There's one case which is where you have the disease
+
+10:13
+
+and then thinking about it and thinking about the table.
+
+10:16
+
+It is possible, it is possible to be tested
+
+10:20
+
+to positive or negative, right?
+
+10:24
+
+One row could be for
+
+10:28
+
+positive and other row could be for negative.
+
+10:30
+
+Now, if one was
+
+10:33
+
+tested and got the result that is positive,
+
+10:36
+
+it could be true positives or false positive.
+
+10:39
+
+So what we have is,
+
+10:43
+
+what we have is positive.
+
+10:51
+
+It's like my positive, negative.
+
+10:56
+
+Now, positive is the result
+
+11:18
+
+of testing and negative is the result.
+
+11:23
+
+So this is the result.
+
+11:27
+
+And this is what is true.
+
+11:32
+
+What is true?
+
+11:40
+
+So you could be,
+
+11:42
+
+while your test is positive,
+
+11:44
+
+it can be true or false.
+
+11:47
+
+When you result is negative.
+
+11:54
+
+Again, it's possible that it is true or false, right?
+
+11:56
+
+So in this case,
+
+12:06
+
+we're talking about the whole row,
+
+12:08
+
+which is the marginal permeabilities someone
+
+12:11
+
+noticed, right?
+
+12:14
+
+You test positive.
+
+12:21
+
+There's another case which is the false positive case,
+
+12:23
+
+which is you do not have
+
+12:26
+
+the disease but you still test positive.
+
+12:27
+
+Nevertheless, in Bayes theorem is
+
+12:30
+
+sometimes called the bucket problem.
+
+12:32
+
+And this denominator can basically
+
+12:35
+
+be split into these two different cases.
+
+12:37
+
+So what do you do that what you
+
+12:39
+
+get is something slightly more complicated here.
+
+12:41
+
+That expression who had been broken up a bit,
+
+12:43
+
+the numerator exactly the same.
+
+12:45
+
+But in the denominator,
+
+12:46
+
+you break it up into these two different cases.
+
+12:48
+
+The left of the two cases is
+
+12:50
+
+the probability that you
+
+12:52
+
+have Govind 19 and test positive.
+
+12:54
+
+And the right one in the denominator is
+
+12:56
+
+the probability that you do
+
+12:58
+
+not that you are disease-free,
+
+12:59
+
+but nevertheless you test positive.
+
+13:00
+
+So the denominator is being broken
+
+13:03
+
+up into these two different cases.
+
+13:04
+
+Now.
+
+13:06
+
+Now, when you study the probability,
+
+13:07
+
+it is very important right from
+
+13:11
+
+the beginning to understand this notation.
+
+13:13
+
+If not, you're not going to be able to move on.
+
+13:16
+
+There is a lot to this.
+
+13:18
+
+And yet, when you think about it,
+
+13:21
+
+sometimes you want to forget about the notation.
+
+13:23
+
+Close your eyes and just think
+
+13:27
+
+about the example that we looked
+
+13:29
+
+at that was described when the results come out positive.
+
+13:31
+
+Not necessarily when you are indeed sick,
+
+13:39
+
+when you indeed habit,
+
+13:43
+
+it could be false positive.
+
+13:45
+
+So this is a combination.
+
+13:47
+
+One is a true positive,
+
+13:50
+
+the other one is a false positive.
+
+13:51
+
+Both times the test came out positive.
+
+13:54
+
+In one case, it is true.
+
+13:57
+
+In the other case, it is false.
+
+13:59
+
+I do want to be clear. I'm a math professor,
+
+14:04
+
+I'm not an epidemiologist or
+
+14:06
+
+a biologist or a medical doctor.
+
+14:08
+
+So I'm not trying to make actual predictions about
+
+14:09
+
+the prevalence of Coburn 19 in society.
+
+14:11
+
+But I'm just gonna make up a toy example that
+
+14:14
+
+hopefully you believe within the ballpark
+
+14:17
+
+of being some real numbers.
+
+14:19
+
+So how will this?
+
+14:20
+
+Let's imagine that I have a test that is 95% sense of
+
+14:22
+
+99% specific and that
+
+14:26
+
+the prevalence of the disease is 1% in the population.
+
+14:29
+
+So if this video was made, was made in me.
+
+14:32
+
+So at that 0.1% was kind of more or less reasonable.
+
+14:36
+
+And right now it's way higher, but didn't know.
+
+14:40
+
+And these numbers are representing
+
+14:44
+
+an actual Tesco from disease.
+
+14:45
+
+But nevertheless, we have a good toy example.
+
+14:47
+
+Okay, so let's look into,
+
+14:50
+
+again, I want to interrupt.
+
+14:51
+
+If you notice he used the word toy example.
+
+14:53
+
+He made a very small, very simple example.
+
+14:56
+
+Just for the sake of showing Sometimes,
+
+15:00
+
+when I asked you to test something,
+
+15:03
+
+I will use this word, a toy example.
+
+15:06
+
+That means I want you to create your own example.
+
+15:08
+
+That is relatively simple.
+
+15:11
+
+It's not necessarily true
+
+15:13
+
+data if you can take it from somewhere, that's fine.
+
+15:16
+
+If not, you're just making up
+
+15:18
+
+your own very simple example that is
+
+15:20
+
+very easy to compute without using some program.
+
+15:23
+
+So when you write your program and you get the result,
+
+15:28
+
+you can compare with your computation.
+
+15:32
+
+And you know whether it's true or not.
+
+15:34
+
+When you are going through your,
+
+15:38
+
+through your programming courses,
+
+15:40
+
+tangible 14, you had to test your programs, right?
+
+15:42
+
+So sometimes you would end up writing a simple example
+
+15:46
+
+where you would know what the outcome should be and then
+
+15:50
+
+you would compare with what
+
+15:53
+
+your programs want to give you, right?
+
+15:54
+
+So in this case, you're going to
+
+15:56
+
+do something that is very similar.
+
+15:58
+
+You cannot trust the program.
+
+16:00
+
+You cannot just write several lines.
+
+16:02
+
+Expect that program to give you the correct output.
+
+16:05
+
+Maybe you did something
+
+16:10
+
+wrong on the way and then
+
+16:13
+
+all your results are going to be wrong.
+
+16:15
+
+So no matter how simple or complicated your program is,
+
+16:16
+
+always create a toy example in test formula.
+
+16:21
+
+Well, the first thing I'm going to see is
+
+16:24
+
+that I have the probability
+
+16:26
+
+of having Govind 19 into different places.
+
+16:27
+
+Here if there's a 1% prevalence among the population,
+
+16:31
+
+what I'm saying is that poor people are
+
+16:34
+
+random as a 1% chance that they actually have it,
+
+16:36
+
+then the peak of Coburn 19 is worth 0 points or a one.
+
+16:39
+
+So obviously replaces those numbers with 0.01.
+
+16:43
+
+I didn't see two places where I have
+
+16:47
+
+the probability of testing
+
+16:50
+
+positive if you're given coordinates.
+
+16:52
+
+Now, this is in my data as well.
+
+16:54
+
+I said that we have a 95% sensitive test
+
+16:57
+
+and those statements are conditional probabilities.
+
+17:00
+
+The statement that it is 95% sensitive means
+
+17:03
+
+that 95% of the time when
+
+17:06
+
+you're given that you have coronavirus,
+
+17:08
+
+you're gonna guess has positive word.
+
+17:10
+
+So both of these numbers are
+
+17:12
+
+0.95 and I can plug those in as well.
+
+17:13
+
+Okay, two more to go. I have
+
+17:16
+
+the probability that you test
+
+17:18
+
+positive given that you're actually disease free.
+
+17:19
+
+These were the false positives.
+
+17:23
+
+You don't have the disease,
+
+17:24
+
+but you still test positive.
+
+17:26
+
+The fact that our test is
+
+17:27
+
+99% specific means that this value is going to be 0.01.
+
+17:28
+
+The chance you test positive is
+
+17:35
+
+by not having the disease is
+
+17:37
+
+just 1% of the time because it's 99% specific.
+
+17:39
+
+And then finally, what's the probability
+
+17:43
+
+that you don't have the disease?
+
+17:45
+
+Well, if you didn't know anything else,
+
+17:46
+
+and you said 1% of the population
+
+17:48
+
+hasn't a 99 therefore does not.
+
+17:50
+
+You'd put in 0.99 year,
+
+17:52
+
+put out all those numbers and you can approximately
+
+17:53
+
+0.49 or approximately 50%.
+
+17:56
+
+These decimals we multiply by 102, convert to percents.
+
+18:00
+
+They'll actually seems surprising.
+
+18:04
+
+Perhaps. We start with a test that is 99% specific.
+
+18:05
+
+In other words, it's going to very,
+
+18:09
+
+very low rate of false positives.
+
+18:11
+
+And yet you get this positive result in
+
+18:13
+
+only half the time you
+
+18:16
+
+actually have the disease will, why would that be?
+
+18:17
+
+Well, the issue is, the prevalence
+
+18:20
+
+of the disease is so rare,
+
+18:22
+
+is this ID if you assumed it having 1%?
+
+18:24
+
+And the result of this is that
+
+18:27
+
+the false positive rate cannons
+
+18:29
+
+to be almost as large as
+
+18:31
+
+the actual rate or prevalence itself.
+
+18:33
+
+And that sort of a 50-50 chance, right?
+
+18:35
+
+I'm going to stop this video right here.
+
+18:38
+
+If you want, you can finish watching it.
+
+18:40
+
+And we're going to go over another theorem today,
+
+18:42
+
+or Markov chains today.
+
+18:51
+
+And I would advise you to
+
+18:55
+
+watch his video on market trends as well.
+
+18:57
+
+We're not going to do it in class,
+
+18:59
+
+but if you want to do,
+
+19:00
+
+you can always do it later.
+
+19:01
+
+I like that one to this is just a formula.
+
+19:03
+
+And if I gave you this simple formula and a simple,
+
+19:09
+
+Even if I supplied this simple example,
+
+19:14
+
+you would have left this class with
+
+19:18
+
+known close to what you knew before the class.
+
+19:19
+
+That's how it works was based theorem.
+
+19:23
+
+At least from my experience,
+
+19:26
+
+it is complicated enough and
+
+19:27
+
+simple enough to where it
+
+19:30
+
+seems like you understand it in yet.
+
+19:31
+
+You have no clue how to use.
+
+19:34
+
+Unless you think about it.
+
+19:37
+
+The way he explained.
+
+19:40
+
+This is another example.
+
+19:43
+
+It's a very close example
+
+19:44
+
+to what was just covered in a video.
+
+19:46
+
+I think you should look at
+
+19:48
+
+this example and just maybe covered
+
+19:50
+
+the solution and see if you can
+
+19:53
+
+solve it and get the same outcome.
+
+19:56
+
+Okay?
+
+19:59
+
+Now, I will try to be consistent and I will try,
+
+20:01
+
+given your quizzes on Fridays,
+
+20:06
+
+we'll see how it works.
+
+20:08
+
+But this Friday I'm going to give you a quiz that
+
+20:10
+
+will be on bees in Bayes theorem and Markov chains.
+
+20:13
+
+To try to look through this stuff.
+
+20:19
+
+In the next couple of days.
+
+20:23
+
+And remarkable Russian mathematician,
+
+20:26
+
+let's look at the following problem.
+
+20:30
+
+Let's look at the weather. Spring term,
+
+20:35
+
+whether there are three possibilities.
+
+20:38
+
+Nice, rainy, snowy.
+
+20:41
+
+If it is nice today, then tomorrow.
+
+20:43
+
+Seventy-five percent will be earning 25%
+
+20:49
+
+We'll be snow.
+
+20:59
+
+That's If it is nice to d. If it is rainy today.
+
+21:02
+
+Tomorrow could be rainy or snowy.
+
+21:11
+
+25% will be rainy,
+
+21:17
+
+twenty-five percent will be nice weather,
+
+21:19
+
+and 50% that it will be slower.
+
+21:22
+
+And finally, even if it's snowy today,
+
+21:26
+
+then tomorrow could be brainy, nice personnel.
+
+21:31
+
+Only if it is nice tomorrow can't be nice.
+
+21:41
+
+Okay. Now, our question
+
+21:46
+
+or questions are going to be to predict the weather.
+
+21:53
+
+The weather today.
+
+22:02
+
+What is the percent of this this
+
+22:04
+
+or this kind of weather tomorrow?
+
+22:09
+
+If to date is this or that.
+
+22:13
+
+Then after we're done with that,
+
+22:19
+
+we can move two steps.
+
+22:23
+
+What we know today and asked
+
+22:26
+
+whether what's going to be two days after today?
+
+22:28
+
+What about three days, four days?
+
+22:31
+
+And so how are we going to do? In this case?
+
+22:32
+
+We have three states.
+
+22:38
+
+Nice, snowy.
+
+22:40
+
+Snowy entering.
+
+22:43
+
+We have three states.
+
+22:46
+
+How are they connected?
+
+22:49
+
+Alright, to connect, we use information from here.
+
+22:52
+
+For example, for nice,
+
+22:58
+
+we will have an arrow to rainy and snowy.
+
+23:02
+
+The arrow to rainy will have 75% on it.
+
+23:06
+
+What does it mean? Nice.
+
+23:12
+
+Snowy.
+
+23:16
+
+If it is raining.
+
+23:17
+
+If it has nice.
+
+23:19
+
+Today, it's 75% that it will be rainy tomorrow.
+
+23:21
+
+And it is 25% for that.
+
+23:27
+
+It will be rainy.
+
+23:31
+
+Snowy tomorrow.
+
+23:33
+
+So when I am here,
+
+23:36
+
+I will wake up tomorrow for sure.
+
+23:40
+
+So it is 100% that I will observe something tomorrow.
+
+23:45
+
+Well, if not me than someone else.
+
+23:51
+
+So it is a 100% total.
+
+23:53
+
+I will split this a 100% among
+
+23:56
+
+the states that I can get tomorrow.
+
+23:59
+
+There are two possible states, rainy and snowy.
+
+24:04
+
+Rainy was seventy-five percent snow
+
+24:08
+
+with 25. That's how it works.
+
+24:11
+
+Different a different situation with
+
+24:14
+
+Rainey because if we have raining,
+
+24:18
+
+we can take we can stay in the same state.
+
+24:20
+
+With some trends in,
+
+24:26
+
+we can move to the other two states.
+
+24:28
+
+So in this case,
+
+24:31
+
+we have this self-loop because we can stay here with 25%.
+
+24:33
+
+And then we have two errors.
+
+24:40
+
+Want to snowy in one,
+
+24:43
+
+to the nice weather.
+
+24:45
+
+I thought when he put to
+
+24:54
+
+replace the question on the tragedy is something
+
+24:57
+
+related to reading? Any questions so far?
+
+24:58
+
+No. All right.
+
+25:12
+
+So if it is nice to date,
+
+25:15
+
+there is seventy-five percent of
+
+25:19
+
+chance that tomorrow is bringing.
+
+25:22
+
+What if I want to find
+
+25:25
+
+the probability of tomorrow being snowing?
+
+25:28
+
+If today's Nice, okay, that's 25.
+
+25:34
+
+However, what if I want
+
+25:38
+
+to find the probability of tomorrow,
+
+25:41
+
+the day after tomorrow?
+
+25:46
+
+I need to put a little more effort into it. Let's look.
+
+25:52
+
+This is a matrix
+
+25:59
+
+that is sometimes called transition probabilities.
+
+26:03
+
+We have the same information here is what was here and
+
+26:06
+
+what was here for
+
+26:12
+
+the same information just
+
+26:13
+
+is a written in the form of a matrix.
+
+26:15
+
+The probability of going from nice to nice is 0.
+
+26:18
+
+The probability of going from nice to rainy is 075.
+
+26:21
+
+Nice. Rainy is 075.
+
+26:26
+
+This is how we obtained this matrix.
+
+26:34
+
+In general. It is how you will move from this t,
+
+26:38
+
+t minus one to the state
+
+26:46
+
+t. So this matrix reflect one move.
+
+26:49
+
+It doesn't have to be from today to tomorrow.
+
+26:55
+
+It can be a 100 days from now.
+
+27:00
+
+Our question is, what is the probability
+
+27:12
+
+that it will be nice for the day After tomorrow?
+
+27:17
+
+If it is nice to date.
+
+27:22
+
+So if today is, for example,
+
+27:25
+
+a state 0 or d 0, let's put it that way.
+
+27:28
+
+If the d is d 0,
+
+27:34
+
+what is the probability that on day two?
+
+27:36
+
+It will be nice.
+
+27:40
+
+Nice today.
+
+27:42
+
+As you can understand,
+
+27:44
+
+as you already started sensing,
+
+27:47
+
+we need to multiply this matrices.
+
+27:50
+
+If you multiply the matrices,
+
+27:56
+
+then the resulting matrix is going to give you
+
+28:00
+
+the probabilities of the Dien.
+
+28:03
+
+Bien, nice. Raining or sunny in two days.
+
+28:08
+
+In general, if you raise your matrix into the power of n,
+
+28:14
+
+is going to give you
+
+28:23
+
+a probability matrix that
+
+28:25
+
+will tell you what weather is going to be.
+
+28:28
+
+In days.
+
+28:33
+
+It's not going to give you what we're going to give you
+
+28:36
+
+the probabilities for each state with an n,
+
+28:39
+
+days in and days.
+
+28:44
+
+What it consists of.
+
+28:50
+
+Each of this intrigued.
+
+28:55
+
+How do you compute one entry of
+
+28:58
+
+a matrix when you multiply the matrices?
+
+29:02
+
+How? How do you do this?
+
+29:05
+
+How do you multiply matrices?
+
+29:09
+
+How do you find this intriguing?
+
+29:28
+
+Row and column of row and column,
+
+29:53
+
+right? Please review this.
+
+30:01
+
+Please review it.
+
+30:03
+
+I understand that we forget forget what we don't use.
+
+30:05
+
+That's fine. Just put a note
+
+30:09
+
+somewhere in review how to multiply matrices.
+
+30:11
+
+So rho by a column.
+
+30:15
+
+It doesn't mean that we take a row and we
+
+30:19
+
+came up with some operation
+
+30:24
+
+that multiplies rows by columns.
+
+30:28
+
+But this is how it is
+
+30:31
+
+easier to remember a row by a column.
+
+30:35
+
+Of course, we do not multiply rows by columns.
+
+30:38
+
+We take each element from a row and
+
+30:42
+
+multiplied by the corresponding element
+
+30:46
+
+from the, from the calm.
+
+30:49
+
+So the first times the first plus
+
+30:52
+
+the second times the
+
+30:58
+
+second plus the third times the third.
+
+31:03
+
+All right.
+
+31:10
+
+Okay.
+
+31:17
+
+So that is going to be this number.
+
+31:19
+
+If you look at the process,
+
+31:23
+
+then you will understand why we do that.
+
+31:27
+
+What exactly do we do?
+
+31:32
+
+The probability to go from,
+
+31:36
+
+nice to read is 0.75.
+
+31:39
+
+What is the probability that I will go from nice to rain?
+
+31:43
+
+And on the next day to study.
+
+31:52
+
+What is the probability?
+
+31:56
+
+If today is nice in two days will be sunny.
+
+31:59
+
+What is the probability?
+
+32:04
+
+I didn't mean to ask you the exact number.
+
+32:15
+
+Of course here you are using a calculator,
+
+32:19
+
+but how did you get it?
+
+32:21
+
+What I want is the probability
+
+32:28
+
+of two D being nice in today's being sunny,
+
+32:31
+
+tomorrow being green, rainy.
+
+32:38
+
+So the reader condition,
+
+32:42
+
+I want to go from north from nice to rainy to sunny.
+
+32:45
+
+I'm not just saying today is nice and in today's sunny.
+
+32:50
+
+So we need to treat the twenty-five percent of half
+
+32:56
+
+from 50% path from R to S, right?
+
+33:00
+
+I think it is a 075.
+
+33:05
+
+Make the errors or not. Ok, so
+
+33:07
+
+we need to take this path and we need to
+
+33:11
+
+take of that path
+
+33:14
+
+what we're going to have a 0.75 times 0.5.
+
+33:16
+
+So if we go from nice to sunny, rainy,
+
+33:23
+
+we multiply 0.75 by 0.5.
+
+33:29
+
+And a, which is three terms, right?
+
+33:46
+
+Three terms. It tells us how did you get to each state?
+
+33:55
+
+From each state.
+
+34:02
+
+How can we get from here to there?
+
+34:06
+
+First by going to rainy first,
+
+34:12
+
+and then Sony second by stain here, and then sunny.
+
+34:16
+
+By going to the state instant here, right?
+
+34:22
+
+There are three possible ways, only three ways.
+
+34:27
+
+And these are the three terms that are
+
+34:30
+
+reflected in our product.
+
+34:34
+
+Look, The first one is 0 times 0.
+
+34:40
+
+It says, if you want to go to sunny
+
+34:43
+
+by staying in mice, first,
+
+34:45
+
+It's a 0 probability because you can't take a today's
+
+34:48
+
+unless now if you
+
+34:51
+
+want to go to rain and then sunny, it's this case.
+
+34:58
+
+This, by this.
+
+35:03
+
+And finally, if you want to go to
+
+35:06
+
+sunny and then the second day stay in sunny.
+
+35:09
+
+It is this, which is this one.
+
+35:12
+
+By this, which is backed away.
+
+35:15
+
+That's why this entry represents
+
+35:20
+
+the probability of B in today's, after today.
+
+35:25
+
+If today is nice,
+
+35:32
+
+you can compute the probability
+
+35:40
+
+of being in a particular state.
+
+35:43
+
+Nice, raining or sunny,
+
+35:47
+
+whatever the number of days.
+
+35:49
+
+And you want by multiplying
+
+35:52
+
+this matrix by itself as many times as you need.
+
+35:55
+
+This is what Markov chains
+
+36:04
+
+are about and that's what they allow you to do.
+
+36:08
+
+Other than genetics. Statistic, statistic CS,
+
+36:36
+
+but more in real-world.
+
+36:43
+
+Use them for random text generation, Decision-making.
+
+36:49
+
+Right-hand. And lot of interesting answers.
+
+36:59
+
+Yes, Markov chains are very popular or used.
+
+37:09

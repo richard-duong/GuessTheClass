@@ -1,0 +1,2251 @@
+To record probability for data science,
+
+00:00
+
+It certainly is not going to be a course on probability.
+
+00:04
+
+I'm not going to compete with CS
+
+00:08
+
+155 even this is a course in
+
+00:12
+
+statistics that covers probability as well.
+
+00:15
+
+We are going, we're only going to have one class on.
+
+00:18
+
+It may be a little bit more,
+
+00:23
+
+up to two at most.
+
+00:24
+
+So I'm going to give you just some.
+
+00:27
+
+And that will be enough for our purposes.
+
+00:30
+
+We're going to start with independent events.
+
+00:37
+
+In probability, two events are independent if
+
+00:45
+
+the occurrence of one event
+
+00:51
+
+doesn't effect the outcome of the other.
+
+00:54
+
+So their probabilities are independent.
+
+00:59
+
+The doc can jump as many times as he wants and
+
+01:04
+
+the coin is going to be flipped right here.
+
+01:08
+
+When may have heads or tails,
+
+01:12
+
+but it doesn't depend on UDL and vice versa.
+
+01:14
+
+And the order doesn't matter either.
+
+01:18
+
+Well, unless he decides to eat it.
+
+01:21
+
+P of a and B,
+
+01:25
+
+the probability of a and B if the events are independent.
+
+01:28
+
+Only if the events are independent.
+
+01:34
+
+If the probability of a times the probability of B,
+
+01:37
+
+only if the events are independent.
+
+01:42
+
+Dependent events.
+
+01:46
+
+Two events are dependent when the outcome of
+
+01:49
+
+the first influences the outcome of the second,
+
+01:54
+
+or the outcome of one
+
+01:59
+
+influences the outcome of the other one.
+
+02:02
+
+The probability of a and B,
+
+02:04
+
+the advance or dependent,
+
+02:08
+
+is the probability of a.
+
+02:11
+
+If we're talking about a happen first event,
+
+02:13
+
+a happens first times the probability B of a.
+
+02:16
+
+In this case is just times the probability of
+
+02:24
+
+B because the event B doesn't depend on event.
+
+02:28
+
+So it's probability doesn't depend on the probability of,
+
+02:32
+
+if they are dependent,
+
+02:36
+
+then it's the probability of a.
+
+02:38
+
+And then may cause some different outcome in B.
+
+02:41
+
+So we must account for it times the probability
+
+02:47
+
+of B given that a
+
+02:51
+
+already occurred and we know the outcome of a.
+
+02:53
+
+Next mutually exclusive.
+
+02:58
+
+Inclusive events.
+
+03:02
+
+Exclusive, mutually exclusive events are
+
+03:05
+
+events that cannot happen at the same time.
+
+03:09
+
+They cannot, they don't happen at the same time.
+
+03:15
+
+In this case, the probability
+
+03:18
+
+of a or B is equal to the probability of
+
+03:21
+
+a plus the probability of
+
+03:25
+
+v. And this is the time what I would like to ask you.
+
+03:27
+
+Can you please give me
+
+03:33
+
+some examples of mutually exclusive events?
+
+03:35
+
+Mutually exclusive events.
+
+03:39
+
+Join a black sock or white sock from a drone.
+
+03:56
+
+Daytime or nighttime?
+
+04:02
+
+Well, daytime or nighttime.
+
+04:05
+
+But this is not an event.
+
+04:07
+
+Somehow maybe rephrase.
+
+04:09
+
+It.
+
+04:13
+
+Bought the sachs.
+
+04:15
+
+Well, it's not so clear.
+
+04:17
+
+I mean, the condition itself,
+
+04:24
+
+flipping a coin and getting heads or tails,
+
+04:27
+
+will it's not a mutually exclusive event.
+
+04:33
+
+Or maybe I just misunderstood what you were saying.
+
+04:41
+
+Okay, we will look at some examples later on.
+
+04:55
+
+A bit point, I would like you to point out,
+
+04:59
+
+these events are mutually
+
+05:03
+
+exclusive and these events are not.
+
+05:05
+
+These events are inclusive.
+
+05:10
+
+Alright.
+
+05:13
+
+The outcome of the coin, you know, they both, yep.
+
+05:14
+
+Okay.
+
+05:17
+
+Inclusive events or events that can
+
+05:19
+
+happen at the same time.
+
+05:21
+
+If you remember, 111,
+
+05:24
+
+we worked a lot on this, right?
+
+05:26
+
+If they advanced can't happen at the same time,
+
+05:28
+
+then the probability of a or B is equal to
+
+05:32
+
+the probability of a plus
+
+05:37
+
+the probability of B minus the intersection.
+
+05:39
+
+Remember, inclusion-exclusion principle.
+
+05:44
+
+If we take the cardinality of this,
+
+05:49
+
+the cardinality of that,
+
+05:52
+
+then the intersection can become,
+
+05:54
+
+will be counted twice.
+
+05:58
+
+And in order to know the cardinality of the union,
+
+06:00
+
+we need to subtract this intersection,
+
+06:05
+
+the cardinality of this intersection,
+
+06:09
+
+in which case we're going to get the correct number.
+
+06:13
+
+So these events are not
+
+06:17
+
+mutually exclusive, they aren't inclusive.
+
+06:20
+
+And you cannot compute the cardinality
+
+06:24
+
+by just adding the cardinality of each.
+
+06:28
+
+He can not compute the probability of.
+
+06:30
+
+The event a or event B.
+
+06:34
+
+By Ed in the probability of a and probability of B,
+
+06:37
+
+you have to subtract the intersection.
+
+06:42
+
+We will look at all of these examples later.
+
+06:45
+
+Interest a couple of minutes.
+
+06:49
+
+All right.
+
+07:00
+
+Here is an example.
+
+07:02
+
+Five age bill subscribers were
+
+07:07
+
+asked what they would
+
+07:11
+
+prefer watching the Game of Thrones.
+
+07:14
+
+World or something else.
+
+07:17
+
+Were the word right here,
+
+07:23
+
+213 male subscribers, they answered the Game of Thrones.
+
+07:27
+
+18, would prefer westward world,
+
+07:33
+
+one hundred and five hundred and footage female.
+
+07:37
+
+We want to analyze this data.
+
+07:41
+
+Anyway, we want right now.
+
+07:45
+
+So first question.
+
+07:48
+
+First question.
+
+07:51
+
+Can we somehow look the probability of
+
+07:53
+
+being of a particular gender and choosing a particular.
+
+07:58
+
+First.
+
+08:07
+
+Let's add the number of
+
+08:08
+
+people that chose Game of Thrones.
+
+08:11
+
+The second show and all the other shows,
+
+08:15
+
+we will add the number of male and female subscribers.
+
+08:18
+
+That's the data that we have.
+
+08:24
+
+So we have 500 total.
+
+08:26
+
+Now, it is very easy to see that first.
+
+08:29
+
+First.
+
+08:37
+
+If we want to compute,
+
+08:39
+
+you probably can't see them.
+
+08:41
+
+If we wanted to answer the question,
+
+08:43
+
+how many female prefer the Game of Thrones show?
+
+08:46
+
+You can look into the cell and you will see a
+
+08:53
+
+121% out of total.
+
+08:56
+
+It is a 120, is 0.240.24.
+
+09:03
+
+And I will do the same for each value.
+
+09:08
+
+I'll take each value and divide by 500.
+
+09:12
+
+It will give me
+
+09:15
+
+that person as opposed to give him, though that number.
+
+09:16
+
+What this value represents.
+
+09:22
+
+Each value tells us the number of, I mean,
+
+09:26
+
+the probability of being of a particular gender,
+
+09:33
+
+choosing a particular show,
+
+09:38
+
+or in this case, authorship.
+
+09:41
+
+And these numbers, these numbers tell me.
+
+09:44
+
+These numbers represent the probability
+
+09:53
+
+of choosing one of the shows.
+
+09:57
+
+Independently on the Chandra or right here,
+
+10:03
+
+being a male or a female.
+
+10:08
+
+As you can see,
+
+10:12
+
+these two add up to one.
+
+10:15
+
+These three add up to one.
+
+10:18
+
+What else is one?
+
+10:21
+
+What else is one here?
+
+10:29
+
+The sum of the proportions of females and males, right?
+
+10:33
+
+Right, is this sum.
+
+10:38
+
+Okay?
+
+10:40
+
+So what it is that we found each right here.
+
+10:41
+
+Each data point in a cell tells us the joint probability
+
+10:49
+
+of a particular gender
+
+10:55
+
+and choosing a particular show or other.
+
+10:58
+
+In this case, this is a joint probability.
+
+11:02
+
+That's the joint probability of all of those.
+
+11:06
+
+And if we'll look at all of them at the same time,
+
+11:10
+
+then we'll look at the joint probability distribution.
+
+11:15
+
+The joint probability distribution.
+
+11:19
+
+What is on this side and at the bottom,
+
+11:28
+
+these are marginal probability.
+
+11:33
+
+There's a marginal probability.
+
+11:37
+
+We are not looking at one of the variables,
+
+11:39
+
+will just analyze in another one.
+
+11:43
+
+Well, in this case there are only two.
+
+11:46
+
+So when analyzing this variable
+
+11:48
+
+independently on the gender,
+
+11:52
+
+this is what 0.4. represents
+
+11:55
+
+how many people chose Game of Thrones.
+
+11:59
+
+Now, again, this is the marginal probability.
+
+12:04
+
+And if I look at all three,
+
+12:10
+
+This is its distribution.
+
+12:12
+
+This are the marginal probabilities as well.
+
+12:16
+
+Each of them is a marginal probability.
+
+12:20
+
+And if I look at the two,
+
+12:22
+
+that's going to be a distribution.
+
+12:23
+
+Distribution.
+
+12:27
+
+Any questions?
+
+12:30
+
+Alright. Nokia? Yes, I understand.
+
+12:40
+
+I will ask you some questions.
+
+12:46
+
+And if you remember or better,
+
+12:49
+
+put the notes for yourself and
+
+12:52
+
+answer those questions clay
+
+12:54
+
+a little bit with probabilities.
+
+12:55
+
+We're not going to touch anything difficult to date.
+
+12:57
+
+I don't want to say that this is
+
+13:01
+
+all that you studied in your high school.
+
+13:03
+
+Probably not. But I'm trying to cover it
+
+13:05
+
+at a really low simple level.
+
+13:09
+
+So I don't want you to be overwhelmed.
+
+13:13
+
+You get 255 and you will get what else you need.
+
+13:16
+
+But this will be enough for now,
+
+13:21
+
+for now. For this class.
+
+13:22
+
+Also, you need to understand it really well.
+
+13:24
+
+Not a lot, but you have to understand
+
+13:27
+
+it well, okay. Alright.
+
+13:29
+
+Next.
+
+13:32
+
+The question here is,
+
+13:34
+
+what is the probability of an age bill subscriber
+
+13:36
+
+being male or preferring Westworld,
+
+13:40
+
+male or paternity preferring West work.
+
+13:46
+
+Alright, let's take 0.46.
+
+13:52
+
+That's the probability of being a male.
+
+13:57
+
+And let's take 0.25. and add
+
+13:59
+
+them because 0.25. is
+
+14:04
+
+the marginal probability of choosing Westworld.
+
+14:06
+
+Add them together.
+
+14:10
+
+This will get the answer correct.
+
+14:12
+
+You're double counting the 0.2 for Westworld mail.
+
+14:17
+
+Right?
+
+14:22
+
+So you can't just add both 0.25.46.
+
+14:23
+
+You have to add them
+
+14:27
+
+individually so you don't double count
+
+14:29
+
+the point to you can't add these two.
+
+14:30
+
+You have to add them individually.
+
+14:36
+
+If you just add the 0.460.25,
+
+14:39
+
+wouldn't you be counting 0.2 twice?
+
+14:43
+
+Okay. Yeah. I know that you were right at the first time.
+
+14:48
+
+I was just trying to make you
+
+14:52
+
+explain it a little bit better.
+
+14:53
+
+So what you're saying is if we add 0.06 and 0.25.
+
+14:55
+
+That means we counted 0.2 twice because it
+
+15:02
+
+is a part of being male
+
+15:06
+
+and it is a part of choosing westward.
+
+15:08
+
+This two events are what?
+
+15:12
+
+Inclusive?
+
+15:19
+
+They are inclusive exactly.
+
+15:20
+
+Well, they're not mutually exclusive.
+
+15:23
+
+In which case, you need to, if you want,
+
+15:25
+
+you can add 0.06 as 0.25,
+
+15:29
+
+but then you need to subtract the intersection.
+
+15:33
+
+Right? Or you can just go ahead and add one-by-one.
+
+15:36
+
+Now, question.
+
+15:44
+
+Question right now is
+
+15:47
+
+a way to check whether two events are
+
+15:49
+
+mutually exclusive for the joint distribution,
+
+15:55
+
+joint marginal distribution available
+
+16:02
+
+in this nice form.
+
+16:15
+
+So what is another way to
+
+16:21
+
+check its coming right from this?
+
+16:23
+
+Alright, I'll leave it as a question.
+
+16:34
+
+Alright, next, what is
+
+16:41
+
+the probability of an age bill subscriber
+
+16:44
+
+being a male or preferring Westworld being male.
+
+16:48
+
+And prefer westward.
+
+16:55
+
+What is it?
+
+17:01
+
+We just computed it.
+
+17:08
+
+We're looking at the formula, at the general formula.
+
+17:15
+
+So this won't be the 0.46 plus 0.25 minus 0.2, right?
+
+17:24
+
+So the probability of a or B is equal to
+
+17:31
+
+the probability of a plus the probability of
+
+17:37
+
+B minus the probability of their intersection.
+
+17:40
+
+Question. Can we use this formula?
+
+17:45
+
+If the events are mutually exclusive?
+
+17:49
+
+Yes, because the intersection would
+
+17:53
+
+be 0 if there were mutually exclusive?
+
+17:56
+
+Yes, the intersection would be
+
+17:58
+
+0 if they are mutually exclusive.
+
+17:59
+
+So this is the answer to your question.
+
+18:01
+
+Okay?
+
+18:07
+
+I'm still not stating it explicitly,
+
+18:09
+
+but you probably understand conditional probability.
+
+18:12
+
+Conditional probability is the probability that
+
+18:19
+
+an event will occur based on the condition.
+
+18:23
+
+But another event has occurred.
+
+18:28
+
+So one event has occurred.
+
+18:34
+
+We'll look at the next event.
+
+18:38
+
+But we already know that the first event has occurred.
+
+18:41
+
+And we can find out the outcome of that event.
+
+18:46
+
+That's the condition probability.
+
+18:49
+
+Does the conditional probability don't mix
+
+18:52
+
+the joint and conditional probabilities
+
+18:56
+
+in the joint probability.
+
+18:58
+
+The events are independent.
+
+19:00
+
+If the conditional probability, they are dependent.
+
+19:03
+
+The probability of B,
+
+19:13
+
+given that event a has occurred
+
+19:18
+
+is the probability of
+
+19:22
+
+a and B divided by the probability of gates.
+
+19:26
+
+Of course, we wanted to make sure before we
+
+19:31
+
+go and divide by the probability of a, of course,
+
+19:33
+
+we want to make sure that the probability of
+
+19:36
+
+non-zero is not 0.
+
+19:39
+
+The same example. We have
+
+19:49
+
+at joint probability right here.
+
+19:54
+
+And we have a marginal probability right there.
+
+19:58
+
+Question. Not a just God and age bill subscription.
+
+20:02
+
+What is the chance that
+
+20:08
+
+her favorite show will be Game of Thrones?
+
+20:09
+
+First question can be,
+
+20:14
+
+and the question that we asked before,
+
+20:18
+
+what is a probability of being
+
+20:19
+
+a female and choosing Game of Thrones?
+
+20:22
+
+In this question, right now, we have seen,
+
+20:27
+
+we know she is female.
+
+20:31
+
+Given that it is a female,
+
+20:36
+
+what's the probability that she chooses Game of Thrones?
+
+20:39
+
+Do you feel the difference between the two?
+
+20:45
+
+In the first, what's the probability of this and that?
+
+20:48
+
+That's the joint probability.
+
+20:53
+
+Here, conditional.
+
+20:56
+
+Our subscriber is a female.
+
+20:58
+
+I know that.
+
+21:01
+
+What's the probability that she chooses gain of from's.
+
+21:02
+
+So our event has occurred.
+
+21:06
+
+We wanted to see how it influences event.
+
+21:11
+
+So how do we compute it?
+
+21:18
+
+It's going to be the probability of a and b.
+
+21:23
+
+So this is our joint probability,
+
+21:33
+
+but it has to be divided by the probability of B.
+
+21:36
+
+Divided by the probability of B, which is 0.54.
+
+21:42
+
+This is our conditional probability.
+
+21:48
+
+Usually I see problems,
+
+21:53
+
+if anything, in probability than I see
+
+21:59
+
+some problems students have with conditional probability.
+
+22:02
+
+So this is the one that is a little bit
+
+22:05
+
+harder to understand me.
+
+22:07
+
+Professor. Any advice on how we
+
+22:11
+
+should pick the order when we're looking at
+
+22:14
+
+a question. Like what depends what?
+
+22:16
+
+Well, it's going to be coming from the question
+
+22:19
+
+from from the situation.
+
+22:23
+
+You see non interest,
+
+22:28
+
+God and age bill subscription,
+
+22:30
+
+she's over d. What
+
+22:31
+
+is the chance that
+
+22:35
+
+her favorite show will be Game of Thrones?
+
+22:36
+
+Now, you already know this is female, right?
+
+22:40
+
+So if you know that the subscriber is female,
+
+22:47
+
+what is the chance that
+
+22:53
+
+a particular show is going to be her favorite trope.
+
+22:58
+
+Now, this happened first.
+
+23:03
+
+Being female in this case happened first.
+
+23:05
+
+And this is a great question.
+
+23:08
+
+This is where you all remember this formula.
+
+23:10
+
+It's what to divide by what?
+
+23:13
+
+By, or rather divide by what,
+
+23:14
+
+what do we divide in?
+
+23:17
+
+But right now, I will show
+
+23:18
+
+the example where the roles or the situation is switched.
+
+23:21
+
+And he will see the difference here.
+
+23:27
+
+Let me click me see this one.
+
+23:33
+
+I can go back to this.
+
+23:36
+
+Given the better subscribers favorite show is Westworld.
+
+23:38
+
+What is the probability that their male?
+
+23:42
+
+Somebody said, my westward,
+
+23:47
+
+My favorite show is Westworld.
+
+23:49
+
+Who am I?
+
+23:53
+
+All right, what's the probability?
+
+23:56
+
+So in this case,
+
+23:59
+
+what we know is that the person chose Westworld.
+
+24:00
+
+Then this is what occurred first.
+
+24:07
+
+That already has occurred.
+
+24:12
+
+What do I do here?
+
+24:18
+
+I find the probability of a and b,
+
+24:20
+
+which is just our joint probability. That's easy.
+
+24:24
+
+And divided by the probability of
+
+24:27
+
+B and divide by the marginal probability.
+
+24:30
+
+And here we're just showing
+
+24:40
+
+the conditional probability distribution if we
+
+24:44
+
+answer this question three times.
+
+24:46
+
+So what is the probability of choosing Game of Thrones?
+
+24:49
+
+That, what's the probability of choosing
+
+24:53
+
+Westworld while being female?
+
+24:55
+
+What's the probability of choosing some other show?
+
+24:57
+
+That's that in each
+
+25:00
+
+of those cases where he's on this same formula,
+
+25:03
+
+but we're just changing the joint probability.
+
+25:06
+
+The joint probability changes.
+
+25:12
+
+The marginal probability stays.
+
+25:15
+
+We divide by this marginal probability every time.
+
+25:18
+
+Okay?
+
+25:23
+
+Alright.
+
+25:31
+
+Now again, another question
+
+25:33
+
+which relates to the previous question,
+
+25:36
+
+or not necessarily religious but
+
+25:40
+
+somewhat similar to a previous question.
+
+25:42
+
+Can we answer the question
+
+25:45
+
+whether the two events are independent?
+
+25:48
+
+By looking at some
+
+25:53
+
+of this data on conditional probability.
+
+25:56
+
+Do we know if the events are independent?
+
+26:03
+
+What would you say? Just by thinking?
+
+26:10
+
+The events are independent? If what?
+
+26:14
+
+So in this case they are dependent.
+
+26:19
+
+You can not make anything out of here.
+
+26:21
+
+But if they weren't dependent, what would happen?
+
+26:23
+
+One outcome does not affect the other outcome, right?
+
+26:29
+
+One outcome does not affect the other.
+
+26:32
+
+Being female doesn't affect Choosing westward.
+
+26:35
+
+That means if I compute
+
+26:39
+
+my conditional probability of choosing
+
+26:41
+
+Westworld under the condition of being male or female.
+
+26:44
+
+It must be equal to
+
+26:50
+
+the probability of choosing Westworld.
+
+26:54
+
+If they once weren't independent,
+
+26:58
+
+these two numbers would be the same.
+
+27:01
+
+Great. Ok. And one more example, right here.
+
+27:06
+
+Alex rolls a pair of dice.
+
+27:16
+
+What is the probability that both numbers are odd?
+
+27:19
+
+This sum is six.
+
+27:24
+
+Their sum is six,
+
+27:28
+
+so it is given, but their sum is six.
+
+27:30
+
+What's the probability that both numbers are odd?
+
+27:33
+
+In this case, what are you given?
+
+27:40
+
+What is the first event?
+
+27:43
+
+What is the condition?
+
+27:48
+
+In this case? The sum is six, right?
+
+27:51
+
+So you know that this sum is six.
+
+28:00
+
+You want to only find the probability of
+
+28:05
+
+both numbers being odd if their sum is six.
+
+28:10
+
+You don't care about
+
+28:15
+
+any other cases were numbers are odd.
+
+28:17
+
+For example, let's say 35.
+
+28:21
+
+You didn't care about this case
+
+28:24
+
+because there's some it's not six.
+
+28:25
+
+How can this question be answered?
+
+28:28
+
+Let's see. These are all possible outcomes.
+
+28:32
+
+In other words, this is the sample space.
+
+28:36
+
+The cases where both numbers are odd.
+
+28:44
+
+Cases where the sum of two numbers is six.
+
+28:51
+
+How many outcomes we have where
+
+29:01
+
+the were two numbers are odd and their sum is 6123.
+
+29:07
+
+How many pairs we have,
+
+29:20
+
+whose sum is 612345.
+
+29:24
+
+So after this gets easy,
+
+29:30
+
+one divided by the other.
+
+29:32
+
+But as you pointed out,
+
+29:37
+
+what's the most difficult is,
+
+29:40
+
+is to understand, is
+
+29:41
+
+this the case conditional probability?
+
+29:43
+
+Because sometimes for not
+
+29:46
+
+necessarily every time somebody's going to tell you,
+
+29:49
+
+find P of a,
+
+29:53
+
+given that B has occurred.
+
+29:56
+
+It may not be stated clearly,
+
+30:02
+
+even in this question,
+
+30:05
+
+probably at the beginning,
+
+30:07
+
+you were not sure whether
+
+30:09
+
+it is a conditional probability.
+
+30:11
+
+Which event occurred first,
+
+30:13
+
+which one would condition on, right?
+
+30:16
+
+We already talked about
+
+30:29
+
+it about the marginal distribution and
+
+30:32
+
+conditional or joint distribution
+
+30:34
+
+and conditional distribution.
+
+30:35
+
+I included several slides for permanently,
+
+30:38
+
+for those students that want little more math.
+
+30:42
+
+But I'm not going to go over in class.
+
+30:45
+
+If you want, you can look at it.
+
+30:49
+
+We can talk about it later.
+
+30:50
+
+But it is I don't know.
+
+30:52
+
+I doubt that it's going to be started in 155,
+
+30:56
+
+but certainly in red horse.
+
+30:58
+
+That is going to be the proper language.
+
+31:01
+
+So it's up to you.
+
+31:05
+
+Here's one example of that I included here as well.
+
+31:10
+
+It is for you.
+
+31:15
+
+And what do you think it's going to be?
+
+31:21
+
+That's going to be your in-class quiz, the quiz one.
+
+31:31
+
+And you need to complete it in
+
+31:36
+
+about eight minutes and been a great school.
+
+31:39
+
+And that's going to be your first great for quiz one.
+
+31:41
+
+A
+
+31:48
+
+reasonable
+
+31:49
+
+not
+
+31:50
+
+scope.
+
+31:58
+
+Well, that's a question You take it now.
+
+32:01
+
+Take a picture and submit a grade school.
+
+32:04
+
+There is an option.
+
+32:09
+
+Whichever one you prefer.
+
+32:12
+
+As an option, I can give you
+
+32:14
+
+this quiz to take
+
+32:18
+
+anytime you want and submit by Saturday night.
+
+32:20
+
+So what would you like?
+
+32:24
+
+It is submit in eight minutes or
+
+32:27
+
+by Saturday night, whichever you prefer.
+
+32:30
+
+Alden, I think I
+
+32:33
+
+was fine with me Saturday night.
+
+32:38
+
+One condition.
+
+32:47
+
+Well, 23 sterile conditions. First.
+
+32:49
+
+It's okay if you talk about it.
+
+32:55
+
+But I don't want you to copy obviously.
+
+32:58
+
+If anyone copies, I apologize.
+
+33:01
+
+That's going to be given it.
+
+33:03
+
+All right.
+
+33:06
+
+But you can talk about it if you want to.
+
+33:07
+
+If you want, you can compare your answers,
+
+33:09
+
+but not I got 255.
+
+33:12
+
+What did you get? So make
+
+33:15
+
+it somehow not so clear.
+
+33:23
+
+The reason for it. If your answer is
+
+33:26
+
+wrong and another personable
+
+33:29
+
+strict match them that answer.
+
+33:30
+
+That's going to be wrong too.
+
+33:32
+
+And those two will be so
+
+33:34
+
+wrong that there will be marked for for treating.
+
+33:38
+
+If the answers are very raw and very weird.
+
+33:44
+
+I'm not saying 255 in this case.
+
+33:47
+
+It has nothing to do with a problem.
+
+33:49
+
+But sometimes, I know I gave you this example before.
+
+33:51
+
+If you multiply 15 by two and you get some INT01,
+
+33:56
+
+I can understand that if you get 300,
+
+34:00
+
+I can understand that because yeah.
+
+34:02
+
+You did addition instead or you multiply them,
+
+34:05
+
+then you wrote an extra 0.
+
+34:09
+
+But if you get a ten-point
+
+34:10
+
+five and there will be two students that will get 18.5.
+
+34:12
+
+That is trench.
+
+34:16
+
+And I don't want any problems.
+
+34:18
+
+I don't want any kind of cheat.
+
+34:21
+
+And I'm going to be very light on gradient this quiz.
+
+34:22
+
+But I do want you to practice.
+
+34:26
+
+This is the main purpose of quizzes.
+
+34:29
+
+I think all of you will get high grades for quizzes,
+
+34:34
+
+but I do want you to practice with this material,
+
+34:37
+
+ok. You can always use any textbooks,
+
+34:40
+
+but please do not Google this questions.
+
+34:46
+
+Because if I see the solution
+
+34:50
+
+that matches some online solution,
+
+34:52
+
+I'm going to give set.
+
+34:54
+
+As I said before,
+
+34:56
+
+that the purpose of this quizzes is not to
+
+34:58
+
+grade you on the final,
+
+35:00
+
+final answer, but for you to practice.
+
+35:04
+
+Alright?
+
+35:09
+
+Now, if you cheat on this, quiz,
+
+35:11
+
+them on midterm, you may not get this question.
+
+35:14
+
+We write it on paper and secant it.
+
+35:19
+
+You can do it either way you want.
+
+35:22
+
+You can use later kick in right on paper.
+
+35:23
+
+For all quizzes, it's
+
+35:25
+
+assumed you're in class
+
+35:28
+
+and you're trying to do with fast.
+
+35:29
+
+Now, I must be able to read it.
+
+35:31
+
+Please write it clearly
+
+35:35
+
+and when you upload to great scope,
+
+35:37
+
+open it and make sure that I can read
+
+35:39
+
+it or who I was going to grade it, can create it.
+
+35:41
+
+Anything specific you are looking for.
+
+35:45
+
+And this is not really just give a good explanation.
+
+35:47
+
+So you need to, you don't need to
+
+35:51
+
+write anything extra you explanation,
+
+35:54
+
+but give a sufficient explanation
+
+35:56
+
+as to why you are using a particular formula
+
+35:58
+
+or any questions about anything at all.
+
+36:01
+
+I am not going to start a new part.
+
+36:06
+
+I deliberately finished right
+
+36:09
+
+now because the next part
+
+36:12
+
+is a little bit more complicated.
+
+36:15
+
+But by the time we moved to this,
+
+36:17
+
+I wanted to be very good and very clear on
+
+36:19
+
+the joint conditional probability
+
+36:23
+
+on all these marginal probabilities.
+
+36:24
+
+Or else I will talk and it will just.
+
+36:26
