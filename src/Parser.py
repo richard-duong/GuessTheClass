@@ -1,18 +1,21 @@
+import regex
 
-def Parser:
-	def __init__(self):
-		self.__wordsList = []	
+class Parser: 
+    def __init__(self):
+        self.__wordsList = []	
 
-	def __parseFile(self, srcFile):
-		
-		
-	def __writeFile(self, destFile):
-		pass
+    def __parseFile(self, srcFile):
+        with open(srcFile, "r") as inFile:
+            text = inFile.read()
+        text = re.sub(regex.TIME + "|" + regex.PUNCT) 
+            
+    def __writeFile(self, destFile):
+        with open(destFile, "w") as outFile:
+            for word in self.__wordsList:
+                outFile.write("{}\n".format(word))
 
-
-
-	def parse(self, srcFile, destFile):	
-		self.__parseFile(srcFile)
-		self.__writeFile(destFile)
+    def parse(self, srcFile, destFile):	
+        self.__parseFile(srcFile)
+        self.__writeFile(destFile)
 		
 		
