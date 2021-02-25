@@ -8,6 +8,8 @@ Table of Contents
 =================
 1. [Research / Data Gathering / Data Cleaning](#research)<br>
 	* [Meeting 1 - 02/19/21](#meeting1)<br>
+	* [Meeting 2 - 02/21/21](#meeting2)<br>
+	* [Meeting 3 - 02/25/21](#meeting3)<br>
 2. [Using the Data](#using)
 3. [Telling a Story](#story)
 
@@ -64,4 +66,22 @@ Table of Contents
 
 
 ---------------------------------------
+<br><a name="meeting3"/>
+<h2>Meeting 3 - 02/25/21</h2>
+<h3>Actions</h3>
+
+* Generated a spreadsheet for reaching out to professors from different colleges at UCR
+* Created an email template for mass emailing
+* Created a word frequency count program
+
+<h3> Before next meeting</h3>
+
+* Create google form that professors can send links to
+* Send out emails
+* Finish file automation program
+* Start CSV generation
+
+
+
+
 
