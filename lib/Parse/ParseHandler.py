@@ -1,6 +1,6 @@
-import regex
+import Parse.regex
 
-class Parser: 
+class ParseHandler: 
     def __init__(self):
         self.__wordsList = []	
 
@@ -8,6 +8,7 @@ class Parser:
         with open(srcFile, "r") as inFile:
             text = inFile.read()
         text = re.sub(regex.TIME + "|" + regex.PUNCT) 
+        self.__wordsList = text.split()
             
     def __writeFile(self, destFile):
         with open(destFile, "w") as outFile:
