@@ -1,0 +1,2893 @@
+00:00
+
+Something that is very easy.
+
+00:05
+
+I told you as far as the visualization,
+
+00:07
+
+a lot of stuff will be something
+
+00:09
+
+that you worked with before in
+
+00:12
+
+what I would like or what I wanted to
+
+00:15
+
+do is to combine all of those.
+
+00:18
+
+So when it comes to
+
+00:21
+
+some presentation to the time
+
+00:23
+
+and you need to perform data visualization.
+
+00:26
+
+You have all of this in
+
+00:29
+
+one set of slides and he will go through it.
+
+00:30
+
+You will decide what it is you want
+
+00:33
+
+to use for your particular case.
+
+00:36
+
+So that is more like a guide for you of what to do.
+
+00:38
+
+Of course, bar charts is something that you know,
+
+00:43
+
+that's probably one of
+
+00:47
+
+the easiest forums to present information.
+
+00:48
+
+And yet sometimes it's better than
+
+00:51
+
+any other more complicated form.
+
+00:53
+
+For example, this one is showing
+
+00:55
+
+the number of electrode right here.
+
+00:58
+
+Let me increase there.
+
+01:01
+
+All right. The number
+
+01:05
+
+of the number of residents part electoral vote.
+
+01:09
+
+When you're looking at this chart,
+
+01:15
+
+you can understand that the number of people
+
+01:18
+
+per one vote is very uneven and very different.
+
+01:21
+
+In some states, you need to have
+
+01:26
+
+about 200 thousand people
+
+01:29
+
+per one vote in August takes 700.
+
+01:31
+
+Why it is we don't have time right now to
+
+01:39
+
+deal with this question and when this, with this answer.
+
+01:42
+
+But if you're interested, go and look up.
+
+01:45
+
+In other, another visual
+
+01:53
+
+that represents the results of the elections for 2012.
+
+01:59
+
+If you remember, Barack Obama von won this election,
+
+02:05
+
+which is below right here.
+
+02:11
+
+These are the states that were pro,
+
+02:15
+
+democratic in this election.
+
+02:20
+
+Now, if you look at this map,
+
+02:22
+
+it looks like there's more red than blue.
+
+02:23
+
+But if you look at the numbers,
+
+02:28
+
+the numbers represent the number of
+
+02:30
+
+electoral votes that went towards the victory.
+
+02:34
+
+And there are over 300 electoral votes that were
+
+02:37
+
+for the Democratic candidate
+
+02:44
+
+and for the republicans, over 200.
+
+02:47
+
+But when you look at this map,
+
+02:52
+
+there is some sort of misrepresentation because
+
+02:54
+
+the area covered by red is much larger.
+
+02:57
+
+What the authors did right here.
+
+03:02
+
+The reduced area of a state if the number of
+
+03:05
+
+electoral votes that the state gives is
+
+03:10
+
+proportionally lower than for other states.
+
+03:12
+
+So right here that area represents,
+
+03:16
+
+or rabbit is proportional
+
+03:20
+
+to the number of electoral votes.
+
+03:22
+
+Now, this, when you look at this map,
+
+03:24
+
+you already see that there is more blue than
+
+03:28
+
+red in this case.
+
+03:32
+
+So this is how you can use a map,
+
+03:36
+
+but with a little change. Yeah.
+
+03:40
+
+This is the book I told you.
+
+03:48
+
+I'm going to be given you books
+
+03:50
+
+rather than give you one textbook.
+
+03:51
+
+I will give you suggestions about
+
+03:53
+
+different books that I use for particular topics.
+
+03:55
+
+For this topic, I used mostly
+
+04:00
+
+to ski and the data science design manual.
+
+04:03
+
+In fact, I do like this book four.
+
+04:08
+
+I used it for a number of topics.
+
+04:11
+
+So if you can find it and you'll be able to find it,
+
+04:13
+
+I would suggest using this book.
+
+04:16
+
+Scanner is a great author.
+
+04:19
+
+The wiki presents information,
+
+04:21
+
+is very easy to understand.
+
+04:23
+
+And they will be the second book that I will show you.
+
+04:27
+
+It's on the slides as well.
+
+04:30
+
+Right here.
+
+04:32
+
+Now.
+
+04:34
+
+Bar charts, bar charts as
+
+04:36
+
+opposed to stack charts as same bar turns his mom.
+
+04:39
+
+Now, in this case, in this case,
+
+04:43
+
+we'll look at the number
+
+04:49
+
+of people that purchased tickets to titanic,
+
+04:54
+
+buy ticket classes, the first class,
+
+05:01
+
+the second, the third.
+
+05:04
+
+So that is the first-class, the whole bar.
+
+05:06
+
+Second in the third.
+
+05:09
+
+Now, the red area represents the number of people.
+
+05:12
+
+If you look right here, that's the number of
+
+05:18
+
+people who purchase tickets to
+
+05:20
+
+the first-class and died
+
+05:23
+
+as a result of the tragedy on Titanic.
+
+05:25
+
+The blue is the number of people that survived.
+
+05:28
+
+Some information.
+
+05:35
+
+You can read some information from this butcher.
+
+05:37
+
+Now, if you change a little bit,
+
+05:39
+
+the way you are representing your information, too weird.
+
+05:44
+
+The tickets that are purchased to the first class,
+
+05:49
+
+second class, and third class will be taken as one each.
+
+05:55
+
+And then he will show the percent of
+
+06:01
+
+people of the first class that died,
+
+06:05
+
+of the second class and third class or that died,
+
+06:09
+
+you will see a slightly better information.
+
+06:13
+
+You will see immediately and understand immediately.
+
+06:17
+
+The higher the class,
+
+06:21
+
+the richer you are,
+
+06:23
+
+the higher the chance to survive.
+
+06:26
+
+So before you
+
+06:30
+
+Start on your visuals.
+
+06:34
+
+First.
+
+06:36
+
+Don't look at just numbers.
+
+06:37
+
+Try to understand what is
+
+06:40
+
+the idea that I wanted to deliver?
+
+06:43
+
+And what you want to point
+
+06:46
+
+out that there is
+
+06:49
+
+a high percent of rich people that survived,
+
+06:50
+
+then this is probably what you want to do.
+
+06:54
+
+Again. By the way,
+
+07:03
+
+do you see well,
+
+07:06
+
+on your screens isn't big enough.
+
+07:08
+
+Okay.
+
+07:13
+
+Next example.
+
+07:21
+
+Again, bar charts, a little bit differently constructed,
+
+07:24
+
+but the same word charts.
+
+07:28
+
+Now, what is shown right here?
+
+07:30
+
+For each country?
+
+07:34
+
+It is shown for the number
+
+07:38
+
+of people that died in World War II.
+
+07:42
+
+This is a red bar
+
+07:46
+
+and the gray bar is the percent of the population.
+
+07:49
+
+So the red bar is the number of people.
+
+07:55
+
+The green bar is the is the percent of the population.
+
+07:59
+
+Do you like this bar chart?
+
+08:04
+
+No.
+
+08:10
+
+Would you use just the same
+
+08:12
+
+or would you change something?
+
+08:14
+
+If you change why?
+
+08:17
+
+You're saying it's very hard to read.
+
+08:26
+
+Just look at the colors, right?
+
+08:30
+
+No longer red bar represents the population.
+
+08:32
+
+For example, close to 24 million people
+
+08:35
+
+died from Soviet Union.
+
+08:39
+
+And then so one for each country.
+
+08:41
+
+And the green is the percent of the population,
+
+08:45
+
+for example, about 14%, Soviet Union.
+
+08:50
+
+So assume it is easy to read.
+
+08:57
+
+That's why I asked you if you can see it well or not.
+
+09:02
+
+Maybe it's just not the best picture.
+
+09:06
+
+Is there anything else that bothers you?
+
+09:10
+
+It's kinda weird how they're combining onto one skill,
+
+09:17
+
+like a millions I'm gonna percentage.
+
+09:20
+
+I agree. I agree.
+
+09:22
+
+It's quite misleading.
+
+09:24
+
+When you look at this red and gray,
+
+09:25
+
+it seems like, Alright,
+
+09:28
+
+maybe more than half of the population died.
+
+09:30
+
+Is that what they wanna say?
+
+09:33
+
+No, actually, it's just the units
+
+09:34
+
+right here are different,
+
+09:37
+
+but the numbers are the same,
+
+09:39
+
+but the units are different.
+
+09:41
+
+If you're willing to understand,
+
+09:42
+
+of course it can go through this and
+
+09:44
+
+it has all the correct information.
+
+09:46
+
+But is the visual itself is the greatest?
+
+09:48
+
+I wouldn't use it.
+
+09:53
+
+I wouldn't do this one.
+
+09:55
+
+Very representative.
+
+10:03
+
+But the one thing that I wanted to notice right here,
+
+10:05
+
+again, World War casualties, Poland,
+
+10:09
+
+17.2% of the population,
+
+10:13
+
+Soviet Union, 14.2, Yugoslavia,
+
+10:18
+
+and so on and so forth.
+
+10:22
+
+So in this case,
+
+10:24
+
+you can see the percentage of the population clearly.
+
+10:27
+
+Is there anything that you noticed that
+
+10:31
+
+you may want to give additional information about?
+
+10:35
+
+Probably if you know a little bit of
+
+10:42
+
+history, then you would notice.
+
+10:44
+
+If not, then you may not.
+
+10:46
+
+Nothing that you see.
+
+10:59
+
+What do you want to be.
+
+11:08
+
+The Soviet Union is a huge country.
+
+11:12
+
+At that point, the word 15 republics,
+
+11:15
+
+which later became 15 countries.
+
+11:18
+
+Depends on how you
+
+11:23
+
+count the number of republics right here,
+
+11:25
+
+or all added together.
+
+11:31
+
+And we're told that there are
+
+11:33
+
+about 14% of the population died.
+
+11:35
+
+But in fact, if you take billers
+
+11:39
+
+or sometimes you can hear bela russia by itself.
+
+11:42
+
+It is going to be on
+
+11:46
+
+proportionally large percent of the population that died,
+
+11:48
+
+which is well above the pole once.
+
+11:53
+
+So, you will look
+
+11:59
+
+at the failures and you will look at Ukraine,
+
+12:01
+
+those or two countries.
+
+12:04
+
+Well, right now there are
+
+12:07
+
+countries that were republics of
+
+12:08
+
+that time that lost,
+
+12:09
+
+mostly percentage wise. Why?
+
+12:11
+
+Now, when you see this,
+
+12:15
+
+then you go and you read about
+
+12:17
+
+this period of time and you
+
+12:19
+
+understand it's not enough
+
+12:21
+
+just to put the numbers on the chart.
+
+12:24
+
+You need to understand what's going on.
+
+12:26
+
+And every time when we have a lecture,
+
+12:29
+
+when I'm talking about data science,
+
+12:33
+
+every time I'm going to stress it.
+
+12:35
+
+Data Science. Of course,
+
+12:38
+
+it is about the numbers,
+
+12:40
+
+about the data, about the science, about analysis.
+
+12:42
+
+Also, you need to understand what's going on.
+
+12:45
+
+You need to make sense of your data.
+
+12:48
+
+Okay?
+
+12:57
+
+Next, if your data is given as a table,
+
+12:59
+
+if you receive the table as your data,
+
+13:04
+
+you should be happy because it's easy to work with.
+
+13:07
+
+But do you want to show it as a table?
+
+13:11
+
+For example, you are given a project for
+
+13:15
+
+question and you'd have to perform some analysis.
+
+13:18
+
+And then you have
+
+13:22
+
+some finance as the result of your analysis.
+
+13:24
+
+Now it's time for you to
+
+13:26
+
+present your findings, present your data.
+
+13:28
+
+Do you want to present it as a table? Well, maybe not.
+
+13:31
+
+There are other ways of doing it,
+
+13:36
+
+because when you simply throw the results into the table,
+
+13:39
+
+I have to go through all of these numbers and try to
+
+13:43
+
+make sense myself of what it is you're trying to show.
+
+13:47
+
+Well, it's clear what this data is in the table.
+
+13:52
+
+We can do it, but there are better ways.
+
+13:56
+
+The first and the easiest.
+
+13:58
+
+Color.
+
+14:01
+
+If you don't have time,
+
+14:02
+
+you run out of time in 1 second,
+
+14:04
+
+you have to present it.
+
+14:07
+
+Let's change the color.
+
+14:08
+
+But even if you
+
+14:10
+
+don't have a lot of time to think about a better visual,
+
+14:14
+
+stay with the same table,
+
+14:17
+
+but use a heatmap.
+
+14:19
+
+This is the same table.
+
+14:21
+
+And Python can actually read from your table
+
+14:25
+
+and assign a color to each cell of the table.
+
+14:29
+
+So that what you do one function,
+
+14:34
+
+then you go from this to the vet.
+
+14:37
+
+Suppose you wanted to point out these two events.
+
+14:41
+
+You don't need to talk much there already. There.
+
+14:46
+
+They will already attract
+
+14:49
+
+the viewer's attention right away.
+
+14:51
+
+Okay. Alright.
+
+14:55
+
+Another scatterplots applauds.
+
+14:58
+
+We have to numeric variables and we
+
+15:02
+
+want to show the relation between them.
+
+15:04
+
+Very good to use scatterplots.
+
+15:06
+
+In this case. In this case,
+
+15:09
+
+once you plot them,
+
+15:11
+
+you can see that there is a positive correlation,
+
+15:13
+
+very strong positive correlation.
+
+15:17
+
+Now, he can say it is a linear correlation.
+
+15:20
+
+We said last time that mostly we use
+
+15:23
+
+the word correlation in this class.
+
+15:25
+
+Point out to the linear.
+
+15:27
+
+Now second picture, it is a negative correlation.
+
+15:29
+
+It certainly isn't strong or weak correlation,
+
+15:33
+
+but you can see this is
+
+15:36
+
+a negative correlation and no correlation whatsoever.
+
+15:38
+
+And in this case, dependence is quadratic,
+
+15:41
+
+or at least it looks like a quadratic,
+
+15:45
+
+then you may find that it
+
+15:48
+
+is some sort of a high degree polynomial.
+
+15:49
+
+If you plot more data, if you have more data,
+
+15:52
+
+but there is certainly a correlation.
+
+15:55
+
+And the correlation here is not
+
+15:57
+
+meaning you can immediately tell it from debt.
+
+15:59
+
+So when you just get your data
+
+16:03
+
+and you see lots of numbers,
+
+16:06
+
+you're looking at this numbers.
+
+16:10
+
+What do I have there?
+
+16:12
+
+I have no idea.
+
+16:13
+
+Somebody asks you to analyze it.
+
+16:15
+
+Start with visuals.
+
+16:17
+
+Well, you can start with
+
+16:20
+
+either summative statistics or with visuals.
+
+16:22
+
+You need to do both.
+
+16:25
+
+Run different visual analytics.
+
+16:27
+
+And maybe you will see
+
+16:30
+
+immediately that there is some pattern in them data.
+
+16:32
+
+Which one?
+
+16:36
+
+You don't know.
+
+16:39
+
+You don't know.
+
+16:40
+
+Suppose you get a bunch of numbers.
+
+16:41
+
+How to start, where to start where to plot?
+
+16:43
+
+Just try. Just try it.
+
+16:46
+
+Now, a scatter plot right
+
+16:50
+
+here is presented for two variables,
+
+16:52
+
+is done for two years.
+
+16:57
+
+You can do it for three variables where the third,
+
+16:58
+
+you can add the third dimension,
+
+17:01
+
+but then it is somewhat different.
+
+17:03
+
+Difficult already.
+
+17:06
+
+To make sense of the pattern,
+
+17:07
+
+what you can do is to present
+
+17:10
+
+a scatterplot matrix, scatter plot matrix.
+
+17:13
+
+These are all of the attributes or
+
+17:18
+
+the variables you construct at matrix.
+
+17:21
+
+These are attributes.
+
+17:27
+
+And then each pair is presented as a scatterplot matrix.
+
+17:31
+
+Each pair of variables, these weak,
+
+17:38
+
+if there is a strong relation between any two,
+
+17:42
+
+then you will spot it.
+
+17:46
+
+For example, right here,
+
+17:47
+
+it's somewhat weak, but it is a
+
+17:49
+
+positive, certainly positive correlation.
+
+17:50
+
+Now, this matrix is symmetric.
+
+17:53
+
+This matrix is symmetric.
+
+17:57
+
+Very useful.
+
+18:01
+
+Next, time series.
+
+18:07
+
+We talked a little bit last time about time series.
+
+18:10
+
+What is good about time series?
+
+18:14
+
+And this is cardiogram.
+
+18:18
+
+Also time-series.
+
+18:21
+
+What is good about time series?
+
+18:24
+
+You can see, you can notice that trend,
+
+18:27
+
+whether it is a cyclic or maybe the seasonal weather.
+
+18:32
+
+Right here, for example.
+
+18:39
+
+You see increased, the value increases in time,
+
+18:42
+
+decreases and times are decreases
+
+18:47
+
+in time or increases in time.
+
+18:49
+
+Or maybe the reasonable pattern you don't know.
+
+18:53
+
+Or in this case,
+
+18:57
+
+maybe it is not changing much.
+
+18:58
+
+But the changes or sell them or major changes a seldom,
+
+19:04
+
+and you don't see a pattern in them.
+
+19:10
+
+But these three are very representative of time series.
+
+19:15
+
+The reason why you may want to use time series.
+
+19:23
+
+Next, everytime I show you,
+
+19:28
+
+I'm trying to go one step further.
+
+19:32
+
+These are the same time series,
+
+19:35
+
+but we also added,
+
+19:38
+
+I don't mean the same as were on the previous,
+
+19:41
+
+on the previous slide,
+
+19:44
+
+but these are also time series.
+
+19:45
+
+But in this case,
+
+19:48
+
+we added color to the representation.
+
+19:49
+
+And if you want to look at
+
+19:53
+
+time series in here per season or per months,
+
+19:56
+
+then it is very easy to see what you want to deliver.
+
+20:00
+
+The temperatures are low right here,
+
+20:05
+
+and towards the center of the temperatures are going up.
+
+20:08
+
+During the day, the temperatures are going up.
+
+20:11
+
+Of course, all of your note that,
+
+20:14
+
+but that's the reason why I showed you
+
+20:16
+
+this hit map for time series right here.
+
+20:19
+
+So you can understand easily how to use it when
+
+20:22
+
+to use waterfall chart.
+
+20:24
+
+Please tell me, did you see this types of
+
+20:32
+
+charts before the waterfall chart?
+
+20:35
+
+Do you see it clearly?
+
+20:40
+
+Right here? Can you see it or you want me to increase?
+
+20:42
+
+Maybe the size like that?
+
+20:45
+
+Never have. Never have.
+
+20:48
+
+Okay.
+
+20:51
+
+Most of you didn't see those Before?
+
+20:52
+
+I haven't seen this charts used very frequently.
+
+20:55
+
+So for some reason they are used quite sold them in yet,
+
+21:04
+
+if you understand how it works,
+
+21:08
+
+it is a great way to present information.
+
+21:11
+
+Let me explain to you how it
+
+21:15
+
+works and you will try to come up with
+
+21:17
+
+examples of where you'd want
+
+21:20
+
+to use this type of waterfall charts.
+
+21:23
+
+I will try to mask the idea of what it can be used for.
+
+21:27
+
+So for example, we started
+
+21:33
+
+with something that is 50 units.
+
+21:35
+
+We gained 40, then we
+
+21:39
+
+gained therapy which resulted with a 120.
+
+21:42
+
+Then we gained 1020 and lost,
+
+21:48
+
+I think it is 50 Atkins and the result is 100.
+
+21:51
+
+Now, this intermediate cause,
+
+21:56
+
+we can make a decision whether you want
+
+21:58
+
+to include an intermediate column.
+
+22:01
+
+You possibly you won't have Amy,
+
+22:03
+
+maybe you will have one or two.
+
+22:05
+
+It's up to you to decide.
+
+22:07
+
+What do you, where do you think
+
+22:10
+
+is a good time to use this type of charts?
+
+22:13
+
+And I just said the changes
+
+22:26
+
+over different time intervals.
+
+22:28
+
+My sensor, where exactly
+
+22:31
+
+stock price, stock price.
+
+22:43
+
+For stock market, it's very representative.
+
+22:47
+
+That's a great way to present the changes.
+
+22:51
+
+Because here you don't really concentrate on the numbers.
+
+22:55
+
+You see in grows quite a bit more.
+
+22:59
+
+Then it goes down.
+
+23:04
+
+And you see what we started with,
+
+23:06
+
+what we ended with.
+
+23:09
+
+So it's a great way to present that type of information.
+
+23:11
+
+Let's continue. Another one
+
+23:20
+
+that you probably have not seen before.
+
+23:24
+
+Let me see.
+
+23:27
+
+Maybe it's not big enough.
+
+23:28
+
+Is it good enough?
+
+23:31
+
+Alright.
+
+23:34
+
+Getting ready.
+
+23:37
+
+I can increase my alright. Spider chart.
+
+23:39
+
+Have you seen this one before? Yes. Okay.
+
+23:47
+
+Some of you did.
+
+23:54
+
+Okay. Now, this is
+
+23:57
+
+something that you want to experiment with.
+
+24:00
+
+What is the spider chart to go into
+
+24:04
+
+show competitor analysis spider term,
+
+24:07
+
+product one, product two, product three.
+
+24:12
+
+We're looking at the three products.
+
+24:17
+
+We are comparing the products or marketing strategy
+
+24:19
+
+or whatever you decide to compare about this products.
+
+24:23
+
+Now, put the number right here,
+
+24:28
+
+a variable, or the number of products in this case,
+
+24:31
+
+should not be large,
+
+24:34
+
+or else you're going to lose information here.
+
+24:36
+
+You will not be able to make sense.
+
+24:40
+
+But when the number is three,
+
+24:43
+
+for example, then it is very nice.
+
+24:45
+
+Now, these are attributes is you notice the number of
+
+24:47
+
+attributes right here is also not very large.
+
+24:51
+
+123456788 is fine.
+
+24:55
+
+I would say maybe five to ten is okay.
+
+25:01
+
+In the number of products inside, in this case,
+
+25:05
+
+or the number of data data points is not large.
+
+25:08
+
+In this case, we have three products
+
+25:15
+
+and we're going to compare them.
+
+25:18
+
+How are they compared in price?
+
+25:20
+
+The green one is for
+
+25:22
+
+the yellow to the blue one now is at $1 to four.
+
+25:26
+
+What do you think it is?
+
+25:32
+
+Some sort of relative scale?
+
+25:38
+
+I don't think it really matters
+
+25:41
+
+what the number is as long as
+
+25:43
+
+we can compare each products to each other.
+
+25:44
+
+True too.
+
+25:47
+
+So it could be some sort of a rating.
+
+25:49
+
+It could be some sort of a relative number, right?
+
+25:51
+
+In this case. But to a lot of times,
+
+25:55
+
+we can't compare when we're dealing with a rating.
+
+25:58
+
+In any case, you can see that the green one wins here.
+
+26:05
+
+Here, there is first advertisement, not so much.
+
+26:10
+
+As far as the service.
+
+26:16
+
+It's at the bottom, well together with a blue one,
+
+26:18
+
+and then so on and so forth.
+
+26:21
+
+So you can go and compare.
+
+26:24
+
+Now, if you're choosing between 23 cars,
+
+26:26
+
+which one you want to buy,
+
+26:31
+
+then probably that's the best thing to do.
+
+26:33
+
+Because it's easy to make a decision in that case.
+
+26:38
+
+Now, look at this one.
+
+26:42
+
+Apple versus Samsung.
+
+26:45
+
+Apple versus Samsung.
+
+26:51
+
+You can represent the same information with a Boucher.
+
+26:56
+
+This is for simpson,
+
+27:00
+
+This is for iPhone. Is it good, bad?
+
+27:02
+
+Well, in this case,
+
+27:05
+
+I really don't care about the bar chart
+
+27:06
+
+because what it compare right here is not comparable.
+
+27:09
+
+What do I compare that display quality to the processor?
+
+27:13
+
+I don't really compare them.
+
+27:18
+
+I can see how they are being rated,
+
+27:20
+
+but it doesn't tell me
+
+27:24
+
+much if I'm trying to make a decision between.
+
+27:26
+
+A symptom phone or iPhone.
+
+27:29
+
+This is a little better.
+
+27:33
+
+As far as the design.
+
+27:35
+
+Most people like Samsung.
+
+27:37
+
+As far as the price?
+
+27:39
+
+Well, they about the same.
+
+27:41
+
+No, I'm not saying it's not my opinion.
+
+27:43
+
+It is not any kind of late time.
+
+27:45
+
+I would say rating.
+
+27:51
+
+It is just I've read in from the chart.
+
+27:53
+
+As far as the camera Samson's cameras better, right here,
+
+27:56
+
+you can see the processor,
+
+28:00
+
+the processors, or about the same.
+
+28:02
+
+So according to this chart,
+
+28:04
+
+it looks like Samsung is better overall.
+
+28:08
+
+Well, it's not true.
+
+28:12
+
+But according to this chart, Samsung is better.
+
+28:14
+
+You can always manipulate your data.
+
+28:19
+
+And if you work for SAMHSA,
+
+28:21
+
+that would be a great church.
+
+28:24
+
+Especially if you know that
+
+28:25
+
+iPhone is better in some areas,
+
+28:28
+
+you can just usefully forget this areas, right?
+
+28:30
+
+So sometimes it depends on how you represent your data.
+
+28:35
+
+You can sell anything to anybody.
+
+28:40
+
+As data scientists, you want it
+
+28:42
+
+to be honest and you want to know,
+
+28:44
+
+especially when somebody's trying to
+
+28:46
+
+sell anything to you,
+
+28:47
+
+you want to be aware of it.
+
+28:49
+
+You try. So let's fill in anything to me.
+
+28:52
+
+You will hurt. You will have a hard time.
+
+28:55
+
+Okay? And I want you to be that way to analyze,
+
+28:57
+
+analyze, do not trust anything.
+
+29:04
+
+Analyze yourself.
+
+29:06
+
+Alright?
+
+29:10
+
+Another kind, parallel coordinates plot.
+
+29:12
+
+Parallel coordinates plot.
+
+29:17
+
+Alright, we have two items,
+
+29:20
+
+a yellow item and a blue item.
+
+29:24
+
+Again, this one is
+
+29:27
+
+useful when you compare and maybe 2-3 for products.
+
+29:29
+
+Now, these are the attributes.
+
+29:38
+
+These are the variables or attributes.
+
+29:41
+
+If you compare, for example,
+
+29:44
+
+you're buying two cars and one is
+
+29:46
+
+the one variables is a mileage and so on and so forth.
+
+29:49
+
+Okay?
+
+29:53
+
+So then you can see how
+
+29:54
+
+they're compared when one is better than the other.
+
+29:57
+
+And on that basis,
+
+30:00
+
+you already can make a decision.
+
+30:02
+
+It is useful when you don't have too many variables.
+
+30:06
+
+It is useful when you don't have too many products.
+
+30:14
+
+Here, you see there are two items.
+
+30:19
+
+That's clear.
+
+30:21
+
+Now.
+
+30:22
+
+This you may say
+
+30:23
+
+it's not clear because you have too many items.
+
+30:26
+
+On the other hand,
+
+30:28
+
+while this one is still good and still clear.
+
+30:30
+
+Because even though these are being different items,
+
+30:33
+
+they all belong to the same cluster of items.
+
+30:37
+
+Then in this case,
+
+30:42
+
+what you want to deliver is how
+
+30:44
+
+Classes.
+
+30:47
+
+You can look into this example more.
+
+30:49
+
+If you look at the following data set,
+
+30:53
+
+a very famous Irish statistic from UCI.
+
+30:56
+
+In fact, you say repository has a lot of datasets.
+
+31:00
+
+And if you ever want to
+
+31:05
+
+do a project or just to play with some data,
+
+31:08
+
+you can always use UCI repository.
+
+31:12
+
+You can find something useful
+
+31:16
+
+for permanently for machine learning projects.
+
+31:17
+
+So this is the famous iris data set.
+
+31:22
+
+The information is collected on the flower on iris.
+
+31:27
+
+That pedal length and so on and so forth.
+
+31:32
+
+If you take a fluorine,
+
+31:37
+
+you don't know which type in which species it belongs to.
+
+31:40
+
+And you plot this,
+
+31:45
+
+the values for the variables on the following chart.
+
+31:48
+
+It will give you for the answer to
+
+31:52
+
+your question which species it most likely belongs to.
+
+31:55
+
+Okay? Because if it follows the yellow pattern,
+
+31:59
+
+then it is this.
+
+32:02
+
+Get exposed in green parents 14 wherever its color,
+
+32:04
+
+then it is insulin.
+
+32:07
+
+Again. Be careful with parallel coordinates.
+
+32:10
+
+So in this case,
+
+32:16
+
+when we have a number,
+
+32:19
+
+of course right here being compared,
+
+32:22
+
+in this case, it's already very difficult to make sense.
+
+32:24
+
+If you are looking at
+
+32:28
+
+the course of the same 10K, for example.
+
+32:30
+
+For example, this three belong to the same, make,
+
+32:33
+
+this 35 belong to a different one,
+
+32:37
+
+but then change the color for them.
+
+32:41
+
+And it will become much more representative.
+
+32:43
+
+Pie charts.
+
+32:51
+
+Well, you can see pie charts are evil. Yes.
+
+32:53
+
+No.
+
+32:59
+
+It's a matter of opinion,
+
+33:00
+
+of course, is a matter of opinion.
+
+33:02
+
+But now, for the following few slides,
+
+33:04
+
+I used this book Storytelling with Data.
+
+33:11
+
+I advise you to look at this book.
+
+33:13
+
+You can read it in probably an hour.
+
+33:18
+
+It is very useful,
+
+33:21
+
+just runs through it.
+
+33:22
+
+And you will see some examples of visuals.
+
+33:25
+
+How to use the wind to use them.
+
+33:29
+
+You may want to find something useful from that book.
+
+33:31
+
+I'm sure you will find something here,
+
+33:36
+
+so it is very,
+
+33:38
+
+very easy to, to read.
+
+33:39
+
+I advise you to, to look into it.
+
+33:42
+
+Again, that the books that I've shown you,
+
+33:44
+
+either they're free or you can
+
+33:48
+
+just connect to your series libraries through VPN.
+
+33:51
+
+And it will allow you to read those books.
+
+33:56
+
+You can always access them was 1.
+
+34:00
+
+Now, the author of
+
+34:03
+
+this book says the pie charts are evil.
+
+34:04
+
+Well, she's very opinionated
+
+34:08
+
+towards or rather against pie charts.
+
+34:10
+
+I wouldn't be saying don't
+
+34:14
+
+use them ever forever and ever.
+
+34:15
+
+She gives some very good examples
+
+34:18
+
+of where pie charts certainly should not be used.
+
+34:21
+
+Especially 3D point shirts,
+
+34:25
+
+three d pie charts are very misleading, very misleading.
+
+34:27
+
+Supply marketshare.
+
+34:33
+
+Look at a and which one is it can be.
+
+34:34
+
+And even, I guess it is a team.
+
+34:39
+
+Which one is greater by hut,
+
+34:43
+
+by how much can we tell from it?
+
+34:45
+
+Now, if we put a percentage right here,
+
+34:48
+
+it looks like this one is.
+
+34:51
+
+And think it chunk.
+
+34:54
+
+But if you still look there,
+
+34:56
+
+then the blue one small.
+
+34:58
+
+So you can see that you're honest, waited,
+
+35:04
+
+and always. As always.
+
+35:06
+
+If you want to lie,
+
+35:09
+
+you're welcome to use this kind of a pie chart.
+
+35:11
+
+What does it say about 2D pie charts?
+
+35:16
+
+Okay, let's get to the 2D pie charts.
+
+35:20
+
+Now, even was 3D pie charts,
+
+35:24
+
+sometimes you can make a point.
+
+35:26
+
+But this is the case where you should
+
+35:29
+
+not use it if you don't want to live with it.
+
+35:31
+
+To d pie charts.
+
+35:33
+
+Now, this one is really just not
+
+35:35
+
+useful because you can not read that.
+
+35:38
+
+Now.
+
+35:41
+
+Can you compare this?
+
+35:42
+
+Well, it's probably as good as
+
+35:44
+
+just simply writing it line by line.
+
+35:46
+
+And these are all the examples from that book.
+
+35:50
+
+And I do advise you to go and
+
+35:54
+
+look through that book. It's very useful.
+
+35:56
+
+Okay?
+
+35:58
+
+Now, this one is a little bit easier to comprehend.
+
+35:59
+
+But so this is the survey results.
+
+36:05
+
+So there was some sort of a training.
+
+36:09
+
+And before the training and after the train.
+
+36:12
+
+The same information is presented as a set
+
+36:18
+
+of two is a set of several Buy Charts.
+
+36:22
+
+The comparison before and after,
+
+36:25
+
+before and after, before imposture.
+
+36:27
+
+This is a better way to deliver, again,
+
+36:29
+
+to deliver the information what you wanted to do,
+
+36:35
+
+you wanted to compare
+
+36:38
+
+the attitude to something before and after.
+
+36:40
+
+This pie chart is telling you about before,
+
+36:45
+
+this one about after.
+
+36:51
+
+Or does it have information in it?
+
+36:52
+
+Yes, it does. But what you want to point out
+
+36:55
+
+is how the attitude to something changed.
+
+36:58
+
+But then you want to
+
+37:03
+
+combined before and after and showed you,
+
+37:06
+
+show the change, right?
+
+37:09
+
+So this one is easy to read.
+
+37:11
+
+Now, suppose you have a bike quite charts,
+
+37:14
+
+just a regular co-chair of that.
+
+37:18
+
+You see a lot of times, let's say,
+
+37:19
+
+a number of female students in
+
+37:23
+
+CS compared to the number of male students.
+
+37:27
+
+Then maybe you will see,
+
+37:32
+
+I don't know the numbers.
+
+37:34
+
+I'm not ready to give you the exact percentage.
+
+37:35
+
+It will be waived worse than that.
+
+37:37
+
+If we're talking about CS Engineering,
+
+37:39
+
+it will be worse than that and we're concerned about it.
+
+37:42
+
+We want to bring more female students.
+
+37:45
+
+But in any case,
+
+37:47
+
+whatever it is, it is a great representation.
+
+37:49
+
+I think in this case,
+
+37:52
+
+pie chart is not evil.
+
+37:53
+
+So when you want to show
+
+37:55
+
+what part of a whole different group is taken.
+
+37:58
+
+And there were not so many groups in the
+
+38:02
+
+very incompatible in sizes than pie charts are good.
+
+38:05
+
+In this case, you would deliver
+
+38:09
+
+the message with the PyCharm.
+
+38:11
+
+That's my opinion.
+
+38:13
+
+You're welcome.
+
+38:15
+
+Too heavy on heatmaps.
+
+38:15
+
+Back to the heatmaps.
+
+38:21
+
+You can use different colors for Heatmaps.
+
+38:26
+
+But do you want to what it is?
+
+38:33
+
+You can tell with this hit map,
+
+38:38
+
+well, there's something run, there's something purple.
+
+38:43
+
+Who knows what they are.
+
+38:45
+
+If I look at the numbers,
+
+38:46
+
+I'll understand the numbers,
+
+38:48
+
+but I might as well live it as
+
+38:49
+
+a table because I don't know how to compare.
+
+38:50
+
+How do you compare this red with this purple?
+
+38:54
+
+I don't know.
+
+38:59
+
+Right? So if you want to give some sort of a comparison,
+
+39:00
+
+then it's better to use
+
+39:04
+
+different shades or different intensity
+
+39:06
+
+of the same color.
+
+39:10
+
+In this case, you deliver
+
+39:12
+
+more information and what you want,
+
+39:13
+
+what you want to tell,
+
+39:17
+
+what you want to
+
+39:19
+
+with the information that you want to give
+
+39:21
+
+the person that is looking at it should be able to
+
+39:25
+
+just look for a second and get your point.
+
+39:27
+
+That's the best type of a visual.
+
+39:32
+
+Now, if I want to know more,
+
+39:37
+
+I will read through it and I will understand,
+
+39:40
+
+of course, what are the differences in someone.
+
+39:43
+
+But I just look and I see,
+
+39:47
+
+alright, this catches my attention.
+
+39:50
+
+Then I see, this is all white.
+
+39:54
+
+Now, I agreed, what are the differences?
+
+39:56
+
+But I see that picture from there. But ready?
+
+39:59
+
+And the last slide,
+
+40:05
+
+again, again a table,
+
+40:08
+
+another table and a heatmap.
+
+40:13
+
+Especially if you're using Python,
+
+40:16
+
+it doesn't take any more than a minute
+
+40:19
+
+to turn this table to this heatmap,
+
+40:22
+
+which is the same table but just enhanced with color.
+
+40:26
+
+Alright, I'm going to stop right now.
+
+40:31

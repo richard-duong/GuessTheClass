@@ -1,0 +1,1477 @@
+00:03
+
+And maybe we can
+
+00:05
+
+start with questions if you have them right now.
+
+00:08
+
+Just about this problem,
+
+00:11
+
+do you have any specific questions?
+
+00:13
+
+So we calculate this
+
+00:17
+
+chi-squared that it's supposed
+
+00:19
+
+to tell us the correlation, correct?
+
+00:21
+
+Like the strength of the correlation.
+
+00:23
+
+O we will get there, we'll get there.
+
+00:25
+
+Who didn't even touch that yet? Yeah.
+
+00:26
+
+German church, you know,
+
+00:29
+
+just the set-up and what question while
+
+00:32
+
+you were answering in what is the null hypothesis?
+
+00:34
+
+What is the alternative hypothesis?
+
+00:37
+
+What we covered last time for
+
+00:39
+
+now? That's more or less clear.
+
+00:41
+
+Alright? So we have data,
+
+00:44
+
+1500 people, we're serving the Jamnagar.
+
+00:47
+
+And what's the type of
+
+00:52
+
+literature they prefer was recorded.
+
+00:54
+
+Our data is right here without
+
+00:58
+
+parentheses to 5050 to 101 thousand.
+
+01:01
+
+This is our data. We wanted to
+
+01:05
+
+answer a question about
+
+01:11
+
+the preferences as far as they're reading.
+
+01:15
+
+It is gender specific.
+
+01:19
+
+Now, our null hypothesis is right here.
+
+01:25
+
+These two attributes are independent.
+
+01:31
+
+Our alternative hypothesis,
+
+01:38
+
+these two attributes are correlated.
+
+01:42
+
+Like we said before, we don't
+
+01:47
+
+know if one depends on the other,
+
+01:50
+
+but we can have the answer to
+
+01:52
+
+the question with some probability
+
+01:56
+
+whether they are correlated or not.
+
+02:00
+
+Null hypothesis two attributes are independent.
+
+02:03
+
+We are going to try to see
+
+02:09
+
+that it is a high probability with the hypermobility,
+
+02:12
+
+we can say, yes, they are independent,
+
+02:17
+
+or we can reject this hypothesis.
+
+02:20
+
+If we reject this hypothesis,
+
+02:25
+
+we will see with the probability of,
+
+02:27
+
+for example, for example,
+
+02:30
+
+5%, we are wrong.
+
+02:32
+
+We rejected this hypothesis.
+
+02:35
+
+And with the probability of,
+
+02:37
+
+let's say 5%, we made a mistake by rejecting it.
+
+02:39
+
+If you've seen before this information in this process,
+
+02:46
+
+we can make two types of mistakes.
+
+02:51
+
+Sometimes they're called type one or alpha,
+
+02:53
+
+and type two or type one mistake,
+
+02:56
+
+rejecting the null hypothesis mistakenly.
+
+03:01
+
+And given false positive study results.
+
+03:06
+
+So we reject mistakenly, we should know.
+
+03:09
+
+And type two, as you can guess,
+
+03:13
+
+we failed to reject the null hypothesis when we should
+
+03:16
+
+have rejected o, right?
+
+03:19
+
+We're going to compute chi-square worker efficient.
+
+03:26
+
+To start with. There is nothing difficult here.
+
+03:31
+
+You're just taken the sum across
+
+03:35
+
+each data 0.1234 entry interests here,
+
+03:39
+
+and we're going to have four terms.
+
+03:44
+
+That will be four terms.
+
+03:47
+
+It's going to be just because we're going to sum across
+
+03:52
+
+the rows and the columns.
+
+03:55
+
+Now, what is this expression?
+
+03:57
+
+This expression is going to tell me
+
+04:01
+
+the relative distance of
+
+04:04
+
+expected value from the observed value.
+
+04:06
+
+The further the expected value from the observed value,
+
+04:10
+
+the higher the probability
+
+04:16
+
+is that these events are dependent.
+
+04:20
+
+Right?
+
+04:26
+
+So we're going to measure this difference.
+
+04:28
+
+When I'm seen difference,
+
+04:32
+
+you can see right here that it is
+
+04:34
+
+the difference squared divided by the expected value.
+
+04:37
+
+But what the idea of the meaning of it,
+
+04:42
+
+we wanted to see how far one is one from another.
+
+04:47
+
+They are very, very close,
+
+04:51
+
+then probably the null hypothesis is correct
+
+04:53
+
+that these attributes are in Japan.
+
+04:56
+
+If we expect, if we
+
+05:01
+
+expected approximately which we received.
+
+05:04
+
+Okay?
+
+05:07
+
+So we have our observed values
+
+05:09
+
+and we need to compute our expected values.
+
+05:13
+
+Of course, when you have this formula
+
+05:17
+
+in front of your eyes,
+
+05:19
+
+it is very easy to do so.
+
+05:20
+
+Well, in this case,
+
+05:25
+
+the contact male times the current of
+
+05:28
+
+fiction for the first entry divided.
+
+05:30
+
+But the total.
+
+05:34
+
+So after we've computed
+
+05:35
+
+all these values, we find chi-square.
+
+05:39
+
+We found this chi-square coefficient.
+
+05:44
+
+Now, we need to
+
+05:47
+
+analyze the value of this chi-square coefficient.
+
+05:49
+
+First, we need to find the degrees
+
+05:54
+
+of freedom of our data.
+
+05:59
+
+The formula is simple.
+
+06:05
+
+The number of rows minus one
+
+06:07
+
+times the number of cones minus1.
+
+06:09
+
+I also explained to you last time what it
+
+06:11
+
+means and why it is
+
+06:15
+
+the number of rows minus one and
+
+06:18
+
+the number of columns minus one.
+
+06:20
+
+We're not going to go any deeper into this,
+
+06:22
+
+but if you want, you can either
+
+06:27
+
+read or we can talk about it.
+
+06:28
+
+In our case, we have two rows, two columns.
+
+06:31
+
+So the degrees of freedom is going to
+
+06:35
+
+be two minus one times two minus one, which is one.
+
+06:38
+
+Right now. We can use the following table.
+
+06:43
+
+The degree of freedom is right here.
+
+06:49
+
+That's the degree of freedom. Here.
+
+06:52
+
+How important for us
+
+06:59
+
+or what probability we are okay with.
+
+07:04
+
+If we want to reject the null hypothesis
+
+07:10
+
+and be mistakenly or
+
+07:15
+
+mistakenly reject this null hypothesis.
+
+07:20
+
+Okay, So if we reject the null hypothesis,
+
+07:24
+
+the recent probability that when made the mistake,
+
+07:28
+
+what is this probability?
+
+07:32
+
+We are OK to live with?
+
+07:34
+
+The smallest one.
+
+07:38
+
+The smallest value is 0.001.
+
+07:41
+
+This is the smallest n, this term.
+
+07:47
+
+So if our value,
+
+07:50
+
+and as you can see it is this value is 10 something,
+
+07:53
+
+and our value was fully greater than that, 500.
+
+07:58
+
+If our value is greater than this film,
+
+08:02
+
+then we are ready to reject the null hypothesis.
+
+08:08
+
+In this case, this is
+
+08:15
+
+the smallest possible probability
+
+08:17
+
+of rejecting and being drawn.
+
+08:21
+
+I can reject with this probability,
+
+08:25
+
+this, this, this, this,
+
+08:28
+
+this is a higher probability that I'm
+
+08:29
+
+wrong if I'm rejecting the null hypothesis.
+
+08:32
+
+You can see this distance between
+
+08:35
+
+the observed and expected value right here is small.
+
+08:38
+
+Again, when I'm seeing distance,
+
+08:42
+
+I don't really mean one minus the
+
+08:44
+
+error according to the formula.
+
+08:47
+
+Is that more or less clear?
+
+08:54
+
+So I, I will tell you,
+
+08:59
+
+I am okay with say, 5%.
+
+09:04
+
+Our probability that i am wrong,
+
+09:08
+
+if I reject the null hypothesis.
+
+09:11
+
+I'm looking at the 5% value in this chirp and
+
+09:15
+
+compare the value that is the lowest that I can reject.
+
+09:24
+
+What? If my value is higher than this value?
+
+09:32
+
+Then I will fit this 5% March.
+
+09:37
+
+It's time for you to tell me something.
+
+09:45
+
+Instead. Instead of going out in,
+
+09:58
+
+maybe pulling people individually,
+
+10:05
+
+you just put the poll out
+
+10:08
+
+there and send a message to a large group of people.
+
+10:09
+
+Maybe I'm like social media.
+
+10:12
+
+I'm gonna necessarily not necessarily just
+
+10:13
+
+look at this word crowd sourcing.
+
+10:16
+
+Yes.
+
+10:34
+
+What else?
+
+10:38
+
+Crowd
+
+10:54
+
+sourcing information.
+
+10:56
+
+Data is created by crowd.
+
+11:11
+
+Alright, so you will look and be ready to name.
+
+11:22
+
+It lists 5-7 sources that we can consider to
+
+11:27
+
+be bill sources that are created by crap.
+
+11:32
+
+You will tell me later about this.
+
+11:40
+
+If I ask you, for example, in the midterm.
+
+11:43
+
+But when you think about this term, crowd-sourcing,
+
+11:47
+
+you will think about some,
+
+11:52
+
+something that is done on internet, right?
+
+11:55
+
+And you would be surprised to where the notion
+
+11:59
+
+of crown sources and current sources in when it started.
+
+12:04
+
+It started actually in,
+
+12:09
+
+I believe, 19 0-6.
+
+12:10
+
+And it began with an ox.
+
+12:13
+
+For something like this guy.
+
+12:18
+
+There was a scientist,
+
+12:21
+
+Francis Galton, who was a relative of Charles Darwin.
+
+12:23
+
+You all know Charles Darwin,
+
+12:27
+
+but for some reason we don't know
+
+12:29
+
+Francis Galton and he's the founder of statistical signs,
+
+12:30
+
+maybe some of our statisticians and class notice me.
+
+12:34
+
+He attended livestock fair.
+
+12:38
+
+The villages where asked to
+
+12:42
+
+guess the weight of a particular ox,
+
+12:46
+
+which is guessing who ever would come
+
+12:52
+
+closer to the weight would get some prize.
+
+12:55
+
+Of course, as people were all over with
+
+12:59
+
+the weight that were very different numbers.
+
+13:02
+
+But when they collected all this data
+
+13:05
+
+in phone to the mean of it,
+
+13:07
+
+the mean was very,
+
+13:10
+
+very close to the weight of the guide,
+
+13:12
+
+was 1178 pounds, and the mean was 1179.
+
+13:16
+
+So you can see how incredibly great
+
+13:25
+
+that is that the rule.
+
+13:29
+
+Sometimes it works, wonders.
+
+13:34
+
+Sometimes you may use
+
+13:40
+
+even if you don't know the answer to your question,
+
+13:43
+
+you may ask the crowd to
+
+13:47
+
+answer your question and then find the mean,
+
+13:50
+
+average or the median,
+
+13:54
+
+depending on what you're looking for.
+
+13:56
+
+But you can try to get the information from Crown.
+
+13:59
+
+What I would like us to try doing right now,
+
+14:05
+
+here's a bottle of orange juice.
+
+14:10
+
+Bottle.
+
+14:15
+
+It's I don't know.
+
+14:16
+
+I can't see like maybe about one liter,
+
+14:18
+
+maybe a little bit more in such bottle.
+
+14:25
+
+And you can see the coins right here, but pennies.
+
+14:29
+
+You can try to imagine that bottle,
+
+14:35
+
+the size of, the size of a penny.
+
+14:38
+
+You can increase the size of the screen.
+
+14:40
+
+You can try to imagine the number cubic centimeter,
+
+14:43
+
+and then multiply by what you think is going to
+
+14:50
+
+be the volume of this part of the bottle.
+
+14:53
+
+So anything is fine.
+
+14:56
+
+I'd like you to try to come up
+
+14:58
+
+with a number of pennies in this bottom.
+
+15:01
+
+I'll give you maybe a couple of minutes for that.
+
+15:03
+
+And then do you know your number on? I learned.
+
+15:07
+
+If you don't, I'll just ask it to go on Google Drive.
+
+15:14
+
+I created a document for you to
+
+15:22
+
+put your number just on the next available room.
+
+15:25
+
+After that, we will ask someone to find the mean.
+
+15:31
+
+So first, I'm going to give you
+
+15:36
+
+two minutes to finger. When you're ready.
+
+15:39
+
+I will ask you to type that number.
+
+15:42
+
+And then we'll find the mean and
+
+15:46
+
+we'll see if we're close or not.
+
+15:48
+
+Okay.
+
+15:49
+
+Go oh, professor.
+
+15:50
+
+Document is the only it's on Google Drive.
+
+15:53
+
+Now what we can see the document view only.
+
+15:59
+
+We can't edit it.
+
+16:03
+
+Oh, it's you only I certainly if tempted.
+
+16:04
+
+Yeah.
+
+16:28
+
+Right.
+
+17:07
+
+Be reasonable numbers, okay,
+
+17:38
+
+don't just type random numbers thinking about it.
+
+17:41
+
+Guys, just remember, don't type random numbers.
+
+17:50
+
+Try to analyze what some dead bottle, what can be there?
+
+17:56
+
+How is that not random if we have no data?
+
+18:07
+
+You do, you can imagine
+
+18:11
+
+the bottle not type random numbers.
+
+18:13
+
+I think your type and just some
+
+18:17
+
+of your type and random numbers.
+
+18:18
+
+Can we go with the volume of a penny?
+
+18:21
+
+But you don't need to try to just
+
+18:28
+
+imagine how many pennies you're going to have an a cubit.
+
+18:32
+
+I don't know either centimeter or two-by-two centimeters,
+
+18:35
+
+which is going to be that.
+
+18:39
+
+What I did was I looked online like
+
+18:43
+
+how many pennies are in a jar and I visually and they
+
+18:49
+
+told me they answer the how many pennies are in that jar.
+
+18:52
+
+Kind of gauge.
+
+18:55
+
+What I saw in line. What I'm saying here,
+
+18:57
+
+to make my estimation.
+
+19:00
+
+That's fine to do the machine learning on yourself.
+
+19:02
+
+You want our student IDs next to our guests?
+
+19:25
+
+Oh no, no, no. Of course not.
+
+19:29
+
+You shouldn't be showing you a student IDs to anyone?
+
+19:35
+
+Except for me.
+
+19:41
+
+Well, I wasn't sure because there
+
+19:43
+
+was a bunch of them on the dock.
+
+19:45
+
+No, no, no, no, no, no. When I sit and I
+
+19:46
+
+learned I just meant that order so you
+
+19:51
+
+don't collide in rows.
+
+19:53
+
+Sometimes two people may try to edit
+
+19:57
+
+the same row. Number 13.
+
+20:00
+
+You mister, you deliberately didn't want to put anything.
+
+20:07
+
+And then 2529 and we're done.
+
+20:15
+
+Are you ready
+
+20:26
+
+to finish?
+
+20:38
+
+Didn't put enough effort into the entire course?
+
+20:46
+
+I don't think any one of us can speak to
+
+20:52
+
+the completion of the entire class.
+
+20:54
+
+So I'm just talking
+
+20:57
+
+I'm just asking you if somebody says no, I'm not done.
+
+20:59
+
+That means when I'm done.
+
+21:05
+
+So those that were trying completed, right?
+
+21:12
+
+Okay. Now, somebody please include the valuable.
+
+21:18
+
+There are more coming.
+
+21:29
+
+Include the values from
+
+21:31
+
+the last rows into the missing rows.
+
+21:33
+
+Instead.
+
+21:34
+
+Just copy
+
+21:35
+
+them and find the average.
+
+21:36
+
+Oh, I got the average right here, 143343.
+
+21:46
+
+No-no. Eight it says right here, 843.36 coins.
+
+21:53
+
+Yeah.
+
+22:00
+
+843. Yes.
+
+22:02
+
+We failed the test.
+
+22:04
+
+Wait, we don't know yet because how much do you have?
+
+22:07
+
+I answered by a lot.
+
+22:18
+
+Do you want me double-dot, isn't it?
+
+22:21
+
+Okay, I'm going to delete all this data.
+
+22:25
+
+And I'm going to give you one more chance.
+
+22:28
+
+Where instead of guessing,
+
+22:33
+
+because I notice that I ask you
+
+22:36
+
+a question and I noticed some numbers started showing up.
+
+22:39
+
+That means those students were guessing simply,
+
+22:42
+
+I didn't ask you to guess.
+
+22:45
+
+Remember? I asked you to reason
+
+22:46
+
+about it because guess and it's not going to do anything.
+
+22:49
+
+So I will delete it and I will give you one more chance.
+
+22:53
+
+Alright, here we go.
+
+22:59
+
+You can even count the number.
+
+23:32
+
+If you look at the front right,
+
+23:37
+
+you know the number is way more than what?
+
+23:41
+
+To some students at typing.
+
+23:43
+
+Hey, okay. Okay. Okay.
+
+23:50
+
+Did you give a specification for the volume
+
+24:11
+
+of the bottle or is that supposed to be unknown?
+
+24:14
+
+I didn't give a specification,
+
+24:16
+
+but you should be able to imagine
+
+24:19
+
+the regular bottle of orange juice to get to answers.
+
+24:22
+
+Thank you.
+
+24:27
+
+Any more answers?
+
+24:59
+
+They were more before.
+
+25:07
+
+Last chance. Yes-no.
+
+25:18
+
+Everybody's done.
+
+25:22
+
+Please copy from the bottom rows up or I didn't know.
+
+25:24
+
+As long as you divide by
+
+25:30
+
+the correct number, it doesn't matter.
+
+25:32
+
+It looks like the new averages,
+
+25:46
+
+1900, then you average is nineteen hundred.
+
+25:49
+
+Nineteen hundred.
+
+25:54
+
+I'll tell you the exact number.
+
+26:04
+
+I was close.
+
+26:15
+
+That was very close.
+
+26:17
+
+I'm surprised. You didn't
+
+26:19
+
+know you didn't see any information about this.
+
+26:23
+
+You didn't see the steps before.
+
+26:27
+
+Next time I'll make my own Jarvis paintings.
+
+26:30
+
+I was going to, but in this covered world,
+
+26:34
+
+you don't know where to go, where to get stuff.
+
+26:38
+
+Well, it's actually it's kind of
+
+26:42
+
+like one of the entries is 4500.
+
+26:44
+
+All right. So I think
+
+26:47
+
+they really wanted to push the average.
+
+26:49
+
+They were mad at the group.
+
+26:52
+
+It's possible for someone.
+
+26:54
+
+I didn't see.
+
+27:00
+
+Oh, I think I think that treated it before.
+
+27:02
+
+I did the average function.
+
+27:04
+
+So sometimes you may want to delete Outliers,
+
+27:06
+
+look at outliers from both sides.
+
+27:11
+
+But I didn't know.
+
+27:14
+
+I'm surprised. I've never
+
+27:16
+
+seen I did this test last quarter.
+
+27:17
+
+We didn't have as close.
+
+27:20
+
+Wasn't that bad, but it was really close right now.
+
+27:23
+
+So you think that it doesn't make sense to
+
+27:26
+
+ask everybody and then
+
+27:31
+
+tried to find some meaningful information.
+
+27:33
+
+You would be surprised. Sometimes it works,
+
+27:35
+
+but you need to know
+
+27:38
+
+that cases when it does, when it does.
+
+27:40
+
+Okay. So I'm going to let you go.
+
+27:44
+
+I entertained you a little bit right now.
+
+27:48
+
+Hope you didn't.
+
+27:50
