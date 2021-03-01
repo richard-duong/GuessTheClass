@@ -14,7 +14,7 @@ class ParseHandler:
     def __writeFile(self, destFile):
         with open(destFile, "w") as outFile:
             for word in self.__wordsList:
-                outFile.write("{}\n".format(word))
+                outFile.write("{}\n".format(word.lower()))
 
     def parse(self, srcFile, destFile):	
         self.__parseFile(srcFile)
