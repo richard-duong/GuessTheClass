@@ -145,6 +145,7 @@ Table of Contents
 * Develop Youtube Playlist caption downloader
 * Understand standard Python development practices
 * Generate toy datasets
+* YouReader class
 
 
 
@@ -154,10 +155,3 @@ Table of Contents
 <h3>Actions</h3>
 
 
-
-
-<h3>Before next meeting</h3>
-
-* Hierarchical clustering applications
-* CSV -> Parser function
-* Automate class
