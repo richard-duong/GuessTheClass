@@ -1,25 +1,30 @@
 # Guess The Class
-A CS105 Project that classifies and characterizes class lectures based on frequency of words.<br>
-Made by Shreya and Richard<br>
-[Link to the Github Repository Here](https://github.com/richard-duong/ClassIdentifier)<br><br>
+A CS105 Project that classifies and characterizes lectures based on frequency of words.<br>
+Made by Shreya Balaji, Benson Wan, and Richard Duong<br>
+[Link to the Github Repository Here](https://github.com/richard-duong/GuessTheClass)<br><br>
 
 ----------------------
 <a name="overview"/>
+
+
+
 
 Overview
 ========
 
 <h3>Objectives</h3>
 
-* Reach out to professors from different disciplines to gather videos with transcriptions
-* Gather data from the 10min - 15min time region, and the 20min - 25min time region
-* Clean data appropriately for each time region
-* Parse and poll data to generate frequency counts of each word
-* Create a CSV or XLSX or JSON file appropriately to store data
-* Analyze data and begin classifying new data to trained datasets
+* Gather a number of lecture links/playlists from YouTube under 7 different categories
+* Download transcripts from these lectures
+* Clean transcripts and filter out timestamps, punctuation, and actions indicated by brackets
+* Vectorize documents using bag of words, IDF-TF, and bigram models
+* Train vectors using unsupervised learning hierarchical clustering into 7 top level clusters and confirm accuracy
+* Test with random documents and develop metrics
 
 ------------------------------
 <a name="table-of-contents"/>
+
+
 
 
 
@@ -33,6 +38,13 @@ Table Of Contents
 Additional Documents
 ====================
 1. [Timeline](docs/timeline.md)
+2. [Class Design Document](docs/design.pdf)
+
+
+
+
+
+
 
 -------------------
 <a name="preface"/>
