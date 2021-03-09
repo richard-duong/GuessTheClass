@@ -118,10 +118,10 @@ $ python3 example.py
 
 If you have your own existing dataset that you want to test:
 1. Put your YouTube links into "data/links.csv"
-2. You can build your captions dataset using our package using the example below
+2. You can build your captions dataset with the example below
 
 <p align="center">
-          <img src="docs/example_program.png" width="500" height="500"/>
+          <img src="docs/example_program.png"/>
 </p>
 <br>
 
