@@ -24,10 +24,15 @@ Table Of Contents
 3. [Introduction](#introduction)<br>
 4. [How to use](#how-to-use)
 6. [References](#references)<br>
+<br><br>
 
-Additional Documents
-====================
-1. [Timeline](docs/timeline.md)
+
+<h3>Additional Documents</h3>
+
+1. [Timeline](docs/timeline.md)<br>
+2. [Assignment Specifications](docs/specs.pdf)<br>
+3. [Project Proposal](docs/proposal.pdf)<br>
+4. [Design Document](docs/design.pdf)<br>
 
 
 
@@ -35,6 +40,9 @@ Additional Documents
 
 ---------------------
 <a name="introduction"/>
+
+Introduction
+============
 
 
 
