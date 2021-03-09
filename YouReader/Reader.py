@@ -17,10 +17,7 @@ class Reader:
     def __init__(self) -> None:
         pass
 
-    def download_csv_captions(self, raw_path: str = path.RAW, links: str = path.LINKS) -> list: 
-        
-        with open(path.COLLECTION, "r") as data:
-            collection = json.load(data)
+    def download_csv_captions(self, links: str = path.LINKS) -> list: 
 
         df = pd.read_csv(links)
        
@@ -37,12 +34,3 @@ class Reader:
         #       -> notes
         #       -> link
 
-
-    def 
-
-    
-    
-
-
-    
- 

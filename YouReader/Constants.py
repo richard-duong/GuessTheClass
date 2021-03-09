@@ -19,11 +19,8 @@ class regex:
 
 
 class path:
-    DATA = "../data/"
-    RAW = "../data/raw"
-    CLEAN = "../data/clean/"
-    COLLECTION = "../data/collection.json"
     LINKS = "../data/links.csv"
+    EXAMPLE= "../data/example.csv"
 
     def __init__(self):
         pass

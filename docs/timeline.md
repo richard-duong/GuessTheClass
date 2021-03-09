@@ -74,7 +74,7 @@ Table of Contents
 * Created an email template for mass emailing
 * Created a word frequency count program
 
-<h3> Before next meeting</h3>
+<h3>Before next meeting</h3>
 
 * Create google form that professors can send links to
 * Send out emails
@@ -84,4 +84,85 @@ Table of Contents
 
 
 
+---------------------------------------
+<br><a name="meeting4"/>
+<h2>Meeting 4 - 03/01/21</h2>
+<h3>Actions</h3>
+
+* Generated bigram model
+* Completed FileHandler automating cleaning process
+* Revising Design Document and adjusting to unsupervised learning
+* Responding to emails on a daily basis
+
+<h3>Before next meeting</h3>
+
+* Create TF-IDF model
+* Send out an email update regarding privacy concerns
+* Begin transcribing datasets
+* Create Project Proposal
+* Work on CSV generating program
+* Convert notebooks to functions in the Automate Class
+* Look into applying hierarchical clustering for unsupervised learning
+* Look into other NLP alternatives for supervised learning
+
+
+
+
+---------------------------------------
+<br><a name="meeting5"/>
+<h2>Meeting 5 - 03/02/21</h2>
+<h3>Actions</h3>
+
+* Changed our data collection to target YouTube Lectures
+* Began collecting youtube playlists and datasets
+* Sending out emails regarding change of plans
+* Working on TF-IDF models
+
+<h3>Before next meeting</h3>
+
+* Complete responses to emails
+* Find and collect playlists of data
+* Work on CSV Generation
+* Develop Project Proposal
+* Work on Automate Class
+* Look into standard Python development practices
+
+
+
+---------------------------------------
+<br><a name="meeting6"/>
+<h2>Meeting 6 - 03/04/21</h2>
+<h3>Actions</h3>
+
+* Finished TF-IDF models for bag-of-words and bigrams
+* Collected YouTube playlists (needs some modifications)
+* Finished sending out project update emails to professors
+* Submitted Project Proposal
+
+<h3>Before next meeting</h3>
+
+* Update cleaning/parser for YouTube transcripts
+* Develop Youtube Playlist caption downloader
+* Understand standard Python development practices
+* Generate toy datasets
+* YouReader class
+
+
+
+--------------------------------------
+<br><a name="meeting7"/>
+<h2>Meeting 7 - 03/05/21</h2>
+<h3>Actions</h3>
+
+* Created stubs for YouReader class
+* Organizes file structure
+* Finished video downloader from Youtube
+* Revising regex parser to clean captions
+* Created requirements.txt and scripts for setup
+
+<h3>Before next meeting</h3>
+
+* Finish playlist downloader
+* Finish regex parser
+* Test hierarchical clustering
 
