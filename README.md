@@ -40,7 +40,7 @@ How to use
 This repository contains sample data extracted from YouTube. The directory structure is as follows:
 ```
 YouReader/                  # custom python package for extracting captions
-docs/                       # documents, graphics, and other Resources
+docs/                       # documents, graphics, and other resources
 notebooks/                  # notebooks for graphics
 scripts/                    # setup scripts
 tests/                      # unit and integration tests
