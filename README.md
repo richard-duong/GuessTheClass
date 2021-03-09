@@ -1,9 +1,9 @@
 # Guess The Class
-A CS105 Project that classifies and characterizes class lectures based on frequency of words.<br>
-Project developed by Shreya Balaji, Benson Wan, and Richard Duong<br>
+A CS105 Project that classifies and characterizes class lectures based on word frequency.<br>
+Project developed by Shreya Balaji, Benson Wan, and Richard Duong.<br>
 [Link to the Github Repository Here](https://github.com/richard-duong/ClassIdentifier)<br><br>
 
-----------------------
+--------------------
 <a name="overview"/>
 
 Overview
@@ -29,6 +29,12 @@ Additional Documents
 ====================
 1. [Timeline](docs/timeline.md)
 
+
+
+
+
+---------------------
+<a name="introduction"/>
 
 
 
@@ -110,23 +116,13 @@ $ python3 example.py
 <br>
 
 
-If you have your own existing dataset that you want to test,
-you can put your video and playlist links into "data/links.csv"
-and build an example program like this:
+If you have your own existing dataset that you want to test:
+1. Put your YouTube links into "data/links.csv"
+2. You can build your captions dataset using our package using the example below
 
-```
-from YouReader import Reader
-
-reader = Reader()
-dataset = reader.download_csv_captions("../data/links.csv")       # returns a dictionary of transcriptions by video id
-
-for id,data in dataset:
-  print(id)                    # unique YouTube video id
-  print(data["raw"])           # raw captions
-  print(data["clean"])         # cleaned captions
-  print(data["link"])          # link to YouTube video
-  print(data["notes"])         # notes with the source
-```
+<p align="center">
+          <img src="docs/example_program.png" width="500" height="500"/>
+</p>
 <br>
 
 -------------------
