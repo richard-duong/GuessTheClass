@@ -154,4 +154,15 @@ Table of Contents
 <h2>Meeting 7 - 03/05/21</h2>
 <h3>Actions</h3>
 
+* Created stubs for YouReader class
+* Organizes file structure
+* Finished video downloader from Youtube
+* Revising regex parser to clean captions
+* Created requirements.txt and scripts for setup
+
+<h3>Before next meeting</h3>
+
+* Finish playlist downloader
+* Finish regex parser
+* Test hierarchical clustering
 
