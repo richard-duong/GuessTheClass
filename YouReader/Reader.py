@@ -9,6 +9,7 @@ from pytube import YouTube
 from Constants import prefix
 from Constants import regex
 from Constants import path
+from ParseHandler import Parser
 
 
 
@@ -17,7 +18,7 @@ class Reader:
     def __init__(self) -> None:
         pass
 
-    def download_csv_captions(self, links: str = path.LINKS) -> list: 
+    def download_csv_captions(self, links: str = path.LINKS) -> dict: 
 
         df = pd.read_csv(links)
        
