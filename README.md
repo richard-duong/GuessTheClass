@@ -112,22 +112,20 @@ $ python3 example.py
 
 If you have your own existing dataset that you want to test,
 you can put your video and playlist links into "data/links.csv"
-and use our package like this
+and build an example program like this:
 
 ```
 from YouReader import Reader
 
 reader = Reader()
-reader.download_csv_captions("../data/links.csv")       # downloads links from links.csv to raw.json
-reader.clean_captions()                                 # cleans captions from raw.json to clean.json
-dataset = reader.get_clean()                            # retrieves dictionary of clean data
+dataset = reader.download_csv_captions("../data/links.csv")       # returns a dictionary of transcriptions by video id
 
 for id,data in dataset:
-  print(id)                                             # unique YouTube video id
-  print(data["raw"])                                    # raw captions
-  print(data["clean"])                                  # cleaned captions
-  print(data["link"])                                   # link to YouTube video
-  print(data["notes"])                                  # notes with the source
+  print(id)                    # unique YouTube video id
+  print(data["raw"])           # raw captions
+  print(data["clean"])         # cleaned captions
+  print(data["link"])          # link to YouTube video
+  print(data["notes"])         # notes with the source
 ```
 <br>
 
