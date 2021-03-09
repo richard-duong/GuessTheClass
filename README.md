@@ -46,9 +46,8 @@ scripts/                    # setup scripts
 tests/                      # unit and integration tests
 data/                       # collected data
           links.csv         # input file for links
-          example.csv       # example input file for links
-          raw.json          # json containing raw captions
-          clean.json        # json containing cleaned captions
+          example.csv       # example input file
+          data.json         # downloaded and cleaned data
 ```
 <br><br>
 
@@ -69,23 +68,27 @@ If you have not generated the virtual environment yet, follow these steps.
 Move to project directory
 $ cd GuessTheClass
 
-[Linux, Mac, Windows] To generate a virtual environment
+[Linux, Mac, Windows]
+To generate a virtual environment
 $ scripts/setup.sh
 
-[Git Bash on Windows] To generate a virtual environment
+[Git Bash on Windows]
+To generate a virtual environment
 $ scripts/winsetup.sh
 ```
 <br>
 
 ### Steps (General Setup)
-After you have created the virtual environment, you can use these commands for the virtual environment.
-Run this if you're planning on running any python scripts using the package.
+After setting up the virtual environment for the first time,
+Run these commands to load up the virtual environment.
 
 ```
-[Linux, Mac, Windows] Load the virtual environment
+[Linux, Mac, Windows]
+Load the virtual environment
 $ source env/bin/activate
 
-[Git Bash on Windows] Load the virtual environment
+[Git Bash on Windows]
+Load the virtual environment
 $ source env/Scripts/activate
 
 Disable the virtual environment
@@ -105,8 +108,8 @@ $ python3 example.py
 
 
 If you have your own existing dataset that you want to test,
-you can put video and playlist links into "data/links.csv"
-and generate a python program like this
+you can put your video and playlist links into "data/links.csv"
+and use our package like this
 
 ```
 from YouReader import Reader
@@ -117,16 +120,12 @@ reader.clean_captions()                                 # cleans captions from r
 dataset = reader.get_clean()                            # retrieves dictionary of clean data
 
 for id,data in dataset:
-  print(id)                           # unique YouTube video id
-  print(data["raw"])                  # raw captions
-  print(data["clean"])                # cleaned captions
-  print(data["link"])                 # link to YouTube video
-  print(data["notes"])                # notes with the source
+  print(id)                                             # unique YouTube video id
+  print(data["raw"])                                    # raw captions
+  print(data["clean"])                                  # cleaned captions
+  print(data["link"])                                   # link to YouTube video
+  print(data["notes"])                                  # notes with the source
 ```
-
-
-
-
 
 
 -------------------
