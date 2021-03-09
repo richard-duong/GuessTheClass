@@ -49,13 +49,16 @@ data/                       # collected data
           example.csv       # example input file
           data.json         # downloaded and cleaned data
 ```
-<br><br>
+<br>
 
 ### Steps (Prerequisites)
 Before you can use and test code from this project, you will need the following installed on your system:
-1. [python 3.7](https://www.python.org/downloads/)
-2. [pip](https://pip.pypa.io/en/stable/installing/)
-3. **Optional if you want to generate graphics with notebooks** [Anaconda](https://www.anaconda.com/products/individual) or [Jupyter Notebook](https://jupyter.org/install.html)
+* [python 3.7](https://www.python.org/downloads/)
+* [pip](https://pip.pypa.io/en/stable/installing/)
+<br>
+
+Optional if you want to generate graphics with notebooks
+* [Anaconda](https://www.anaconda.com/products/individual) or [Jupyter Notebook](https://jupyter.org/install.html)
 <br>
 
 ### Steps (First Time Setup)
@@ -126,7 +129,7 @@ for id,data in dataset:
   print(data["link"])                                   # link to YouTube video
   print(data["notes"])                                  # notes with the source
 ```
-
+<br>
 
 -------------------
 <a name="preface"/>
