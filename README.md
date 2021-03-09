@@ -53,8 +53,8 @@ data/                       # collected data
 
 ### Steps (Prerequisites)
 Before you can use and test code from this project, you will need the following installed on your system:
-* [python 3.7](https://www.python.org/downloads/)
-* [pip](https://pip.pypa.io/en/stable/installing/)
+* [Python 3.7](https://www.python.org/downloads/)
+* [pip - The Python Package Installer](https://pip.pypa.io/en/stable/installing/)
 <br>
 
 Optional if you want to generate graphics with notebooks
