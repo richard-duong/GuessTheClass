@@ -85,8 +85,9 @@ If you have not generated the virtual environment yet, follow these steps.
 Move to project directory
 $ cd GuessTheClass
 
-[Linux, Mac, Windows]
+[Linux, MacOS]
 To generate a virtual environment
+$ chmod +x scripts/setup.sh
 $ scripts/setup.sh
 
 [Git Bash on Windows]
@@ -100,7 +101,7 @@ After setting up the virtual environment for the first time,
 Run these commands to load up the virtual environment.
 
 ```
-[Linux, Mac, Windows]
+[Linux, MacOS]
 Load the virtual environment
 $ source env/bin/activate
 
