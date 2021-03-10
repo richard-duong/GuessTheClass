@@ -155,7 +155,7 @@ Table of Contents
 <h3>Actions</h3>
 
 * Created stubs for YouReader class
-* Organizes file structure
+* Organized file structure
 * Finished video downloader from Youtube
 * Revising regex parser to clean captions
 * Created requirements.txt and scripts for setup
@@ -163,6 +163,27 @@ Table of Contents
 <h3>Before next meeting</h3>
 
 * Finish playlist downloader
-* Finish regex parser
+* Finish caption parser for YouTube videos
 * Test hierarchical clustering
+
+
+
+
+--------------------------------------
+<br><a name="meeting8"/>
+<h2>Meeting 8 - 03/09/21</h2>
+<h3>Actions</h3>
+
+* Revised YouReader Class to be more dynamic
+* Updated README.md with a setup guide
+* Adjusted caption parser for YouTube videos
+
+
+<h3> Before next meeting</h3>
+
+* Develop presentation slides
+* CSV reader 
+* Integrate previous programs into YouReader
+* Revise scripts for Windows machines
+
 

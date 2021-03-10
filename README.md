@@ -58,6 +58,7 @@ docs/                       # documents, graphics, and other resources
 notebooks/                  # notebooks for graphics
 scripts/                    # setup scripts
 tests/                      # unit and integration tests
+old/						# old, unused development code
 data/                       # collected data
           links.csv         # input file for links
           example.csv       # example input file
