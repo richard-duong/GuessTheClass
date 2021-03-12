@@ -12,14 +12,12 @@ from pytube import Playlist
 from YouReader.Constants import prefix
 from YouReader.Constants import regex
 from YouReader.Constants import path
-from YouReader.ParseHandler import Parser
-
 
 
 class Reader:
 
     def __init__(self) -> None:
-        self.data = {}
+        self.data = dict()
         pass
 
 
@@ -69,7 +67,7 @@ class Reader:
 
     # cleans raw caption
     def __get_clean_caption__(self, caption: str = "") -> str:
-        reg = regex.INDEX + "|" + regex.TIME + "|" regex.ACTION + "|" regex.PUNCT + "|" regex.SPEAKER
+        reg = regex.INDEX + "|" + regex.TIME + "|" + regex.ACTION + "|" + regex.PUNCT + "|" + regex.SPEAKER
         caption = re.sub(reg, "", caption)
         caption = caption.lower()
         return caption

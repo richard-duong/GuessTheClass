@@ -179,11 +179,28 @@ Table of Contents
 * Adjusted caption parser for YouTube videos
 
 
-<h3> Before next meeting</h3>
+<h3>Before next meeting</h3>
 
 * Develop presentation slides
 * CSV reader 
 * Integrate previous programs into YouReader
 * Revise scripts for Windows machines
 
+
+
+
+-------------------------------------
+<br><a name="meeting9"/>
+<h2>Meeting 9 - 03/11/21</h2>
+<h3>Actions</h3>
+
+* Integrated Playlist and Parser into YouReader class
+* Experimented with hierarchical clustering
+*
+
+<h3>Before next meeting</h3>
+
+* Develop unit and integration tests for YouReader
+* Begin using playlist/video links to generate dataset
+* 
 
