@@ -58,11 +58,11 @@ docs/                       # documents, graphics, and other resources
 notebooks/                  # notebooks for graphics
 scripts/                    # setup scripts
 tests/                      # unit and integration tests
-old/						# old, unused development code
+old/		        # old, unused development code
 data/                       # collected data
           links.csv         # input file for links
           example.csv       # example input file
-          data.json         # downloaded and cleaned data
+          save.json         # downloaded and cleaned data
 ```
 <br>
 
@@ -76,7 +76,7 @@ Optional if you want to generate graphics with notebooks
 * [Anaconda](https://www.anaconda.com/products/individual) or [Jupyter Notebook](https://jupyter.org/install.html)
 <br>
 
-### Steps (First Time Setup)
+### Steps (First Time Installation)
 To use this package, you'll have to generate a virtual environment to download the prerequisite python libraries.
 If you have not generated the virtual environment yet, follow these steps.
 1. Download and extract the code
@@ -84,12 +84,11 @@ If you have not generated the virtual environment yet, follow these steps.
 
 ```
 Move to project directory
+=========================
 $ cd GuessTheClass
 
-
-
 To generate a virtual environment
-
+=================================
 [Linux, MacOS]
 $ chmod +x scripts/setup.sh
 $ scripts/setup.sh
@@ -105,11 +104,11 @@ $ scripts/winsetup.sh
 
 ### Steps (General Setup)
 After setting up the virtual environment for the first time,
-Run these commands to load up the virtual environment.
+Run these commands to load up the virtual environment before you start using our package.
 
 ```
 Load the virtual environment
-
+============================
 [Linux, MacOS]
 $ source env/bin/activate
 
@@ -120,26 +119,25 @@ $ source env/Scripts/activate
 > "env/Scripts/activate.bat" 
 
 
-
 Disable the virtual environment
+===============================
 $ deactivate
 ```
 <br>
 
 ### How to run
 If you want to run our program and use the existing dataset,
-you can run example.py in the project directory
+you can use the template notebook in the notebook/ directory
 
 ```
-$ cd GuessTheClass
-$ python3 example.py
+GuessTheclass/notebooks/template.ipynb
 ```
 <br>
 
 
 If you have your own existing dataset that you want to test:
 1. Put your YouTube links into "data/links.csv"
-2. You can build your captions dataset with the example below
+2. You can build your captions dataset using the example below
 
 <p align="center">
           <img src="docs/example_program.png"/>
