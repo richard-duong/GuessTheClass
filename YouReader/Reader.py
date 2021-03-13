@@ -15,10 +15,16 @@ from YouReader.Constants import regex
 from YouReader.Constants import path
 
 
+# notes to come back to:
+# - add a verbose flag for download_csv_captions()
+# - reformat seconds in the time print for download_csv_captions()
+
+
 class Reader:
 
-    def __init__(self) -> None:
+    def __init__(self, code: str = "en") -> None:
         self.data = dict()
+        self.code = code
         pass
 
 
@@ -38,8 +44,9 @@ class Reader:
                 
 
     # retrieves caption from unique youtube id
-    def __get_raw_caption__(self, unique_link: str, code: str = "en") -> str:
+    def __get_raw_caption__(self, unique_link: str) -> str:
         source = YouTube(unique_link)
+        code = self.code
 
         # custom user code captions
         if code != "en" and code in source.captions:
@@ -152,15 +159,24 @@ class Reader:
         return [data[key]["notes"] for key in data if data[key]["raw"] != ""]
 
     # converts data to a dataframe with keys as columns, indexed by id
-    def to_dataframe(self) -> pd.DataFrame
-        df = pd.Dataframe(self.data)
-        return df.transpose()
+    def to_dataframe(self) -> pd.DataFrame:
+        df = pd.DataFrame(self.data)
+        df_trans = df.transpose()
+        df_filter = df_trans[df_trans["raw"] != ""]
+        return df_filter
 
+    # erases keys/data for videos that do not have the desired transcripts
+    def erase_unused(self) -> list:
+        keys_set = set(self.get_list_keys())
+        new_data = {key:val for key, val in self.data.items() if key in keys_set}        
 
     # downloads all captions from csv file and returns dictionary
-    def download_csv_captions(self, csv_file: str = path.LINKS) -> None:  
+    def download_csv_captions(self, csv_file: str = path.LINKS, code: str = "") -> None:  
         count = 0 
         start_time = time.time()
+        
+        if str != "":
+            self.code = code
     
         with open(csv_file) as inFile:
             data = csv.DictReader(inFile)
@@ -169,7 +185,7 @@ class Reader:
 
                 count += 1
                 video_time = time.time()
-                print("Downloading video number ", count, ": ", row["subject"], " - ", row["notes"])
+                print("Downloading video number", count, ":\t", row["subject"], " - ", row["notes"])
 
                 # if user inserted video
                 if prefix.VIDEO in row['link']:
