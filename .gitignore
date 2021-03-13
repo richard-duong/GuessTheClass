@@ -1,3 +1,7 @@
+# Data files
+data/file.json
+
+
 # Virtual Environment
 env/
 
@@ -15,3 +19,5 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
+
+

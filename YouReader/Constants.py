@@ -21,9 +21,9 @@ class regex:
 
 
 class path:
-    LINKS = "../data/links.csv"
-    EXAMPLE= "../data/example.csv"
-    SAVE = "../data/save.json"
+    LINKS = "data/links.csv"
+    EXAMPLE= "data/example.csv"
+    SAVE = "data/save.json"
 
     def __init__(self):
         pass
