@@ -74,12 +74,11 @@ class Reader:
         unique_link = self.__get_unique_link__(unique_id)
         raw = self.__get_raw_caption__(unique_link)
         clean = self.__get_clean_caption__(raw)
-        if raw != "":
-            entry["link"] = unique_link
-            entry["subject"] = subject
-            entry["notes"] = notes
-            entry["raw"] = raw
-            entry["clean"] = clean
+        entry["link"] = unique_link
+        entry["subject"] = subject
+        entry["notes"] = notes
+        entry["raw"] = raw
+        entry["clean"] = clean
         return entry
                 
 
