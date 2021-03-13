@@ -8,14 +8,13 @@ class prefix:
     def __init__(self):
         pass
 
-
 class regex:
     INDEX = r"[\d]+\n"
     TIME = r"\d\d:\d\d:\d\d,\d\d\d \-\-\> \d\d:\d\d:\d\d,\d\d\d\n"
-    PUNCT = r"[?,.]"
-    ACTION = r"\[[a-zA-Z]+\]"
-    SPEAKER = r"[a-zA-Z]+:"
-    IDENTIFIER = r"watch?v=([a-zA-Z0-9]+)"
+    PUNCT = r"[?,.!]"
+    ACTION = r"\[[a-zA-Z]+\]\n\n"
+    SPEAKER = r"[a-zA-Z]+: "
+    ID = r"[a-zA-Z0-9_-]{10}[048AEIMQUYcgkosw]"
 
     def __init__(self):
         pass

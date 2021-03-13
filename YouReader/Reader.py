@@ -23,9 +23,9 @@ class Reader:
 
     # returns youtube's unique id for video
     def __get_unique_id__(self, link: str) -> str:
-        unique_id = re.search(regex.IDENTIFIER, link)
+        unique_id = re.search(regex.ID, link)
         if unique_id:
-            return unique_id.group(1) 
+            return unique_id.group(0)
         else:
             return ""
 
@@ -34,11 +34,6 @@ class Reader:
     def __get_unique_link__(self, unique_id: str) -> str:
         if unique_id != "":
             return prefix.YOUTUBE + prefix.VIDEO + unique_id
-
-    
-    # returns video links from playlist
-    def __get_playlist_links__(self, link: str) -> list:
-        pass
                 
 
     # retrieves caption from unique youtube id
@@ -50,7 +45,7 @@ class Reader:
             raw_caption = source.captions[code].generate_srt_captions()
 
         # default english captions
-        if code == "en" and "en" in source.captions:
+        elif code == "en" and "en" in source.captions:
             raw_caption = source.captions["en"].generate_srt_captions()
 
         # default auto generated english
@@ -62,7 +57,6 @@ class Reader:
             raw_caption = ""
 
         return raw_caption
-
 
 
     # cleans raw caption
@@ -78,8 +72,8 @@ class Reader:
         entry = {}
         unique_id = self.__get_unique_id__(link)
         unique_link = self.__get_unique_link__(unique_id)
-        raw = self.__get_raw_caption__(self, unique_link)
-        clean = self.__get_clean_caption__(self, raw)
+        raw = self.__get_raw_caption__(unique_link)
+        clean = self.__get_clean_caption__(raw)
         if raw != "":
             entry["link"] = unique_link
             entry["subject"] = subject
@@ -102,37 +96,61 @@ class Reader:
             json.dump(self.data, outFile)
         return len(self.data)
 
+    # retrieves list of keys 
+    def get_list_keys(self) -> list:
+        return list(self.data.keys())
+
+    # retrieves list of subjects
+    def get_list_subject(self) -> list:
+        return [data[key]["link"] for key in data]
+
+    # retrieves list of clean captions
+    def get_list_clean(self) -> list:
+        return [data[key]["clean"] for key in data]
+    
+    # retrieves list of raw captions
+    def get_list_raw(self) -> list:
+        return [data[key]["raw"] for key in data]
+
+    # retrieves list of links
+    def get_list_link(self) -> list:
+        return [data[key]["link"] for key in data]
+
+    # retrieves list of notes
+    def get_list_note(self) -> list:
+        return [data[key]["notes"] for key in data]
+
 
     # downloads all captions from csv file and returns dictionary
-    def download_csv_captions(self, csv_file: str = path.LINKS) -> dict: 
+    def download_csv_captions(self, csv_file: str = path.LINKS) -> None: 
         
         with open(csv_file) as inFile:
             data = csv.DictReader(inFile)
 
-        for row in data:
+            for row in data:
 
-            # if user inserted video
-            if prefix.VIDEO in row['link']:
-                unique_id = self.__get_unique_id__(link) 
-
-                # check if video is already in dataset
-                if unique_id not in self.data:
-                    entry = self.__generate_entry__(row['link'], row['subject'], row['notes'])  
-                    self.data[unique_id] = entry
-                
-            # if user inserted playlist
-            elif prefix.PLAYLIST in row['link']:
-                video_links = Playlist(row['link'])
-
-                # iterate through all video links
-                for link in video_links:
-                    unique_id = self.__get_unique_id__(link)
+                # if user inserted video
+                if prefix.VIDEO in row['link']:
+                    unique_id = self.__get_unique_id__(row['link']) 
 
                     # check if video is already in dataset
                     if unique_id not in self.data:
-                        entry = self.__generate_entry__(link, row['subject'], row['notes'])
+                        entry = self.__generate_entry__(row['link'], row['subject'], row['notes'])  
                         self.data[unique_id] = entry
+                    
+                # if user inserted playlist
+                elif prefix.PLAYLIST in row['link']:
+                    video_links = Playlist(row['link'])
 
-            # not a video or playlist
-            else:
-                raise ValueError('Please provide a valid video or playlist link')
+                    # iterate through all video links
+                    for link in video_links:
+                        unique_id = self.__get_unique_id__(link)
+
+                        # check if video is already in dataset
+                        if unique_id not in self.data:
+                            entry = self.__generate_entry__(link, row['subject'], row['notes'])
+                            self.data[unique_id] = entry
+
+                # not a video or playlist
+                else:
+                    raise ValueError('Please provide a valid video or playlist link')
