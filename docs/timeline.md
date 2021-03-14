@@ -196,11 +196,35 @@ Table of Contents
 
 * Integrated Playlist and Parser into YouReader class
 * Experimented with hierarchical clustering
-*
 
 <h3>Before next meeting</h3>
 
 * Develop unit and integration tests for YouReader
 * Begin using playlist/video links to generate dataset
-* 
+* Attempt hierarchical clustering & KNN applications
+
+
+
+-------------------------------------
+<br><a name="meeting"/>
+<h2>Meeting 10 - 03/12/21</h2>
+<h3>Actions</h3>
+
+* Completed unit & integration tests for YouReader
+* Fixed bugs and errors on YouReader
+* Generated captions data
+* Revised README for setup and usage example
+
+<h3>Before next meeting</h3>
+
+* List of analysis ideas
+* Work on presentation slides
+* Finish predictors for hierarchical clustering & KNN
+* Split training & testing dataset
+* Remove excess videos
+* Add more customizability to YouReader
+* Add more regex precision for various punctuation
+* Add more videos to existing subjects on extended version
+
+
 

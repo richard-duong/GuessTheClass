@@ -150,3 +150,14 @@ If you have your own existing dataset that you want to test:
 -----------------------
 <a name="references"/>
 
+* [Data Pre-processing and Dimensionality Reduction Techniques](https://www.ijert.org/research/text-data-pre-processing-and-dimensionality-reduction-techniques-for-document-clustering-IJERTV1IS5278.pdf)
+* [Bag of Words Vector Model](https://en.wikipedia.org/wiki/Bag-of-words_model)
+* [TF-IDF Vector Model](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
+* [Stemming/Lemmatization](https://en.wikipedia.org/wiki/Stemming)
+* [K Nearest Neighbors](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
+* [Hierarchical Clustering](https://en.wikipedia.org/wiki/Hierarchical_clustering)
+* [Naive Bayes Classifier](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
+
+
+
+

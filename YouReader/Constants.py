@@ -10,11 +10,11 @@ class prefix:
 
 class regex:
     INDEX = r"[\d]+\n"
-    TIME = r"\d\d:\d\d:\d\d,\d\d\d \-\-\> \d\d:\d\d:\d\d,\d\d\d\n"
-    PUNCT = r"[?,.!]"
-    ACTION = r"\[[a-zA-Z]+\]\n\n"
-    SPEAKER = r"[a-zA-Z]+: "
-    ID = r"[a-zA-Z0-9_-]{10}[048AEIMQUYcgkosw]"
+    TIME = r"(\d\d:\d\d:\d\d,\d\d\d \-\-\> \d\d:\d\d:\d\d,\d\d\d\s)|(\d\d:\d\d:\d\d\d\d\d)"
+    PUNCT = r"[?,.!:\%;\]\[\"\(\)\^\_\/\{\}\>\<\*\#]|\-\-|"
+    ACTION = r"\[[a-zA-Z]+\]"
+    SPEAKER = r"[a-zA-Z]+:\s"
+    ID = r"[a-zA-Z0-9_-]{11}"
 
     def __init__(self):
         pass

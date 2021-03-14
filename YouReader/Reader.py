@@ -171,8 +171,9 @@ class Reader:
         new_data = {key:val for key, val in self.data.items() if key in keys_set}        
 
     # downloads all captions from csv file and returns dictionary
-    def download_csv_captions(self, csv_file: str = path.LINKS, code: str = "") -> None:  
+    def download_csv_captions(self, csv_file: str = path.LINKS, subject: str = "", code: str = "") -> None:  
         count = 0 
+        video_count = 0
         start_time = time.time()
         
         if str != "":
@@ -185,23 +186,23 @@ class Reader:
 
                 count += 1
                 video_time = time.time()
-                print("Downloading video number", count, ":\t", row["subject"], " - ", row["notes"])
+                print("Downloading row number", count, ":\t", row["subject"], " - ", row["notes"])
 
                 # if user inserted video
-                if prefix.VIDEO in row['link']:
+                if prefix.VIDEO in row['link'] and (row["subject"] == "" or row["subject"] == subject):
                     unique_id = self.__get_unique_id__(row['link']) 
 
                     # check if video is already in dataset
                     if unique_id not in self.data:
+                        video_count = 1
                         entry = self.__generate_entry__(row['link'], row['subject'], row['notes'])  
                         self.data[unique_id] = entry
                     
                 # if user inserted playlist
-                elif prefix.PLAYLIST in row['link']:
+                elif prefix.PLAYLIST in row['link'] and (row["subject"] == "" or row["subject"] == subject):
                     video_links = Playlist(row['link'])
 
                     # iterate through all video links
-                    video_count = 0
                     for link in video_links:
                         video_count += 1
                         unique_id = self.__get_unique_id__(link)
