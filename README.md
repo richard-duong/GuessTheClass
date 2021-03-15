@@ -154,9 +154,12 @@ If you have your own existing dataset that you want to test:
 * [Bag of Words Vector Model](https://en.wikipedia.org/wiki/Bag-of-words_model)
 * [TF-IDF Vector Model](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
 * [Stemming/Lemmatization](https://en.wikipedia.org/wiki/Stemming)
+* [Porter Stemmer vs. Snowball Stemmer vs. Lancaster Stemmer](https://towardsdatascience.com/stemming-lemmatization-what-ba782b7c0bd8)
+* [Stemming Support to sklearn Vectorizer](https://stackoverflow.com/questions/36182502/add-stemming-support-to-countvectorizer-sklearn)
 * [K Nearest Neighbors](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
 * [Hierarchical Clustering](https://en.wikipedia.org/wiki/Hierarchical_clustering)
 * [Naive Bayes Classifier](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
+* [NLP on SVM and Naive Bayes](https://medium.com/@bedigunjit/simple-guide-to-text-classification-nlp-using-svm-and-naive-bayes-with-python-421db3a72d34)
 
 
 

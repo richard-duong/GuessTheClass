@@ -25,6 +25,7 @@ class Reader:
     def __init__(self, code: str = "en") -> None:
         self.data = dict()
         self.code = code
+        self.csv_count = 0
         pass
 
 
@@ -73,7 +74,18 @@ class Reader:
         caption = re.sub(reg, "", caption)
         caption = caption.lower()
         return caption
-        
+
+    # return true if link is a playlist
+    def __is_playlist__(self, link: str = "") -> bool:
+        if prefix.PLAYLIST in link:
+            return True
+        return False
+
+    # return true if link is a video
+    def __is_video__(self, link: str = "") -> bool:
+        if prefix.VIDEO in link:
+            return True
+        return False 
 
     # generates caption entry
     def __generate_entry__(self, link: str, subject: str, notes: str) -> dict:
@@ -88,6 +100,33 @@ class Reader:
         entry["raw"] = raw
         entry["clean"] = clean
         return entry
+
+
+    # generates entry for video data
+    def __download_video__(self, row: dict) -> int:
+        video_count = 0
+        unique_id = self.__get_unique_id__(row["link"])
+        if unique_id not in self.data:
+            self.data[unique_id] = self.__generate_entry__(row)
+            video_count += 1 
+        return video_count
+            
+
+    # generates entry for playlist data
+    def __download_playlist__(self, row: dict, threads: int = 1) -> int:
+        video_counts = []
+        video_entries = []
+        video_links = Playlist(row["link"])
+
+        for link in video_links:
+           entry = row.copy()
+           entry["link"] = link
+           video_entries.append(entry)
+
+        with ThreadPool(threads) as pool:
+            video_counts = pool.map(self.__download_video__, video_entries)
+
+        return sum(video_counts)
                 
 
     # loads captions from save file
@@ -217,3 +256,33 @@ class Reader:
                     raise ValueError('Please provide a valid video or playlist link')
 
                 print("Videos downloaded: ", video_count, " ----- Time taken: ", time.time() - video_time, "seconds ----- Elapsed time: ", time.time() - start_time, " seconds\n")
+
+
+    # downloads all captions from csv
+    def download_csv_captions_2(self, csv_file: str = path.Links, code: str = "en", threads: int = 1, verbose: bool = False) -> None:
+        start_time = time.time()
+        with open(csv_file) as infile:
+            csv_rows = csv.DictReader(inFile)
+
+            for row in csv_rows: 
+
+                row_time = time.time()
+
+                if verbose == True:
+                    print("Downloading row number", count, ":\t", row["subject"], "---", row["subject name"], "---", row["topic"], "---", row["notes"])
+
+                if self.__is_video__(row["link"]) == True:
+                    video_count = self.__download_video__(row, verbose, threads)
+
+                elif self.__is_playlist__(row["link"]) == True:
+                    video_count = self.__download_playlist__(row, verbose, threads)
+
+                else:
+                    raise ValueError('Please provide a valid video or playlist link')
+
+                if verbose == True:
+                    print("Videos downloaded:", video_count, " ----- Time taken: ", time.time() - row_time, "seconds ----- Elapsed time: ", time.time() - start_time, " seconds\n")
+
+
+
+
