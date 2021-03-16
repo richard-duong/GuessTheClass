@@ -4,10 +4,12 @@ import json
 import pandas as pd
 import re
 import time
+from multiprocessing.dummy import Pool as ThreadPool
 
 # External Libraries
 from pytube import YouTube
 from pytube import Playlist
+from pytube.exceptions import VideoUnavailable
 
 # Custom Libraries
 from YouReader.Constants import prefix
@@ -45,25 +47,34 @@ class Reader:
                 
 
     # retrieves caption from unique youtube id
-    def __get_raw_caption__(self, unique_link: str) -> str:
-        source = YouTube(unique_link)
-        code = self.code
+    def __get_raw_caption__(self, unique_link: str) -> str:        
 
-        # custom user code captions
-        if code != "en" and code in source.captions:
-            raw_caption = source.captions[code].generate_srt_captions()
+        raw_caption = ""
+        try:
+            source = YouTube(unique_link)
+            code = self.code
 
-        # default english captions
-        elif code == "en" and "en" in source.captions:
-            raw_caption = source.captions["en"].generate_srt_captions()
+            # custom user code captions
+            if code != "en" and code in source.captions:
+                raw_caption = source.captions[code].generate_srt_captions()
 
-        # default auto generated english
-        elif code == "en" and "a.en" in source.captions:
-            raw_caption = source.captions["a.en"].generate_srt_captions()
+            # default english captions
+            elif code == "en" and "en" in source.captions:
+                raw_caption = source.captions["en"].generate_srt_captions()
 
-        # no matching code
-        else:
-            raw_caption = ""
+            # default auto generated english
+            elif code == "en" and "a.en" in source.captions:
+                raw_caption = source.captions["a.en"].generate_srt_captions()
+
+            # no matching caption code
+            else:
+                raw_caption = ""
+
+        except VideoUnavailable as e:
+            print("Video at:", unique_link, "is unavailable")
+
+        except KeyError as e:
+            print("Video at:", unique_link, "has a key error")
 
         return raw_caption
 
@@ -88,15 +99,12 @@ class Reader:
         return False 
 
     # generates caption entry
-    def __generate_entry__(self, link: str, subject: str, notes: str) -> dict:
-        entry = {}
-        unique_id = self.__get_unique_id__(link)
+    def __generate_entry__(self, entry: dict) -> dict:
+        unique_id = self.__get_unique_id__(entry["link"])
         unique_link = self.__get_unique_link__(unique_id)
         raw = self.__get_raw_caption__(unique_link)
         clean = self.__get_clean_caption__(raw)
         entry["link"] = unique_link
-        entry["subject"] = subject
-        entry["notes"] = notes
         entry["raw"] = raw
         entry["clean"] = clean
         return entry
@@ -209,6 +217,7 @@ class Reader:
         keys_set = set(self.get_list_keys())
         new_data = {key:val for key, val in self.data.items() if key in keys_set}        
 
+    """
     # downloads all captions from csv file and returns dictionary
     def download_csv_captions(self, csv_file: str = path.LINKS, subject: str = "", code: str = "") -> None:  
         count = 0 
@@ -256,33 +265,35 @@ class Reader:
                     raise ValueError('Please provide a valid video or playlist link')
 
                 print("Videos downloaded: ", video_count, " ----- Time taken: ", time.time() - video_time, "seconds ----- Elapsed time: ", time.time() - start_time, " seconds\n")
-
+    """
 
     # downloads all captions from csv
-    def download_csv_captions_2(self, csv_file: str = path.Links, code: str = "en", threads: int = 1, verbose: bool = False) -> None:
+    def download_csv_captions(self, csv_file: str = path.LINKS, code: str = "en", threads: int = 1, verbose: bool = False, autosave: bool = True, saveinterval: int = 1, savefile: str = path.SAVE) -> None:
         start_time = time.time()
-        with open(csv_file) as infile:
+        count = 0
+        with open(csv_file) as inFile:
             csv_rows = csv.DictReader(inFile)
 
             for row in csv_rows: 
-
+                count += 1
                 row_time = time.time()
-
                 if verbose == True:
-                    print("Downloading row number", count, ":\t", row["subject"], "---", row["subject name"], "---", row["topic"], "---", row["notes"])
+                    print("Downloading row number", count, ": ", row["subject"], "---", row["subject name"], "---", row["topic"], "---", row["notes"]) 
 
                 if self.__is_video__(row["link"]) == True:
-                    video_count = self.__download_video__(row, verbose, threads)
+                    video_count = self.__download_video__(row)
 
                 elif self.__is_playlist__(row["link"]) == True:
-                    video_count = self.__download_playlist__(row, verbose, threads)
+                    video_count = self.__download_playlist__(row, threads)
 
                 else:
                     raise ValueError('Please provide a valid video or playlist link')
 
-                if verbose == True:
-                    print("Videos downloaded:", video_count, " ----- Time taken: ", time.time() - row_time, "seconds ----- Elapsed time: ", time.time() - start_time, " seconds\n")
+                if count % saveinterval == 0 and video_count != 0:
+                    self.save_captions(savefile)
 
+                if verbose == True:
+                    print("Videos downloaded:", video_count, " ----- Time taken:", "{:.2f}".format(time.time() - row_time), "seconds ----- Elapsed time: ", "{:.2f}".format(time.time() - start_time), " seconds\n")
 
 
 

@@ -3,9 +3,9 @@ echo.
 echo. This may take a while
 
 echo. Creating virtual environment
-echo. python3 -m venv env
+echo. python -m venv env
 echo.
-python3 -m venv env
+python -m venv env
 
 Rem echo. Loading virtual environment
 Rem echo. "env/Scripts/activate.bat"

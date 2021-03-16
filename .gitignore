@@ -1,6 +1,7 @@
 # Data files
-data/old/example_save.json
-
+*.json
+logs/
+models/
 
 # Virtual Environment
 env/
