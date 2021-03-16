@@ -206,7 +206,7 @@ Table of Contents
 
 
 -------------------------------------
-<br><a name="meeting"/>
+<br><a name="meeting10"/>
 <h2>Meeting 10 - 03/12/21</h2>
 <h3>Actions</h3>
 
@@ -228,3 +228,20 @@ Table of Contents
 
 
 
+
+
+-------------------------------------
+<br><a name="meeting11"/>
+<h2>Meeting 11 - 3/16/21</h2>
+<h3>Actions</h3>
+
+* Revised dataset to account for more classes and reach 200 videos minimum
+* Generated KNN Analysis
+* Generated Intermediate Analysis
+
+<h3>Final Meeting</h3>
+* Finish Project Report
+* Finish Presentation Slides
+* Record Video
+* Submit onto Project Folder
+* Submit video link + 3 questions and answers
