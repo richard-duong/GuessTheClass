@@ -1,49 +1,33 @@
-# Guess The Class
-A CS105 Project that classifies and characterizes class lectures based on word frequency.<br>
-Project developed by Shreya Balaji, Benson Wan, and Richard Duong.<br>
-[Link to the Github Repository Here](https://github.com/richard-duong/ClassIdentifier)<br><br>
-
---------------------
 <a name="overview"/>
 
-Overview
-========
-
-
+Guess The Class
+===============
+A CS105 Project that classifies and characterizes class lectures based on word frequency.<br>
+Project developed by Shreya Balaji, Benson Wan, and Richard Duong.<br>
+[Link to the Github Repository Here](https://github.com/richard-duong/GuessTheClass)<br>
+If you want to take a look at our presentation and findings, [click here](https://docs.google.com/presentation/d/1wCLjnrUXo_stpBl8lypJbDmQXZoYwnrlkxQ2zqIGqe4/edit?usp=sharing)<br>
 
 
 ------------------------------
 <a name="table-of-contents"/>
 
 
-
 Table Of Contents
 =================
 1. [Overview](#overview)<br>
 2. [Table Of Contents](#table-of-contents)<br>
-3. [Introduction](#introduction)<br>
-4. [How to use](#how-to-use)
-6. [References](#references)<br>
+3. [How to use](#how-to-use)
+4. [References](#references)<br>
 <br><br>
 
 
 <h3>Additional Documents</h3>
 
-1. [Timeline](docs/timeline.md)<br>
-2. [Assignment Specifications](docs/specs.pdf)<br>
-3. [Project Proposal](docs/proposal.pdf)<br>
-4. [Design Document](docs/design.pdf)<br>
-
-
-
-
-
----------------------
-<a name="introduction"/>
-
-Introduction
-============
-
+1. [Project Presentation](https://docs.google.com/presentation/d/1wCLjnrUXo_stpBl8lypJbDmQXZoYwnrlkxQ2zqIGqe4/edit?usp=sharing)<br>
+2. [Project Report](docs/report.pdf)<br>
+3. [Timeline](docs/timeline.md)<br>
+4. [Assignment Specifications](docs/specs.pdf)<br>
+5. [Project Proposal](docs/proposal.pdf)<br>
 
 
 -----------
@@ -157,9 +141,6 @@ If you have your own existing dataset that you want to test:
 * [Porter Stemmer vs. Snowball Stemmer vs. Lancaster Stemmer](https://towardsdatascience.com/stemming-lemmatization-what-ba782b7c0bd8)
 * [Stemming Support to sklearn Vectorizer](https://stackoverflow.com/questions/36182502/add-stemming-support-to-countvectorizer-sklearn)
 * [K Nearest Neighbors](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
-* [Hierarchical Clustering](https://en.wikipedia.org/wiki/Hierarchical_clustering)
-* [Naive Bayes Classifier](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
-* [NLP on SVM and Naive Bayes](https://medium.com/@bedigunjit/simple-guide-to-text-classification-nlp-using-svm-and-naive-bayes-with-python-421db3a72d34)
 
 
 
