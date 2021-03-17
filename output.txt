@@ -1,0 +1,26 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.5, pytest-6.2.2, py-1.10.0, pluggy-0.13.1
+rootdir: /home/richard/GuessTheClass
+plugins: anyio-2.2.0
+collected 12 items
+
+tests/test_reader.py ........F                                           [ 75%]
+tests/unofficial_test.py ...                                             [100%]
+
+=================================== FAILURES ===================================
+__________________________ test_download_csv_captions __________________________
+
+reader = <YouReader.Reader.Reader object at 0x7f30397b3e20>
+example_csv = 'tests/data/example_links.csv'
+example_json = 'tests/data/example_save.json'
+
+    def test_download_csv_captions(reader, example_csv, example_json):
+        reader.download_csv_captions(csv_file=example_csv, savefile=example_json)
+>       assert not reader.data
+E       assert not {'TQTlCHxyuu8': {'clean': "“yes sir and ma'am”\n\nwelcome\n\nit’s easy to choose what you want in this store\n\nanythi...0\nI run into your arms\n\n34\n00:03:10,580 --> 00:03:18,940\nI was drawn into the music and fall right into it', ...}}
+E        +  where {'TQTlCHxyuu8': {'clean': "“yes sir and ma'am”\n\nwelcome\n\nit’s easy to choose what you want in this store\n\nanythi...0\nI run into your arms\n\n34\n00:03:10,580 --> 00:03:18,940\nI was drawn into the music and fall right into it', ...}} = <YouReader.Reader.Reader object at 0x7f30397b3e20>.data
+
+tests/test_reader.py:196: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_reader.py::test_download_csv_captions - assert not {'TQTlCH...
+======================== 1 failed, 11 passed in 13.76s =========================

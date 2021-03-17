@@ -217,58 +217,9 @@ class Reader:
         keys_set = set(self.get_list_keys())
         new_data = {key:val for key, val in self.data.items() if key in keys_set}        
 
-    """
-    # downloads all captions from csv file and returns dictionary
-    def download_csv_captions(self, csv_file: str = path.LINKS, subject: str = "", code: str = "") -> None:  
-        count = 0 
-        video_count = 0
-        start_time = time.time()
-        
-        if str != "":
-            self.code = code
-    
-        with open(csv_file) as inFile:
-            data = csv.DictReader(inFile)
-
-            for row in data:
-
-                count += 1
-                video_time = time.time()
-                print("Downloading row number", count, ":\t", row["subject"], " - ", row["notes"])
-
-                # if user inserted video
-                if prefix.VIDEO in row['link'] and (row["subject"] == "" or row["subject"] == subject):
-                    unique_id = self.__get_unique_id__(row['link']) 
-
-                    # check if video is already in dataset
-                    if unique_id not in self.data:
-                        video_count = 1
-                        entry = self.__generate_entry__(row['link'], row['subject'], row['notes'])  
-                        self.data[unique_id] = entry
-                    
-                # if user inserted playlist
-                elif prefix.PLAYLIST in row['link'] and (row["subject"] == "" or row["subject"] == subject):
-                    video_links = Playlist(row['link'])
-
-                    # iterate through all video links
-                    for link in video_links:
-                        video_count += 1
-                        unique_id = self.__get_unique_id__(link)
-
-                        # check if video is already in dataset
-                        if unique_id not in self.data:
-                            entry = self.__generate_entry__(link, row['subject'], row['notes'])
-                            self.data[unique_id] = entry
-
-                # not a video or playlist
-                else:
-                    raise ValueError('Please provide a valid video or playlist link')
-
-                print("Videos downloaded: ", video_count, " ----- Time taken: ", time.time() - video_time, "seconds ----- Elapsed time: ", time.time() - start_time, " seconds\n")
-    """
 
     # downloads all captions from csv
-    def download_csv_captions(self, csv_file: str = path.LINKS, code: str = "en", threads: int = 1, verbose: bool = False, autosave: bool = True, saveinterval: int = 1, savefile: str = path.SAVE) -> None:
+    def download_csv_captions(self, csv_file: str = path.LINKS, savefile: str = path.SAVE, threads: int = 1, autosave: bool = True, saveinterval: int = 1, code: str = "en", verbose: bool = False) -> None:
         start_time = time.time()
         count = 0
         with open(csv_file) as inFile:

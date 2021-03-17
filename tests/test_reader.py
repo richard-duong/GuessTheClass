@@ -108,8 +108,10 @@ def video_ids(english_video_ids, captionless_video_ids, multilingual_video_ids):
 @pytest.fixture
 def input_entry():
     entry = {}
-    entry["link"] = "https://www.youtube.com/watch?v=adLGHcj_fmA"
     entry["subject"] = "music"
+    entry["subject name"] = "Bruno Mars Leave the door open mv"
+    entry["topic"] = "hot new music i guess"
+    entry["link"] = "https://www.youtube.com/watch?v=adLGHcj_fmA"
     entry["notes"] = "bruno mars, anderson paak, silk sonic - leave the door open mv"
     return entry
 
@@ -135,7 +137,11 @@ def clean_caption():
 
 @pytest.fixture
 def example_csv():
-    return "tests/data/example.csv"
+    return "tests/data/example_links.csv"
+
+@pytest.fixture
+def example_json():
+    return "tests/data/example_save.json"
 
 
 # Acts and Asserts
@@ -161,11 +167,6 @@ def test_unique_link(reader, video_links, video_ids):
     for link,vid in zip(video_links, video_ids):
         assert reader.__get_unique_link__(vid) == link
 
-def test_raw_caption_custom_code(reader, multilingual_video_links, multilingual_codes):
-    for link, codes in zip(multilingual_video_links, multilingual_codes):
-        for code in codes:
-            assert reader.__get_raw_caption__(link, code) != ""
-
 def test_raw_caption_default(reader, english_video_links):
     for link in english_video_links:
         assert reader.__get_raw_caption__(link) != ""
@@ -175,22 +176,24 @@ def test_raw_caption_none(reader, captionless_video_links):
         assert reader.__get_raw_caption__(link) == ""
 
 def test_clean_caption(reader, raw_caption, clean_caption):
-    assert reader.__get_clean_caption__(raw_caption) == clean_caption
+    assert reader.__get_clean_caption__(raw_caption).split() == clean_caption.split()
 
 def test_generate_entry_with_captions(reader, input_entry):
-    entry = reader.__generate_entry__(input_entry["link"], input_entry["subject"], input_entry["notes"])
-    assert entry["link"] == input_entry["link"]
+    entry = reader.__generate_entry__(input_entry)
     assert entry["subject"] == input_entry["subject"]
+    assert entry["subject name"] == input_entry["subject name"]
+    assert entry["topic"] == input_entry["topic"]
+    assert entry["link"] == input_entry["link"]
     assert entry["notes"] == input_entry["notes"]
     assert entry["raw"] != ""
     assert entry["clean"] != ""
 
 def test_generate_entry_no_captions(reader, fail_entry):
-    assert not reader.__generate_entry__(fail_entry["link"], fail_entry["subject"], fail_entry["notes"])
+    assert reader.__generate_entry__(fail_entry)["clean"] == ""
 
-def test_download_csv_captions(reader, example_csv):
-    reader.__download_csv_captions(example_csv)
-    assert not self.data
+def test_download_csv_captions(reader, example_csv, example_json):
+    reader.download_csv_captions(csv_file=example_csv, savefile=example_json)
+    assert reader.data
 
 if __name__ == "__main__":
     print("To run this test, use 'pytest'")
