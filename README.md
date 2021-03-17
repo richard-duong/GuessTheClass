@@ -128,8 +128,6 @@ If you have your own existing dataset that you want to test:
 </p>
 <br>
 
--------------------
-<a name="preface"/>
 
 -----------------------
 <a name="references"/>
@@ -141,7 +139,4 @@ If you have your own existing dataset that you want to test:
 * [Porter Stemmer vs. Snowball Stemmer vs. Lancaster Stemmer](https://towardsdatascience.com/stemming-lemmatization-what-ba782b7c0bd8)
 * [Stemming Support to sklearn Vectorizer](https://stackoverflow.com/questions/36182502/add-stemming-support-to-countvectorizer-sklearn)
 * [K Nearest Neighbors](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
-
-
-
 
