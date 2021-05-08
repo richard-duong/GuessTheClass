@@ -1,5 +1,4 @@
 
-
 class prefix:
     YOUTUBE = "https://www.youtube.com/"
     VIDEO = "watch?v="

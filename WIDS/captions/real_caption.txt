@@ -1,0 +1,1611 @@
+1
+00:00:00,589 --> 00:00:05,549
+hi everyone it's dr. LeBlanc with a
+
+2
+00:00:03,720 --> 00:00:08,189
+video screen capture lecture on
+
+3
+00:00:05,549 --> 00:00:10,800
+translation protein synthesis our
+
+4
+00:00:08,189 --> 00:00:13,559
+learning goals are to understand the
+
+5
+00:00:10,800 --> 00:00:16,830
+mechanism of protein translation in both
+
+6
+00:00:13,559 --> 00:00:19,650
+prokaryotes and eukaryotes to understand
+
+7
+00:00:16,830 --> 00:00:22,199
+how antibiotics interfere at specific
+
+8
+00:00:19,650 --> 00:00:24,529
+ribosomal sites and with specific steps
+
+9
+00:00:22,199 --> 00:00:27,210
+of translation in prokaryotes to
+
+10
+00:00:24,529 --> 00:00:29,730
+understand the key specific events of
+
+11
+00:00:27,210 --> 00:00:33,840
+each phase of translation initiation
+
+12
+00:00:29,730 --> 00:00:36,030
+elongation and termination to understand
+
+13
+00:00:33,840 --> 00:00:38,100
+what a poly ribosome is and that in
+
+14
+00:00:36,030 --> 00:00:40,530
+prokaryotes transcription and
+
+15
+00:00:38,100 --> 00:00:42,960
+translation from a gene occur
+
+16
+00:00:40,530 --> 00:00:44,789
+simultaneously in the same cellular
+
+17
+00:00:42,960 --> 00:00:46,850
+compartment to understand how the
+
+18
+00:00:44,789 --> 00:00:50,100
+features and subunits of the ribosome
+
+19
+00:00:46,850 --> 00:00:51,989
+coordinate to achieve initiation to
+
+20
+00:00:50,100 --> 00:00:54,360
+understand how ribosomes position
+
+21
+00:00:51,989 --> 00:00:57,600
+themselves on the messenger RNA during
+
+22
+00:00:54,360 --> 00:01:00,180
+initiation and the role of complementary
+
+23
+00:00:57,600 --> 00:01:02,960
+base sequences in the messenger RNA and
+
+24
+00:01:00,180 --> 00:01:05,460
+ribosomal RNA in prokaryotes to
+
+25
+00:01:02,960 --> 00:01:08,520
+understand the roles of initiation and
+
+26
+00:01:05,460 --> 00:01:11,070
+release factors to understand how tRNA
+
+27
+00:01:08,520 --> 00:01:13,979
+is bind and move through the ribosome
+
+28
+00:01:11,070 --> 00:01:16,560
+during initiation elongation and
+
+29
+00:01:13,979 --> 00:01:19,110
+termination to understand where the
+
+30
+00:01:16,560 --> 00:01:22,409
+formation of peptide bonds between amino
+
+31
+00:01:19,110 --> 00:01:25,979
+acids take place this is a picture of a
+
+32
+00:01:22,409 --> 00:01:27,479
+eukaryotic poly ribosome it's pseudo
+
+33
+00:01:25,979 --> 00:01:29,579
+coloured it doesn't actually look like
+
+34
+00:01:27,479 --> 00:01:31,770
+this under the electron microscope but
+
+35
+00:01:29,579 --> 00:01:34,049
+you can see this line the threads
+
+36
+00:01:31,770 --> 00:01:37,880
+through this entire diagram is the
+
+37
+00:01:34,049 --> 00:01:41,759
+messenger RNA on the messenger RNA our
+
+38
+00:01:37,880 --> 00:01:45,060
+ribosomes and each ribosome is producing
+
+39
+00:01:41,759 --> 00:01:47,369
+a polypeptide here's a question for you
+
+40
+00:01:45,060 --> 00:01:51,960
+where is the beginning of this messenger
+
+41
+00:01:47,369 --> 00:01:54,840
+RNA where is the five prime end well it
+
+42
+00:01:51,960 --> 00:01:58,310
+would be where the polypeptides are the
+
+43
+00:01:54,840 --> 00:01:58,310
+shortest over here
+
+44
+00:02:00,610 --> 00:02:06,970
+there are many different antibiotics
+
+45
+00:02:03,140 --> 00:02:10,970
+that exploit different stages of protein
+
+46
+00:02:06,970 --> 00:02:12,650
+translation in bacteria some of them
+
+47
+00:02:10,970 --> 00:02:16,630
+therefore probably quite familiar with
+
+48
+00:02:12,650 --> 00:02:20,739
+erythromycin tetracycline streptomycin
+
+49
+00:02:16,630 --> 00:02:23,209
+for example trucks tetracycline blocks
+
+50
+00:02:20,739 --> 00:02:25,790
+elongation by inhibiting the binding of
+
+51
+00:02:23,209 --> 00:02:27,670
+aminoacyl trnas to the ribosome that's
+
+52
+00:02:25,790 --> 00:02:30,970
+one of the first steps in elongation
+
+53
+00:02:27,670 --> 00:02:33,799
+binding of a trna with an amino acid
+
+54
+00:02:30,970 --> 00:02:36,830
+erythromycin binds to the large
+
+55
+00:02:33,799 --> 00:02:39,260
+ribosomal RNA and blocks the legation by
+
+56
+00:02:36,830 --> 00:02:41,390
+interfering with the translation step so
+
+57
+00:02:39,260 --> 00:02:44,330
+you add an amino acid but then you can't
+
+58
+00:02:41,390 --> 00:02:46,640
+add any more amino acids streptomycin is
+
+59
+00:02:44,330 --> 00:02:49,340
+a little insidious it interferes with
+
+60
+00:02:46,640 --> 00:02:52,640
+normal pairing between amino acyl and
+
+61
+00:02:49,340 --> 00:02:54,920
+trna codons it causes miss reading and a
+
+62
+00:02:52,640 --> 00:02:59,060
+lot of abnormal proteins so it's kind of
+
+63
+00:02:54,920 --> 00:03:01,430
+a slow death ribosomes are made up of a
+
+64
+00:02:59,060 --> 00:03:03,760
+small subunit and a large subunit and
+
+65
+00:03:01,430 --> 00:03:07,100
+they assemble together to form the
+
+66
+00:03:03,760 --> 00:03:09,319
+protein translation machinery that the
+
+67
+00:03:07,100 --> 00:03:11,810
+machine that synthesizes proteins inside
+
+68
+00:03:09,319 --> 00:03:13,819
+the South in bacteria and eukaryotic
+
+69
+00:03:11,810 --> 00:03:17,660
+there are differences between these
+
+70
+00:03:13,819 --> 00:03:21,590
+subunits and the assembled ribosome for
+
+71
+00:03:17,660 --> 00:03:24,829
+example the small subunit contains a 16s
+
+72
+00:03:21,590 --> 00:03:27,019
+ribosomal RNA in bacteria and in
+
+73
+00:03:24,829 --> 00:03:30,290
+eukaryotes it's 18s the number of
+
+74
+00:03:27,019 --> 00:03:34,670
+proteins is also increased in eukaryotes
+
+75
+00:03:30,290 --> 00:03:40,359
+in the large ribosomal subunit we
+
+76
+00:03:34,670 --> 00:03:42,500
+actually have an extra ribosomal RNA and
+
+77
+00:03:40,359 --> 00:03:45,380
+again the number of proteins is
+
+78
+00:03:42,500 --> 00:03:49,600
+increased in eukaryotes as is the size
+
+79
+00:03:45,380 --> 00:03:54,069
+of the largest ribosomal subunit 23s in
+
+80
+00:03:49,600 --> 00:03:57,019
+bacteria and 28s and ribosomal RNA
+
+81
+00:03:54,069 --> 00:03:58,700
+remember that the assembled proteins
+
+82
+00:03:57,019 --> 00:04:01,579
+have a different sedimentation
+
+83
+00:03:58,700 --> 00:04:03,139
+coefficient then that's different than
+
+84
+00:04:01,579 --> 00:04:06,769
+the sum of these two because remember
+
+85
+00:04:03,139 --> 00:04:10,310
+sedimentation is a measure of how
+
+86
+00:04:06,769 --> 00:04:11,960
+quickly a molecule will migrate through
+
+87
+00:04:10,310 --> 00:04:19,090
+a gradient
+
+88
+00:04:11,960 --> 00:04:19,090
+based on its shape its mass and its size
+
+89
+00:04:23,500 --> 00:04:29,450
+there are three functional sites in a
+
+90
+00:04:26,240 --> 00:04:31,940
+ribosome the amino acyl site the
+
+91
+00:04:29,450 --> 00:04:34,730
+peptidyl site and the exit site or the e
+
+92
+00:04:31,940 --> 00:04:37,580
+site these three sites are three
+
+93
+00:04:34,730 --> 00:04:41,380
+different binding sites for trnas at
+
+94
+00:04:37,580 --> 00:04:45,350
+different stages of protein synthesis
+
+95
+00:04:41,380 --> 00:04:48,950
+they are actually comprised of spaces in
+
+96
+00:04:45,350 --> 00:04:51,530
+the assembled ribosome when the two
+
+97
+00:04:48,950 --> 00:04:53,750
+subunits come together so an a site has
+
+98
+00:04:51,530 --> 00:04:56,120
+part of it in the small ribosomal
+
+99
+00:04:53,750 --> 00:04:59,150
+subunit and part is in a large ribosomal
+
+100
+00:04:56,120 --> 00:05:01,940
+subunit this diagram shows a messenger
+
+101
+00:04:59,150 --> 00:05:06,440
+RNA with a triplet codon depicted for
+
+102
+00:05:01,940 --> 00:05:08,960
+you with a tRNA bound and the P site the
+
+103
+00:05:06,440 --> 00:05:12,590
+peptide site and the polypeptide chain
+
+104
+00:05:08,960 --> 00:05:17,510
+is stretching out from the top of the
+
+105
+00:05:12,590 --> 00:05:19,940
+tRNA molecule the three primate there
+
+106
+00:05:17,510 --> 00:05:24,520
+are three stages of translation
+
+107
+00:05:19,940 --> 00:05:27,440
+initiation elongation and termination
+
+108
+00:05:24,520 --> 00:05:30,260
+initiation begins when several different
+
+109
+00:05:27,440 --> 00:05:32,570
+components come together the small
+
+110
+00:05:30,260 --> 00:05:35,450
+ribosomal subunit and the messenger RNA
+
+111
+00:05:32,570 --> 00:05:37,520
+by first followed by it the initiator
+
+112
+00:05:35,450 --> 00:05:40,370
+tRNA and then later on the large
+
+113
+00:05:37,520 --> 00:05:44,570
+ribosomal subunit joints to create an
+
+114
+00:05:40,370 --> 00:05:46,850
+initiation complex with a tRNA in the
+
+115
+00:05:44,570 --> 00:05:48,970
+start codon in the P site of the
+
+116
+00:05:46,850 --> 00:05:48,970
+ribosome
+
+117
+00:05:50,400 --> 00:05:58,180
+in prokaryotes initiation commences when
+
+118
+00:05:55,419 --> 00:06:00,639
+the shine-dalgarno sequence of the
+
+119
+00:05:58,180 --> 00:06:03,039
+messenger RNA hydrogen bonds to a
+
+120
+00:06:00,639 --> 00:06:08,970
+specific sequence of nucleotides in the
+
+121
+00:06:03,039 --> 00:06:08,970
+16s ribosomal RNA of the small subunit
+
+122
+00:06:10,620 --> 00:06:22,780
+these bases are complementary the small
+
+123
+00:06:19,270 --> 00:06:27,550
+ribosomal subunit has two factors bound
+
+124
+00:06:22,780 --> 00:06:29,919
+to it I f3 and I f1 when these factors
+
+125
+00:06:27,550 --> 00:06:32,830
+are found it is ready to bind a
+
+126
+00:06:29,919 --> 00:06:35,889
+messenger RNA the messenger RNA binds to
+
+127
+00:06:32,830 --> 00:06:39,280
+the 30s subunit audit the surface the
+
+128
+00:06:35,889 --> 00:06:43,690
+shine-dalgarno sequence is complementary
+
+129
+00:06:39,280 --> 00:06:47,530
+and it hydrogen bonds this positions the
+
+130
+00:06:43,690 --> 00:06:50,500
+start codon in the P site of the
+
+131
+00:06:47,530 --> 00:06:56,069
+ribosome the next thing that happens is
+
+132
+00:06:50,500 --> 00:06:58,659
+I f2 initiation factor 2 and GTP
+
+133
+00:06:56,069 --> 00:07:01,650
+promotes the binding of the initiator
+
+134
+00:06:58,659 --> 00:07:05,500
+tRNA to the start codon at the p-site
+
+135
+00:07:01,650 --> 00:07:10,389
+the initiator tRNA is a special trna
+
+136
+00:07:05,500 --> 00:07:13,719
+that contains f4 which stands for formal
+
+137
+00:07:10,389 --> 00:07:16,150
+Matheny this is a methionine amino acid
+
+138
+00:07:13,719 --> 00:07:21,870
+that is modified by an attachment of a
+
+139
+00:07:16,150 --> 00:07:27,789
+formal group so we have the trna f met
+
+140
+00:07:21,870 --> 00:07:30,310
+GTP I of 2i 3i f 1 and the small
+
+141
+00:07:27,789 --> 00:07:33,610
+ribosomal subunit round with the message
+
+142
+00:07:30,310 --> 00:07:35,949
+RNA when this happens I f1 and I have
+
+143
+00:07:33,610 --> 00:07:38,620
+three are released I have two hydrolyzes
+
+144
+00:07:35,949 --> 00:07:40,770
+as gtp and the large subunit binds and
+
+145
+00:07:38,620 --> 00:07:43,479
+you finally have an assembled ribosome
+
+146
+00:07:40,770 --> 00:07:47,490
+this is the 70s initiation complex
+
+147
+00:07:43,479 --> 00:07:50,259
+remember this is prokaryotic translation
+
+148
+00:07:47,490 --> 00:07:52,300
+this marks the end of the initiation
+
+149
+00:07:50,259 --> 00:07:55,180
+States I just want to point out that
+
+150
+00:07:52,300 --> 00:07:57,520
+this modified methionine in the
+
+151
+00:07:55,180 --> 00:08:02,080
+initiator trna occurs only in
+
+152
+00:07:57,520 --> 00:08:05,620
+prokaryotes not in eukaryotes
+
+153
+00:08:02,080 --> 00:08:07,539
+this is the only charge to tRNA that
+
+154
+00:08:05,620 --> 00:08:09,849
+enters through the PSAC during the
+
+155
+00:08:07,539 --> 00:08:11,949
+elongation page all the rest of the
+
+156
+00:08:09,849 --> 00:08:17,289
+tRNAs with amino acids are going to
+
+157
+00:08:11,949 --> 00:08:21,360
+enter in at the a site there is a long
+
+158
+00:08:17,289 --> 00:08:23,770
+list of initiation factors and
+
+159
+00:08:21,360 --> 00:08:29,039
+elongation factors and termination
+
+160
+00:08:23,770 --> 00:08:31,360
+factors all of the bacterial factors are
+
+161
+00:08:29,039 --> 00:08:34,659
+start with either the letter I of the
+
+162
+00:08:31,360 --> 00:08:37,450
+letter E or are when we talk about
+
+163
+00:08:34,659 --> 00:08:38,950
+eukaryotic factors we add a little easy
+
+164
+00:08:37,450 --> 00:08:40,930
+at the beginning to indicate that these
+
+165
+00:08:38,950 --> 00:08:42,579
+are eukaryotic we discovered the
+
+166
+00:08:40,930 --> 00:08:48,339
+bacterial what's first and later on
+
+167
+00:08:42,579 --> 00:08:50,560
+their components and eukaryotes so these
+
+168
+00:08:48,339 --> 00:08:53,880
+are the elongation factors and then we
+
+169
+00:08:50,560 --> 00:08:53,880
+have for these factors as well
+
+170
+00:08:55,320 --> 00:09:00,519
+eukaryotic translation initiation is a
+
+171
+00:08:58,480 --> 00:09:05,260
+little bit more complicated than
+
+172
+00:09:00,519 --> 00:09:07,930
+prokaryotic translation we start out by
+
+173
+00:09:05,260 --> 00:09:09,910
+making two separate complexes one with
+
+174
+00:09:07,930 --> 00:09:14,980
+the message RNA and one with the small
+
+175
+00:09:09,910 --> 00:09:17,050
+ribosomal subunit the first thing to
+
+176
+00:09:14,980 --> 00:09:19,360
+happen is that an initiation factor
+
+177
+00:09:17,050 --> 00:09:21,940
+complex binds to the five prime seven
+
+178
+00:09:19,360 --> 00:09:24,399
+method bonusing cap of the message irony
+
+179
+00:09:21,940 --> 00:09:26,670
+is the seven methyl guanosine cap right
+
+180
+00:09:24,399 --> 00:09:31,329
+here and you notice that we have e I
+
+181
+00:09:26,670 --> 00:09:34,480
+f/4g for e and for a bound to this
+
+182
+00:09:31,329 --> 00:09:36,100
+position on the message are any notice
+
+183
+00:09:34,480 --> 00:09:40,930
+that this message earning is curved
+
+184
+00:09:36,100 --> 00:09:43,149
+around eif4g actually binds to poly a
+
+185
+00:09:40,930 --> 00:09:46,959
+binding protein which is attached to the
+
+186
+00:09:43,149 --> 00:09:49,230
+poly a tail this ensures that messenger
+
+187
+00:09:46,959 --> 00:09:52,209
+RNAs that may have been damaged by
+
+188
+00:09:49,230 --> 00:09:54,970
+removal of their poly a tail or possibly
+
+189
+00:09:52,209 --> 00:09:58,540
+more the sequence of coding region of
+
+190
+00:09:54,970 --> 00:10:01,029
+the message RNA are not translated only
+
+191
+00:09:58,540 --> 00:10:05,350
+intact messenger RNAs will be loaded
+
+192
+00:10:01,029 --> 00:10:09,000
+onto ribosomes the 40's small rubber
+
+193
+00:10:05,350 --> 00:10:12,730
+some of some Union finds a complex of
+
+194
+00:10:09,000 --> 00:10:14,740
+tRNA met notice this is not formyl
+
+195
+00:10:12,730 --> 00:10:15,500
+methionine doesn't have a formal group
+
+196
+00:10:14,740 --> 00:10:20,000
+attached to
+
+197
+00:10:15,500 --> 00:10:23,110
+just plain on the finding and eif 2 plus
+
+198
+00:10:20,000 --> 00:10:26,200
+gtp so that's similar to prokaryotic
+
+199
+00:10:23,110 --> 00:10:30,320
+this binds to the small ribosomal
+
+200
+00:10:26,200 --> 00:10:33,050
+subunit also with eif 3 and what running
+
+201
+00:10:30,320 --> 00:10:35,990
+and then these two complexes get
+
+202
+00:10:33,050 --> 00:10:39,130
+together here down here the two
+
+203
+00:10:35,990 --> 00:10:41,540
+complexes by to form the 48 48 s
+
+204
+00:10:39,130 --> 00:10:43,850
+pre-initiation complex so this is a
+
+205
+00:10:41,540 --> 00:10:47,030
+pretty big complex lots of accessory
+
+206
+00:10:43,850 --> 00:10:49,790
+proteins and this is remember only the
+
+207
+00:10:47,030 --> 00:10:52,720
+small ribosomal subunit down here the
+
+208
+00:10:49,790 --> 00:10:55,070
+next thing that happened is scanning
+
+209
+00:10:52,720 --> 00:10:57,920
+scanning the messenger aiming to find
+
+210
+00:10:55,070 --> 00:11:01,010
+the start codon occurs and it's usually
+
+211
+00:10:57,920 --> 00:11:04,670
+the first Aug after the five prime cap
+
+212
+00:11:01,010 --> 00:11:07,070
+but Marilyn Kozak looked through many
+
+213
+00:11:04,670 --> 00:11:08,890
+many sequences of messenger RNAs and
+
+214
+00:11:07,070 --> 00:11:12,500
+eukaryotes and came up with this
+
+215
+00:11:08,890 --> 00:11:16,460
+consensus sequence that for an optimal
+
+216
+00:11:12,500 --> 00:11:18,490
+start codon this is important to notice
+
+217
+00:11:16,460 --> 00:11:21,080
+know if you are going to build a
+
+218
+00:11:18,490 --> 00:11:23,089
+eukaryotic expression system you would
+
+219
+00:11:21,080 --> 00:11:25,160
+like your ribosomes to bind efficiently
+
+220
+00:11:23,089 --> 00:11:27,339
+so if you have the best consensus
+
+221
+00:11:25,160 --> 00:11:31,010
+sequence in front of your start codon
+
+222
+00:11:27,339 --> 00:11:37,010
+you'll be better able to make a lot more
+
+223
+00:11:31,010 --> 00:11:39,710
+protein ok so after if we scanned and we
+
+224
+00:11:37,010 --> 00:11:45,080
+found the correct start codon this
+
+225
+00:11:39,710 --> 00:11:47,990
+process call it requires some energy the
+
+226
+00:11:45,080 --> 00:11:52,100
+release fact that the initiation factors
+
+227
+00:11:47,990 --> 00:11:54,260
+are released hey the tRNA remains bound
+
+228
+00:11:52,100 --> 00:11:58,910
+to the Aug and the large ribosomal
+
+229
+00:11:54,260 --> 00:12:00,800
+subunit joints this forms the initiation
+
+230
+00:11:58,910 --> 00:12:07,280
+complex and then the next phase is
+
+231
+00:12:00,800 --> 00:12:09,620
+elongation so the first tRNA that binds
+
+232
+00:12:07,280 --> 00:12:11,600
+is bound in the P site of the ribosome
+
+233
+00:12:09,620 --> 00:12:16,339
+this is a piece that this would be the a
+
+234
+00:12:11,600 --> 00:12:22,280
+safe and this would be the ISA it's in
+
+235
+00:12:16,339 --> 00:12:25,339
+the pizza translational elongation stage
+
+236
+00:12:22,280 --> 00:12:27,589
+is a multi-step process first of all we
+
+237
+00:12:25,339 --> 00:12:29,150
+have our messenger RNA bow to the
+
+238
+00:12:27,589 --> 00:12:33,230
+complex with
+
+239
+00:12:29,150 --> 00:12:35,480
+and a codon in the p-site and another
+
+240
+00:12:33,230 --> 00:12:39,260
+coat on in the a site here we have a
+
+241
+00:12:35,480 --> 00:12:41,390
+tRNA round in the P site with a short
+
+242
+00:12:39,260 --> 00:12:44,960
+polypeptide consisting of three amino
+
+243
+00:12:41,390 --> 00:12:48,080
+acids attached to the three prime end of
+
+244
+00:12:44,960 --> 00:12:51,440
+the tRNA the next step is that a new
+
+245
+00:12:48,080 --> 00:12:54,920
+charge tRNA comes into the a site and a
+
+246
+00:12:51,440 --> 00:12:58,370
+peptide bond is formed between the last
+
+247
+00:12:54,920 --> 00:13:01,190
+amino acid to be added that was attached
+
+248
+00:12:58,370 --> 00:13:05,930
+to the P site and the new amino acid of
+
+249
+00:13:01,190 --> 00:13:08,120
+the of the tRNA in the a site so the
+
+250
+00:13:05,930 --> 00:13:13,400
+whole entire polypeptide moves over to
+
+251
+00:13:08,120 --> 00:13:17,030
+the a site now we have a polypeptide
+
+252
+00:13:13,400 --> 00:13:19,040
+chain that's four amino acids long we
+
+253
+00:13:17,030 --> 00:13:23,110
+started with one that's three amino acid
+
+254
+00:13:19,040 --> 00:13:26,060
+long what happens next well this entire
+
+255
+00:13:23,110 --> 00:13:30,440
+messenger RNA with the tRNA is attached
+
+256
+00:13:26,060 --> 00:13:33,380
+to it ratchets over one codon three
+
+257
+00:13:30,440 --> 00:13:35,990
+nucleotides so that the code on this
+
+258
+00:13:33,380 --> 00:13:39,710
+blue code on that was in the a site now
+
+259
+00:13:35,990 --> 00:13:41,540
+is in the P site with its attached tRNA
+
+260
+00:13:39,710 --> 00:13:44,750
+that's hydrogen bonded to the template
+
+261
+00:13:41,540 --> 00:13:48,560
+and the attached polypeptide that is now
+
+262
+00:13:44,750 --> 00:13:50,270
+four amino acids long the tRNA that was
+
+263
+00:13:48,560 --> 00:13:55,010
+on the p-site moves over to the east
+
+264
+00:13:50,270 --> 00:13:58,100
+site and then it can leave and we are
+
+265
+00:13:55,010 --> 00:14:01,040
+ready to add the next amino acid by
+
+266
+00:13:58,100 --> 00:14:04,400
+having a charge tRNA find in the a site
+
+267
+00:14:01,040 --> 00:14:07,580
+and hydrogen bond to the template I want
+
+268
+00:14:04,400 --> 00:14:09,850
+to point out that the 23s ribosomal RNA
+
+269
+00:14:07,580 --> 00:14:12,830
+the component of the large ribosomal
+
+270
+00:14:09,850 --> 00:14:15,770
+subunit is the actual peptidyl
+
+271
+00:14:12,830 --> 00:14:18,800
+transferase enzyme the end the catalytic
+
+272
+00:14:15,770 --> 00:14:21,350
+site that creates the the peptide
+
+273
+00:14:18,800 --> 00:14:25,640
+bond between amino acids is actually
+
+274
+00:14:21,350 --> 00:14:29,660
+comprised of nucleic acid it is an RNA
+
+275
+00:14:25,640 --> 00:14:31,880
+enzyme not a protein enzyme one other
+
+276
+00:14:29,660 --> 00:14:36,830
+important feature of the small ribosomal
+
+277
+00:14:31,880 --> 00:14:40,910
+RNA and in the small ribosomal subunit
+
+278
+00:14:36,830 --> 00:14:41,640
+is that it can detect a mismatch in the
+
+279
+00:14:40,910 --> 00:14:44,430
+ace
+
+280
+00:14:41,640 --> 00:14:48,090
+if a tRNA finds and doesn't correctly
+
+281
+00:14:44,430 --> 00:14:50,700
+bond to the codon of the messenger RNA
+
+282
+00:14:48,090 --> 00:14:53,330
+there is a conformational change that
+
+283
+00:14:50,700 --> 00:14:57,000
+happens in a pause in the translation
+
+284
+00:14:53,330 --> 00:14:59,820
+activity it won't resume until this
+
+285
+00:14:57,000 --> 00:15:06,840
+tiara named the incorrect one leaves and
+
+286
+00:14:59,820 --> 00:15:10,070
+the correct tRNA bonds how do we stop
+
+287
+00:15:06,840 --> 00:15:14,250
+this process efficiently and accurately
+
+288
+00:15:10,070 --> 00:15:17,460
+the termination stage occurs when the
+
+289
+00:15:14,250 --> 00:15:19,860
+stop codon enters the a site it is
+
+290
+00:15:17,460 --> 00:15:25,460
+recognized by a release factor naughty
+
+291
+00:15:19,860 --> 00:15:28,350
+tRNA but a protein when this binds the
+
+292
+00:15:25,460 --> 00:15:32,150
+polypeptide is released from the tRNA
+
+293
+00:15:28,350 --> 00:15:36,450
+and the tRNA the last year na exits and
+
+294
+00:15:32,150 --> 00:15:39,930
+the whole complex disassembled the small
+
+295
+00:15:36,450 --> 00:15:42,240
+subunit and the large subunit come apart
+
+296
+00:15:39,930 --> 00:15:44,220
+the release factor is also released and
+
+297
+00:15:42,240 --> 00:15:54,330
+the message RNA is also released and it
+
+298
+00:15:44,220 --> 00:15:56,850
+can be used again remember that in
+
+299
+00:15:54,330 --> 00:15:59,180
+bacteria we have no separate
+
+300
+00:15:56,850 --> 00:16:02,820
+compartments there is no nucleus and so
+
+301
+00:15:59,180 --> 00:16:04,400
+the DNA the RNA and the protein are all
+
+302
+00:16:02,820 --> 00:16:07,260
+together in the same cellular
+
+303
+00:16:04,400 --> 00:16:13,520
+compartment at the same time here we
+
+304
+00:16:07,260 --> 00:16:16,790
+have a poly ribosome here in a
+
+305
+00:16:13,520 --> 00:16:22,100
+prokaryotic cell notice that we have our
+
+306
+00:16:16,790 --> 00:16:25,890
+DNA molecule here and attached to it are
+
+307
+00:16:22,100 --> 00:16:29,660
+molecules of RNA polymerase the RNA
+
+308
+00:16:25,890 --> 00:16:34,170
+polymerase is synthesizing the RNA and
+
+309
+00:16:29,660 --> 00:16:36,420
+these other larger complexes here are
+
+310
+00:16:34,170 --> 00:16:38,610
+the ribosomes making protein they also
+
+311
+00:16:36,420 --> 00:16:42,270
+have proteins coming out of them which
+
+312
+00:16:38,610 --> 00:16:44,490
+end up being coiled right away so if
+
+313
+00:16:42,270 --> 00:16:46,710
+you're to look at this DNA the stretch
+
+314
+00:16:44,490 --> 00:16:51,210
+of DNA where's the beginning and where's
+
+315
+00:16:46,710 --> 00:16:54,210
+the end well since the ribosomes are
+
+316
+00:16:51,210 --> 00:16:55,360
+attached to small messenger RNAs here
+
+317
+00:16:54,210 --> 00:16:58,140
+and large missing
+
+318
+00:16:55,360 --> 00:17:00,760
+rnase here this is the direction of both
+
+319
+00:16:58,140 --> 00:17:11,770
+transcription and then this is the
+
+320
+00:17:00,760 --> 00:17:14,790
+direction of translation here's a
+
+321
+00:17:11,770 --> 00:17:20,530
+summary slide and I encourage you to
+
+322
+00:17:14,790 --> 00:17:23,799
+look at this in your textbook as well it
+
+323
+00:17:20,530 --> 00:17:26,819
+taught it outlines the composition of
+
+324
+00:17:23,799 --> 00:17:31,200
+the ribosomes in bacteria and eukaryotes
+
+325
+00:17:26,819 --> 00:17:33,880
+which are the tRNAs notice that the tRNA
+
+326
+00:17:31,200 --> 00:17:36,900
+initiation tyranny and bacteria it has
+
+327
+00:17:33,880 --> 00:17:39,179
+the formal group and not in eukaryotes
+
+328
+00:17:36,900 --> 00:17:42,130
+bacteria have shine-dalgarno sequence
+
+329
+00:17:39,179 --> 00:17:43,990
+but eukaryotes require the seven methyl
+
+330
+00:17:42,130 --> 00:17:48,460
+cap in order to get the small ribosomal
+
+331
+00:17:43,990 --> 00:17:52,120
+subunit to buy you select the start
+
+332
+00:17:48,460 --> 00:17:54,030
+codon and aug by the position of the
+
+333
+00:17:52,120 --> 00:17:57,309
+shine-dalgarno sequence and in
+
+334
+00:17:54,030 --> 00:18:01,030
+eukaryotes it's kozik's rules the
+
+335
+00:17:57,309 --> 00:18:03,960
+elongation rate is faster and bacteria a
+
+336
+00:18:01,030 --> 00:18:08,500
+little slower in eukaryotes and
+
+337
+00:18:03,960 --> 00:18:10,240
+termination requires release factors and
+
+338
+00:18:08,500 --> 00:18:11,799
+in bacteria it's coupled to
+
+339
+00:18:10,240 --> 00:18:14,110
+transcription which we just saw in the
+
+340
+00:18:11,799 --> 00:18:17,830
+previous slide but not in eukaryotes
+
+341
+00:18:14,110 --> 00:18:20,169
+because we have nuclei carriers so in
+
+342
+00:18:17,830 --> 00:18:22,660
+summary ribosomes are assembled from
+
+343
+00:18:20,169 --> 00:18:25,240
+small and large subunits each of which
+
+344
+00:18:22,660 --> 00:18:27,850
+are combination of ribosomal RNA and
+
+345
+00:18:25,240 --> 00:18:30,520
+proteins eukaryotic and prokaryotic
+
+346
+00:18:27,850 --> 00:18:33,730
+ribosomes have the same strip basic
+
+347
+00:18:30,520 --> 00:18:36,700
+subunit structure but eukaryotic
+
+348
+00:18:33,730 --> 00:18:38,470
+ribosomes are larger antibiotics
+
+349
+00:18:36,700 --> 00:18:40,710
+interfere with protein synthesis by
+
+350
+00:18:38,470 --> 00:18:43,360
+blocking the sites of T RNA binding
+
+351
+00:18:40,710 --> 00:18:46,290
+peptide synthesis and by binding
+
+352
+00:18:43,360 --> 00:18:48,780
+initiation and elongation factors
+
+353
+00:18:46,290 --> 00:18:51,700
+protein synthesis is a polymerization
+
+354
+00:18:48,780 --> 00:18:55,419
+reaction and has discrete initiation
+
+355
+00:18:51,700 --> 00:18:57,700
+elongation and termination phases the
+
+356
+00:18:55,419 --> 00:19:02,260
+assembled ribosome has three sites for
+
+357
+00:18:57,700 --> 00:19:05,020
+tRNAs the amino a peptide LP and exit I
+
+358
+00:19:02,260 --> 00:19:08,620
+sites during the initiation phase in
+
+359
+00:19:05,020 --> 00:19:10,780
+prokaryotes the 16s ribosomal RNA of the
+
+360
+00:19:08,620 --> 00:19:12,730
+small ribosomal subunit binds to the
+
+361
+00:19:10,780 --> 00:19:16,059
+shine-dalgarno sequence of the messenger
+
+362
+00:19:12,730 --> 00:19:19,450
+RNA this positions the start codon so
+
+363
+00:19:16,059 --> 00:19:24,100
+that the initiator tRNA F met will be in
+
+364
+00:19:19,450 --> 00:19:27,580
+the P site of the assembled ribosome the
+
+365
+00:19:24,100 --> 00:19:30,250
+steps of prokaryotic initiation are I f3
+
+366
+00:19:27,580 --> 00:19:33,490
+and I f1 bind to the small ribosomal
+
+367
+00:19:30,250 --> 00:19:36,670
+subunit message RNA shine-dalgarno
+
+368
+00:19:33,490 --> 00:19:43,059
+sequence binds to the 16s ribosomal RNA
+
+369
+00:19:36,670 --> 00:19:44,920
+I f2 tRNA F met gtp complex binds the
+
+370
+00:19:43,059 --> 00:19:47,950
+if' sleeve and the large ribosomal
+
+371
+00:19:44,920 --> 00:19:51,280
+subunits five the steps of eukaryotic
+
+372
+00:19:47,950 --> 00:19:53,350
+initiation are two complexes the
+
+373
+00:19:51,280 --> 00:20:00,070
+pre-initiation complex with a charged
+
+374
+00:19:53,350 --> 00:20:02,620
+trna met eif to GTP and eif three and
+
+375
+00:20:00,070 --> 00:20:07,050
+the small ribosomal cermak buying to a
+
+376
+00:20:02,620 --> 00:20:10,690
+cat message rning with eif for complexes
+
+377
+00:20:07,050 --> 00:20:14,050
+the complex scans the messenger RNA unit
+
+378
+00:20:10,690 --> 00:20:15,820
+until it finds the start codon the
+
+379
+00:20:14,050 --> 00:20:20,350
+factors leave and the large ribosomal
+
+380
+00:20:15,820 --> 00:20:22,570
+subunit bind and attaches eukaryotes
+
+381
+00:20:20,350 --> 00:20:27,030
+have the Kozak sequence that positions
+
+382
+00:20:22,570 --> 00:20:29,350
+the ribosome at the start codon in
+
+383
+00:20:27,030 --> 00:20:32,260
+elongation the steps I that are charged
+
+384
+00:20:29,350 --> 00:20:34,059
+tRNA enters the a site binds by
+
+385
+00:20:32,260 --> 00:20:36,790
+complementary base pairing to the
+
+386
+00:20:34,059 --> 00:20:39,490
+messenger RNA the peptide bond is formed
+
+387
+00:20:36,790 --> 00:20:43,750
+as the peptide is transferred from the
+
+388
+00:20:39,490 --> 00:20:46,330
+tRNA in the P site to the new amino acid
+
+389
+00:20:43,750 --> 00:20:49,420
+in the a site the entire complex
+
+390
+00:20:46,330 --> 00:20:52,090
+ratchets over the tRNA and the p-site
+
+391
+00:20:49,420 --> 00:20:55,150
+exits and the tRNA and the a site moves
+
+392
+00:20:52,090 --> 00:20:57,220
+to P site termination occurs when a stop
+
+393
+00:20:55,150 --> 00:20:59,679
+codon is reached and release factors
+
+394
+00:20:57,220 --> 00:21:01,720
+bind to the a site the peptide is
+
+395
+00:20:59,679 --> 00:21:06,280
+cleaved off the tRNA and both are
+
+396
+00:21:01,720 --> 00:21:08,620
+rejected the subunits separate and the
+
+397
+00:21:06,280 --> 00:21:11,830
+messenger RNA is released and can be
+
+398
+00:21:08,620 --> 00:21:14,410
+recycled poly ribosomes occur in both
+
+399
+00:21:11,830 --> 00:21:16,740
+the eukaryotes and prokaryotes in
+
+400
+00:21:14,410 --> 00:21:19,390
+eukaryotes there in the cytoplasm in
+
+401
+00:21:16,740 --> 00:21:22,370
+prokaryotes they are attached to the DNA
+
+402
+00:21:19,390 --> 00:21:25,840
+because transcription and translation
+
+403
+00:21:22,370 --> 00:21:25,840
+curr and the same compartment
