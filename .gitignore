@@ -6,6 +6,8 @@ models/
 # Virtual Environment
 env/
 
+# Notebook Checkpoints
+.ipynb_checkpoints/
 
 # DLL Files
 __pycache__/
@@ -24,3 +26,5 @@ build/
 
 # Pickle files
 *.pkl
+
+
